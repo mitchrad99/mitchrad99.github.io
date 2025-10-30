@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head>
+<title>Mitch Radakovich</title>
+<link href="styles.css" rel="stylesheet">
+<link href="bootstrap.css" rel="stylesheet">
+<link rel="icon" href=IMG_8687.JPG>
+
+</head>
+<body>
+
+<nav class="navbar navbar-default">
+    <div class="container-fluid" style="background-color: white; width:100%; left:0; top:0; position: fixed; opacity: 1; z-index: 1;">
+      
+      <!-- start collapsed navbar-->
+      <div class="navbar-header">
+        <button 
+        type="button" 
+        class="navbar-toggle collapsed" 
+        data-toggle="collapse" 
+        data-target="#main_navbar" 
+        aria-expanded="false">open!</button>
+      </div><!-- / collapsed navbar-->
+
+      <!-- start un-collapsed navbar-->
+      <div 
+         class="collapse navbar-collapse" 
+         id="main_navbar">
+        <ul class="nav navbar-nav cardo_reg" style="font-size:20px;">
+          <li><a href="index.html">Home</a></li>
+          <li class="active"><a href="blog.html">Blog</a></li>
+          <li><a href="academics.html">Academics</a></li>
+          <li><a href="contact.html">Contact</a></li>
+
+
+        </ul>
+      </div><!-- / un-collapsed navbar-->
+
+    </div> <!-- /container -->
+  </nav>
+
+
+<div class="container-fluid">
+
+	<h1 class="blog_header">Mapbox Challenge</h1>
+	<h1 class="blog_subheader">Cincinnati, Ohio -- November 30, 2020</h1>
+	<hr class="header_body_divider"/>
+
+	<div class="blog_body">
+	
+		<p class="blog_text">
+			As a resident of the state of Ohio, I have grown up surrounded by people who have pride of living in one of 
+			America's true 'bellwether' states. For decades of presidential races, the candidate chosen by Ohio would go 
+			on to win. In fact, Ohio had a 14-election streak! But over the course of the past four years, Ohio has seemed 
+			to shift further to the right in its election patterns.		
+		</p>
+
+		<p class="blog_text">
+		For this years' Mapbox challenge, I wanted to dig deeper into this shift in Ohio's voting habits. Specifically, I am interested in seeing which areas of the state are experiencing these changes, and additionally, if the changes are occurring in only the Presidential sphere, or if similar effects are occurring in US Congressional and Senatorial races.
+		</p>		
+		
+		<p class="blog_text">
+		To get started on the project, first I needed to gather the data. Initially, I wished to use precinct-level data, similar to the sources used in the <a href="https://www.nytimes.com/interactive/2018/upshot/election-2016-voting-precinct-maps.html"> New York Times amazing Extremely Detailed Map of the 2016 Election</a> (If you have never checked this out, do... Warning: You may lose a half an hour of your afternoon exploring it :) ). I was able to find this data available on the <a href="https://www.sos.state.oh.us/elections/election-results-and-data/">Ohio Secretary of State's website</a>, but only for elections since 2012. I wanted to investigate all major elections of the 21st century, so the lack of the first 12 years would be a hit to the quality of my project. 
+		</p>
+		
+		<p class="blog_text">
+		Instead of precincts, I decided to move a step up in granularity to county-level data. While not as specific as the precinct-level data, the county is still able to display regional differences within the state and allows for a map which is simpler to view and analyze.
+		</p>
+		
+		<p class="blog_text">
+		Once I had decided on county-level data, I proceeded to gather the data for every US House, Senate and Presidential race since 2000. For the sake of simplicity, I included three values for each race: the counts of votes for the Democratic and Republican candidates, as well as an aggregation of all votes for any Third-Party candidates in the race. Additionally, I included voter turnout and registration data, which was available on a county level. For each of the three race-types, I had a sheet in an excel document which included all results on the county granularity.
+		</p>
+		
+		<p class="blog_text">
+		With the data gathered and cleaned, I was ready to map! For this project, I decided to simply use the Tableau mapping software. In previous projects, I have utilized the Mapbox API as well as accompanying tools like Leaflet.js to embed Mapbox mapping into webapps. While this is certainly a more technically impressive approach if well-implemented, I decided it was more important to focus on ease for analysis. Thus, I decided on using Tableau, which allows for seamless data visualization and an easy pipeline for distribution in the Tableau Public tool.
+		</p>
+		
+		<p class="blog_text">
+		With my data ready and the visualization software selected, I was now time to create my tool! I used my data and added in a number of calculated fields and parameters before visualizing. First, I created a year parameter, which allows for easy movement through time. The user can simply click left or right on the parameter to advance or return in time. With this parameter, I created additional calculated fields to identify which data fits in the selected year, as well as which data is from the election previous to the selected year. With these two datasets identified, additional calculated fields were created for change over time in voting proportions, turnout and registration. With these manipulations complete, I set out to create three dashboards with different goals behind each.
+		</p>		
+		
+		
+		<p class="blog_body_header blog_text">
+		Visualizations:
+		</p>
+		
+		
+		<p class="blog_text">
+		<b>Presidential, Senatorial and Congressional Races over Time</b>
+		</p>
+				
+		<img src="Images/Mapbox Pics/Viz1.png" class="center" style="width:100%"/>
+
+		<p class="blog_text">
+		This visualization allows the viewer to move over the past 20 years of elections in Ohio. With each election, the viewer can see not only the share of Democratic votes in a county, but also the change in %D votes from the previous election of that type.
+		</p>	
+			
+		<p class="blog_text">
+		By having all three races next to each other on the visualization, we can see the effects (or lack thereof) of each on the others. For example, in many of the counties, there appears to be an upward trend in Democratic voting in congressional races when Sherrod Brown, the Democratic US Senator is running for reelection. In contrast, when Rob Portman, the Republican US Senator is running, we see a shift towards Republicans in congressional races. 
+		</p>
+				
+		<p class="blog_text">
+		There are also times when the trends are surprising. For example, in 2008, the Presidential election saw a near State-wide shift in counties towards the Democratic candidate, but the congressional campaigns saw a Republican shift! In the state of Ohio, ticket-splitting appears to be quite common, as in every election, a significant number of counties will go 'Blue' in one race and go 'Red' in another.
+		</p>
+
+		<img src="Images/Mapbox Pics/2008Viz1.png" class="center" style="width:100%"/>
+	
+		<p class="blog_text" style="margin-top:15%">
+		<b>Turnout and Registration in Presidential Races over Time</b>
+		</p>
+		
+		<img src="Images/Mapbox Pics/Viz2.png" class="center" style="width:100%"/>
+		
+		
+		<p class="blog_text">
+		When evaluating the first dashboard, I began to wonder what some of the causes for the shifts in the state are. For instance, we see a trend in Northeast Ohio and the Mahoning Valley (Youngstown/Warren, OH) shifting further to the right, especially in Presidential races. I have been doing quite a bit of reading on the blight of the rust belt in the past few weeks, and I was wondering if there has been any effect on voter registration or turnout in the area. For instance, in the city of Youngstown, the population has decreased by nearly 30% in the past 20 years. I was interested if the population who remains is more or less active in voting.
+		</p>
+		
+		<p class="blog_text">
+		Between 2004 and 2020, the number of registered voters has declined in Mahoning County from 194,000 to 160,000, but the turnout percent has increased by 3%! Also, do note that this increase is not specifically due to the 2020 nationwide turnout increase- there has been an upward trend in previous elections.
+		</p>
+		
+		<p class="blog_text" style="margin-top:15%">
+		<b>Congressional Results by District over Time</b>
+		</p>
+	
+		<img src="Images/Mapbox Pics/Viz3.png" class="center" style="width:100%"/>
+
+		<p class="blog_text">
+		I am a resident of Hamilton County, the home of the city of Cincinnati. Another of my county's claim to fames is that it is home to two of the more gerrymandered districts in the nation. In the 2012 redistricting, the Republican-held statehouse split the Democrat-heavy Hamilton County in two, resulting in a grand total of 0% of the county's population being represented by a Democrat in Congress.
+		</p>
+		
+		<img src="Images/Mapbox Pics/Gerrymander.png" class="center" style="width:100%"/>
+
+		<p class="blog_text">
+		I could speak a lot more about this, but for the sake of brevity, let's move on to the reasoning behind this dashboard. 
+		</p>
+
+		<p class="blog_text">
+		I was interested in seeing the effects of gerrymandering on voter turnout, and so I split up the data by congressional districts. In the first dashboard, the data for congressional elections in Hamilton county was an aggregation of both races, but in this one, we can see the results by race. Through filtering by district, we can see the effects of the 2002 and 2012 redistricting and can pull arguments against future partisan redistricting efforts.
+		</p>
+		
+		<p class="blog_text">
+		One major argument against redistricting is voter participation. I noticed while going through the data that there seems to be a decrease in voter participation in more partisan districts. Being a democracy, the goal of government should be having as many citizens as possible passionate and participating in the process, so increased voter turnout should be a goal.
+		</p>
+		
+		<img src="Images/Mapbox Pics/analysis.png" class="center" style="width:100%"/>
+
+		<p class="blog_body_header blog_text">
+		Conclusion:
+		</p>
+		
+		<p class="blog_text">
+		Mapping over time is difficult. Too often, we can only look at the results of a single election, which leads to a massive loss of context. By comparing maps year over year, we can pull trends out of geography. These trends can be incredibly useful to people in politics, especially when planning for future campaigns.
+		</p>
+		
+		<p class="blog_text">
+		<a href="https://public.tableau.com/profile/mitch.daniel.radakovich#!/">Explore my dashboards on Tableau Public</a>
+		</p>
+
+		<p class="blog_text">
+		<a href="https://www.sos.state.oh.us/elections/election-results-and-data/">Data from Ohio Secretary of State</a>
+		</p>
+		
+		<p class="blog_text">
+		<a href="https://www.mapbox.com/elections-challenge-2020">Challenge from Mapbox</a>
+		</p>
+
+
+
+	</div>
+	
+</div>  
+
+<div id="rectangle"></div>
+
+<div class="container-fluid">
+<center>
+<a href="blog.html">
+<button class ="afterclap" style="font-size:30px">Return</button>
+</a>
+</center>
+</div>  
+
+<div id="footer"></div>
+</div>  
+</body>
+</html>
