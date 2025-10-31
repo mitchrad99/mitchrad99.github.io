@@ -1,0 +1,98 @@
+{
+  "name": "mitch-radakovich-portfolio",
+  "version": "2.0.0",
+  "description": "Modern portfolio website for Mitch Radakovich - Data Science Student at Ohio State University",
+  "main": "index.html",
+  "author": "Mitch Radakovich",
+  "license": "MIT",
+  "homepage": "https://mitchrad99.github.io/",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mitchrad99/mitchrad99.github.io.git"
+  },
+  "keywords": [
+    "portfolio",
+    "data-science",
+    "student",
+    "ohio-state",
+    "web-development",
+    "javascript",
+    "css",
+    "html"
+  ],
+  "scripts": {
+    "dev": "live-server --port=3000 --open=/ --ignore=node_modules",
+    "build": "npm run build:css && npm run build:js && npm run optimize:images",
+    "build:css": "npm run css:compile && npm run css:prefix && npm run css:minify",
+    "build:js": "npm run js:lint && npm run js:minify",
+    "css:compile": "sass assets/scss:assets/css --style=expanded",
+    "css:prefix": "postcss assets/css/*.css --use autoprefixer --replace",
+    "css:minify": "cleancss -o assets/css/main.min.css assets/css/main.css assets/css/components.css assets/css/responsive.css",
+    "js:lint": "eslint assets/js/**/*.js --fix",
+    "js:minify": "uglifyjs assets/js/main.js assets/js/components.js -o assets/js/bundle.min.js --source-map",
+    "optimize:images": "imagemin assets/images/* --out-dir=assets/images/optimized",
+    "test": "npm run test:html && npm run test:css && npm run test:js && npm run test:accessibility",
+    "test:html": "html-validate *.html",
+    "test:css": "stylelint assets/css/**/*.css",
+    "test:js": "eslint assets/js/**/*.js",
+    "test:accessibility": "axe-core *.html",
+    "format": "prettier --write \"**/*.{html,css,js,json,md}\"",
+    "lighthouse": "lighthouse http://localhost:3000 --view",
+    "deploy": "npm run build && npm run test && gh-pages -d .",
+    "clean": "rimraf assets/css/*.min.css assets/js/*.min.js assets/images/optimized",
+    "analyze": "webpack-bundle-analyzer assets/js/bundle.min.js",
+    "watch": "npm-run-all --parallel watch:*",
+    "watch:css": "sass --watch assets/scss:assets/css",
+    "watch:js": "chokidar 'assets/js/**/*.js' -c 'npm run js:lint'",
+    "validate": "npm run test && npm run lighthouse",
+    "setup": "npm install && npm run build"
+  },
+  "devDependencies": {
+    "@axe-core/cli": "^4.8.2",
+    "autoprefixer": "^10.4.16",
+    "chokidar-cli": "^3.0.0",
+    "clean-css-cli": "^5.6.2",
+    "eslint": "^8.54.0",
+    "eslint-config-prettier": "^9.0.0",
+    "eslint-plugin-accessibility": "^1.0.2",
+    "gh-pages": "^6.1.0",
+    "html-validate": "^8.7.3",
+    "imagemin": "^8.0.1",
+    "imagemin-mozjpeg": "^10.0.0",
+    "imagemin-pngquant": "^9.0.2",
+    "lighthouse": "^11.4.0",
+    "live-server": "^1.2.2",
+    "npm-run-all": "^4.1.5",
+    "postcss": "^8.4.32",
+    "postcss-cli": "^11.0.0",
+    "prettier": "^3.1.0",
+    "rimraf": "^5.0.5",
+    "sass": "^1.69.5",
+    "stylelint": "^15.11.0",
+    "stylelint-config-standard": "^34.0.0",
+    "uglify-js": "^3.17.4",
+    "webpack-bundle-analyzer": "^4.10.1"
+  },
+  "dependencies": {},
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead",
+    "not ie 11"
+  ],
+  "engines": {
+    "node": ">=16.0.0",
+    "npm": ">=8.0.0"
+  },
+  "files": [
+    "*.html",
+    "assets/",
+    "components/",
+    "pages/",
+    "README.md"
+  ],
+  "config": {
+    "port": 3000,
+    "host": "localhost"
+  }
+}

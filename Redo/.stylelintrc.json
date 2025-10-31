@@ -1,0 +1,27 @@
+{
+  "extends": ["stylelint-config-standard"],
+  "rules": {
+    "color-hex-case": "lower",
+    "color-hex-length": "short",
+    "comment-empty-line-before": null,
+    "declaration-empty-line-before": null,
+    "function-name-case": "lower",
+    "function-url-quotes": "always",
+    "length-zero-no-unit": true,
+    "property-case": "lower",
+    "rule-empty-line-before": null,
+    "selector-pseudo-class-case": "lower",
+    "selector-pseudo-element-case": "lower",
+    "unit-case": "lower",
+    "value-keyword-case": "lower",
+    "max-nesting-depth": 3,
+    "selector-max-id": 1,
+    "declaration-no-important": true,
+    "shorthand-property-no-redundant-values": true,
+    "custom-property-pattern": "^[a-z][a-z0-9]*(-[a-z0-9]+)*$"
+  },
+  "ignoreFiles": [
+    "node_modules/**/*",
+    "*.min.css"
+  ]
+}
