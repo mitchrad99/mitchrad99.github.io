@@ -14,7 +14,49 @@
 <body>
   <a href="#main-content" class="skip-link">Skip to main content</a>
   
-  <div id="header-component"></div>
+  <!-- Header -->
+  <header class="site-header" role="banner">
+    <nav class="navbar" role="navigation" aria-label="Main navigation">
+      <div class="navbar-container">
+        
+        <!-- Brand/Logo -->
+        <div class="navbar-brand">
+          <a href="index.html" class="brand-link">
+            <span class="brand-text">Mitch Radakovich</span>
+          </a>
+        </div>
+
+        <!-- Mobile menu toggle -->
+        <button class="navbar-toggle" 
+                type="button" 
+                aria-label="Toggle navigation menu"
+                aria-expanded="false"
+                aria-controls="navbar-menu">
+          <span class="hamburger-line"></span>
+          <span class="hamburger-line"></span>
+          <span class="hamburger-line"></span>
+        </button>
+
+        <!-- Navigation menu -->
+        <div class="navbar-menu" id="navbar-menu">
+          <ul class="navbar-nav" role="menubar">
+            <li class="nav-item" role="none">
+              <a href="index.html" class="nav-link" role="menuitem" data-page="home">Home</a>
+            </li>
+            <li class="nav-item" role="none">
+              <a href="blog.html" class="nav-link" role="menuitem" data-page="blog">Blog</a>
+            </li>
+            <li class="nav-item" role="none">
+              <a href="academics.html" class="nav-link" role="menuitem" data-page="academics">Academics</a>
+            </li>
+            <li class="nav-item" role="none">
+              <a href="contact.html" class="nav-link active" role="menuitem" data-page="contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
   
   <main id="main-content" role="main">
     <section class="page-header">
@@ -47,6 +89,31 @@
                 <h3>GitHub</h3>
                 <p><a href="https://github.com/mitchrad99" class="contact-link">View my projects on GitHub</a></p>
               </div>
+            </div>
+            
+            <div class="social-links">
+              <h3>Connect with me</h3>
+              <div class="social-icons">
+                <a href="#" class="social-link" title="LinkedIn">
+                  <div class="img-placeholder social-icon"></div>
+                </a>
+                <a href="#" class="social-link" title="Instagram">
+                  <div class="img-placeholder social-icon"></div>
+                </a>
+                <a href="#" class="social-link" title="Twitter">
+                  <div class="img-placeholder social-icon"></div>
+                </a>
+                <a href="https://github.com/mitchrad99" class="social-link" title="GitHub">
+                  <div class="img-placeholder social-icon"></div>
+                </a>
+                <a href="#" class="social-link" title="Goodreads">
+                  <div class="img-placeholder social-icon"></div>
+                </a>
+              </div>
+            </div>
+            
+            <div class="personal-photo">
+              <div class="img-placeholder profile" title="Casual photo placeholder"></div>
             </div>
           </div>
 

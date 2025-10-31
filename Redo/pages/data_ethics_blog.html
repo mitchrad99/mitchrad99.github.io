@@ -14,7 +14,49 @@
 <body>
   <a href="#main-content" class="skip-link">Skip to main content</a>
   
-  <div id="header-component"></div>
+  <!-- Header -->
+  <header class="site-header" role="banner">
+    <nav class="navbar" role="navigation" aria-label="Main navigation">
+      <div class="navbar-container">
+        
+        <!-- Brand/Logo -->
+        <div class="navbar-brand">
+          <a href="../index.html" class="brand-link">
+            <span class="brand-text">Mitch Radakovich</span>
+          </a>
+        </div>
+
+        <!-- Mobile menu toggle -->
+        <button class="navbar-toggle" 
+                type="button" 
+                aria-label="Toggle navigation menu"
+                aria-expanded="false"
+                aria-controls="navbar-menu">
+          <span class="hamburger-line"></span>
+          <span class="hamburger-line"></span>
+          <span class="hamburger-line"></span>
+        </button>
+
+        <!-- Navigation menu -->
+        <div class="navbar-menu" id="navbar-menu">
+          <ul class="navbar-nav" role="menubar">
+            <li class="nav-item" role="none">
+              <a href="../index.html" class="nav-link" role="menuitem" data-page="home">Home</a>
+            </li>
+            <li class="nav-item" role="none">
+              <a href="../blog.html" class="nav-link active" role="menuitem" data-page="blog">Blog</a>
+            </li>
+            <li class="nav-item" role="none">
+              <a href="../academics.html" class="nav-link" role="menuitem" data-page="academics">Academics</a>
+            </li>
+            <li class="nav-item" role="none">
+              <a href="../contact.html" class="nav-link" role="menuitem" data-page="contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
   
   <main id="main-content" role="main">
     <article class="blog-post">
@@ -31,9 +73,9 @@
           <h1 class="post-title">Data Ethics in Modern Analytics</h1>
           
           <div class="post-meta">
-            <time class="post-date" datetime="2024-01-15">January 15, 2024</time>
+            <time class="post-date" datetime="2021-03-07">March 7, 2021</time>
             <span class="post-category">Data Science</span>
-            <span class="reading-time">5 min read</span>
+            <span class="reading-time">8 min read</span>
           </div>
         </div>
       </header>
@@ -42,50 +84,23 @@
         <div class="container">
           <div class="post-body">
             <section class="post-section">
-              <p class="lead">As data science continues to evolve and influence every aspect of our digital lives, the importance of ethical considerations in analytics has never been more critical.</p>
-
-              <h2>The Current Landscape</h2>
-              <p>In today's data-driven world, organizations collect and analyze vast amounts of personal information to make business decisions, improve services, and predict user behavior. While this has led to incredible innovations and conveniences, it has also raised significant ethical concerns about privacy, consent, and the potential for bias in algorithmic decision-making.</p>
-
-              <h2>Key Ethical Considerations</h2>
+              <p>Last semester, I took a class through the Big Ten Academic Alliance at Rutgers entitled Data: A Social History. This class was an exploration into a number of data-related historical topics, including the introduction of data and aggregation techniques, development of data applications over the past 200 years, and the history of data ethics and privacy.</p>
               
-              <h3>Privacy and Consent</h3>
-              <p>One of the fundamental principles of ethical data science is ensuring that individuals have control over their personal information. This includes:</p>
-              <ul>
-                <li>Transparent data collection practices</li>
-                <li>Clear consent mechanisms</li>
-                <li>Data minimization principles</li>
-                <li>Secure data storage and transmission</li>
-              </ul>
-
-              <h3>Algorithmic Bias</h3>
-              <p>Machine learning models can perpetuate or amplify existing societal biases present in training data. It's crucial to:</p>
-              <ul>
-                <li>Audit datasets for representational bias</li>
-                <li>Test models across different demographic groups</li>
-                <li>Implement fairness metrics in model evaluation</li>
-                <li>Regularly monitor model performance in production</li>
-              </ul>
-
-              <h3>Transparency and Explainability</h3>
-              <p>As AI systems become more complex, the need for interpretability grows. Stakeholders should be able to understand how decisions are made, especially in high-stakes applications like healthcare, finance, and criminal justice.</p>
-
-              <h2>My Learning Experience</h2>
-              <p>Throughout my studies at Ohio State, I've encountered numerous case studies that highlight the importance of ethical data science. From historical examples like biased hiring algorithms to recent developments in AI governance, these experiences have shaped my understanding of the responsibility that comes with working with data.</p>
-
-              <h2>Moving Forward</h2>
-              <p>As I prepare to enter the data science field, I'm committed to:</p>
-              <ul>
-                <li>Staying informed about emerging ethical frameworks</li>
-                <li>Advocating for responsible data practices in any organization I join</li>
-                <li>Continuing to learn about the societal impacts of data science</li>
-                <li>Contributing to discussions about ethical AI development</li>
-              </ul>
-
-              <h2>Conclusion</h2>
-              <p>Ethics in data science isn't just about following rules – it's about recognizing the profound impact our work can have on individuals and society. As the field continues to grow, it's essential that we prioritize ethical considerations alongside technical excellence.</p>
+              <p>For this post, I will be focusing on the third topic, as it has continued to be on my mind through the Winter months.</p>
               
-              <p>The future of data science depends not just on our ability to extract insights from data, but on our commitment to doing so responsibly and ethically.</p>
+              <p>The applications of technology and data are nearly endless in the world of today. With the rise of the internet of things, and the continuing digitization of nearly everything in our lives, the opportunities for collection of data have exploded. Now, even the simplest things in our lives can be recorded in tables for future use. For instance, in my daily life, tasks such as turning my lights on (smart lightbulbs), communicating with parents (iMessage), getting a coffee (Google Maps, Starbucks app), or going on a run (Apple Watch) are recorded and likely analyzed.</p>
+              
+              <p>This data has immense potential to lead massive change in our society- for the better or the worse.</p>
+              
+              <p>In the realm of data for social good, we have seen extraordinarily valuable advances in healthcare throughout the pandemic. Data systems are at the backbone of the vaccine distribution process- a project which will save countless lives and eventually get life back to "normal". Additionally, systems such as Zoom and Teams have allowed many employees and students to continue working and learning remotely. We see apps like Waze which find more efficient routes for driving- reducing idling time in traffic. Finally, we have datafication of government, which is improving notoriously slow bureaucratic systems across the board. Many of these trends are still in their starting stages, but the impact of data is already visible.</p>
+              
+              <p>But with good comes bad. As data is collected in so many areas of our lives, new concerns with security and privacy have (rightfully) emerged. One of the leading books speaking on these privacy concerns is <em>The Age of Surveillance Capitalism</em> by Shoshana Zuboff. I read this book back in January, and really appreciated the level of detail the author used to express her concerns. The immense amounts of data that are collected in many "free" services, such as Google Search, Instagram or Yahoo Finance is used to make money by big tech companies. Through analyzing user behavior, insights can be produced to advertise products, predict future behavior, and even develop a plan to change that behavior. Zuboff is very concerned with this consolidated power in the hands of a very small number of people, and the potential impact it could have on not only individuals but our democratic society as a whole.</p>
+
+              <p>This is where the ethics conversation comes in- something I wish I had been taught more in my four years at Ohio State. As a young data scientist, I need to be aware of the impacts of my work before, during and after a project. This requires asking questions, deciding what I believe is "right", and standing up for my beliefs. Too many algorithms have been designed with questionable intentions and with detrimental effects. For extensive reading on these, I recommend the books <em>Weapons of Math Destruction</em> by Cathy O'Neil and <em>Algorithms of Oppression</em> by Safiya Umoja Noble. I hope that students at other universities have had more extensive discussions in class about the impact of their work. In my curriculum, there was not a single class about ethics or the impact of big data on people's lives. Without this education, how are we supposed to know what is right or wrong? For me, I have been lucky to be exposed in coursework outside of the typical curriculum, but I am not sure if others can say the same.</p>
+              
+              <p>As I prepare to graduate and enter the workforce full-time, I am thinking about how my work will affect the world. I am starting at Procter & Gamble as a Product Supply Data Scientist. In this role, I intend to use Data Science, Logistics and OR techniques to improve efficiency of the company's transportation systems. Through this, I hope to not only save the company money, but to reduce the impact that transportation has on our climate.</p>
+              
+              <p>There are a lot of huge conversations to go on the topic of Data Ethics. Governmental surveillance, corporate social responsibility and the rights to privacy are three of these. I intend to continue reading, talking with my colleagues and lending my voice in these conversations as they develop, guiding our society to a more ethical and connected status.</p>
             </section>
           </div>
 

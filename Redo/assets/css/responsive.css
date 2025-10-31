@@ -157,6 +157,46 @@ img {
     min-height: 60px;
   }
   
+  .navbar-toggle {
+    display: flex;
+    order: 3;
+  }
+  
+  .navbar-menu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    background: white;
+    border-top: 1px solid var(--color-border);
+    box-shadow: var(--box-shadow-md);
+    transform: translateY(-100%);
+    opacity: 0;
+    visibility: hidden;
+    transition: all var(--transition-normal);
+  }
+  
+  .navbar-menu.active {
+    transform: translateY(0);
+    opacity: 1;
+    visibility: visible;
+  }
+  
+  .navbar-nav {
+    flex-direction: column;
+    gap: 0;
+    padding: var(--space-sm) 0;
+  }
+  
+  .nav-link {
+    padding: var(--space-md) var(--container-padding);
+    border-bottom: 1px solid var(--color-border);
+  }
+  
+  .nav-link:last-child {
+    border-bottom: none;
+  }
+  
   /* Hamburger animation */
   .navbar-toggle.active .hamburger-line:nth-child(1) {
     transform: rotate(45deg) translate(6px, 6px);

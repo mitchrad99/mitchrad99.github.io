@@ -50,6 +50,94 @@
   --box-shadow-lg: 0 10px 15px var(--color-shadow);
 }
 
+/* ===== IMAGE PLACEHOLDERS ===== */
+.img-placeholder {
+  background-color: #ddd;
+  background-image: 
+    repeating-linear-gradient(
+      45deg,
+      transparent,
+      transparent 10px,
+      rgba(255,255,255,.1) 10px,
+      rgba(255,255,255,.1) 20px
+    );
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #999;
+  font-size: var(--font-size-sm);
+  font-weight: bold;
+  text-align: center;
+  border: 1px solid #ccc;
+  border-radius: var(--border-radius);
+}
+
+.img-placeholder::before {
+  content: "📷 Image Placeholder";
+  padding: var(--space-sm);
+}
+
+/* Specific placeholder sizes */
+.img-placeholder.profile {
+  width: 300px;
+  height: 400px;
+  max-width: 100%;
+}
+
+.img-placeholder.blog-header {
+  width: 100%;
+  height: 200px;
+}
+
+.img-placeholder.blog-icon {
+  width: 100%;
+  height: 150px;
+}
+
+.img-placeholder.social-icon {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.img-placeholder.social-icon::before {
+  content: "📱";
+  font-size: 20px;
+}
+
+.img-placeholder.visualization {
+  width: 100%;
+  height: 300px;
+}
+
+.img-placeholder.inline {
+  width: 40%;
+  height: 200px;
+  float: right;
+  margin: 0.5%;
+}
+
+/* Social media styling */
+.social-links {
+  margin: var(--space-lg) 0;
+}
+
+.social-icons {
+  display: flex;
+  gap: var(--space-sm);
+  flex-wrap: wrap;
+}
+
+.social-link {
+  text-decoration: none;
+}
+
+.social-link:hover .img-placeholder {
+  background-color: #ccc;
+  transform: scale(1.05);
+  transition: var(--transition-normal);
+}
+
 /* ===== FONT FACES ===== */
 @font-face {
   font-family: "Afterclap";
@@ -85,6 +173,7 @@
 html {
   scroll-behavior: smooth;
   height: 100%;
+  scroll-padding-top: 80px; /* Account for fixed header */
 }
 
 body {
@@ -100,10 +189,17 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+/* Main content area */
+main {
+  position: relative;
+  z-index: 1;
+  margin-top: 80px; /* Space for fixed header */
+}
+
 /* ===== ACCESSIBILITY ===== */
 .skip-link {
   position: absolute;
-  top: -40px;
+  top: -100px;
   left: 6px;
   background: var(--color-primary);
   color: white;
@@ -112,10 +208,14 @@ body {
   border-radius: var(--border-radius);
   z-index: 9999;
   transition: var(--transition-fast);
+  opacity: 0;
+  visibility: hidden;
 }
 
 .skip-link:focus {
   top: 6px;
+  opacity: 1;
+  visibility: visible;
 }
 
 /* ===== TYPOGRAPHY ===== */
