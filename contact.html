@@ -1,81 +1,158 @@
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" >
+<html lang="en">
 <head>
-<title>Mitch Radakovich</title>
-<link href="styles.css" rel="stylesheet">
-<link href="bootstrap.css" rel="stylesheet">
-<link rel="icon" href=IMG_8687.JPG>
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Contact Mitch Radakovich - Data Science Student">
+  <title>Contact - Mitch Radakovich</title>
+  
+  <link rel="icon" href="assets/images/IMG_8687.JPG" type="image/jpeg">
+  <link rel="stylesheet" href="assets/css/main.css">
+  <link rel="stylesheet" href="assets/css/components.css">
+  <link rel="stylesheet" href="assets/css/responsive.css">
 </head>
 <body>
-
-<nav class="navbar navbar-default">
-    <div class="container-fluid" style="background-color: white; width:100%; left:0; top:0; position: fixed; opacity: 1; z-index: 1;">
+  <a href="#main-content" class="skip-link">Skip to main content</a>
   
-      <!-- start collapsed navbar-->
-      <div class="navbar-header">
-        <button 
-        type="button" 
-        class="navbar-toggle collapsed" 
-        data-toggle="collapse" 
-        data-target="#main_navbar" 
-        aria-expanded="false">open!</button>
-      </div><!-- / collapsed navbar-->
+  <!-- Header -->
+  <header class="site-header" role="banner">
+    <nav class="navbar" role="navigation" aria-label="Main navigation">
+      <div class="navbar-container">
+        
+        <!-- Brand/Logo -->
+        <div class="navbar-brand">
+          <a href="index.html" class="brand-link">
+            <span class="brand-text">Mitch Radakovich</span>
+          </a>
+        </div>
 
-      <!-- start un-collapsed navbar-->
-      <div 
-         class="collapse navbar-collapse" 
-         id="main_navbar">
-        <ul class="nav navbar-nav cardo_reg" style="font-size:20px;">
-          <li><a href="index.html">Home</a></li>
-          <li><a href="blog.html">Blog</a></li>
-          <li><a href="academics.html">Academics</a></li>
-          <li class="active"><a href="contact.html">Contact</a></li>
+        <!-- Mobile menu toggle -->
+        <button class="navbar-toggle" 
+                type="button" 
+                aria-label="Toggle navigation menu"
+                aria-expanded="false"
+                aria-controls="navbar-menu">
+          <span class="hamburger-line"></span>
+          <span class="hamburger-line"></span>
+          <span class="hamburger-line"></span>
+        </button>
 
+        <!-- Navigation menu -->
+        <div class="navbar-menu" id="navbar-menu">
+          <ul class="navbar-nav" role="menubar">
+            <li class="nav-item" role="none">
+              <a href="index.html" class="nav-link" role="menuitem" data-page="home">Home</a>
+            </li>
+            <li class="nav-item" role="none">
+              <a href="blog.html" class="nav-link" role="menuitem" data-page="blog">Blog</a>
+            </li>
+            <li class="nav-item" role="none">
+              <a href="academics.html" class="nav-link" role="menuitem" data-page="academics">Academics</a>
+            </li>
+            <li class="nav-item" role="none">
+              <a href="contact.html" class="nav-link active" role="menuitem" data-page="contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+  
+  <main id="main-content" role="main">
+    <section class="page-header">
+      <div class="container">
+        <h1 class="page-title">Contact</h1>
+        <p class="page-description">Let's connect and discuss data science, opportunities, or collaborations</p>
+      </div>
+    </section>
 
-        </ul>
-      </div><!-- / un-collapsed navbar-->
+    <section class="contact-content">
+      <div class="container">
+        <div class="contact-grid">
+          
+          <div class="contact-info">
+            <h2>Get in Touch</h2>
+            <p>I'm always interested in discussing data science projects, internship opportunities, or connecting with fellow students and professionals in the field.</p>
+            
+            <div class="contact-methods">
+              <div class="contact-method">
+                <h3>Email</h3>
+                <p><a href="mailto:radakovich.1@osu.edu" class="contact-link">radakovich.1@osu.edu</a></p>
+              </div>
+              
+              <div class="contact-method">
+                <h3>LinkedIn</h3>
+                <p><a href="#" class="contact-link">Connect with me on LinkedIn</a></p>
+              </div>
+              
+              <div class="contact-method">
+                <h3>GitHub</h3>
+                <p><a href="https://github.com/mitchrad99" class="contact-link">View my projects on GitHub</a></p>
+              </div>
+            </div>
+            
+            <div class="social-links">
+              <h3>Connect with me</h3>
+              <div class="social-icons">
+                <a href="#" class="social-link" title="LinkedIn">
+                  <div class="img-placeholder social-icon"></div>
+                </a>
+                <a href="#" class="social-link" title="Instagram">
+                  <div class="img-placeholder social-icon"></div>
+                </a>
+                <a href="#" class="social-link" title="Twitter">
+                  <div class="img-placeholder social-icon"></div>
+                </a>
+                <a href="https://github.com/mitchrad99" class="social-link" title="GitHub">
+                  <div class="img-placeholder social-icon"></div>
+                </a>
+                <a href="#" class="social-link" title="Goodreads">
+                  <div class="img-placeholder social-icon"></div>
+                </a>
+              </div>
+            </div>
+            
+            <div class="personal-photo">
+              <div class="img-placeholder profile" title="Casual photo placeholder"></div>
+            </div>
+          </div>
 
-    </div> <!-- /container -->
-  </nav>
-
-<div class="container-fluid"">
-	<div class="row">
-		<div class="col-lg-6">
-			<center>
-				<h1 class="afterclap">
-					Mitch Radakovich
-				</h1> 
-				<a href="mailto:radakovich.4@osu.edu">
-					<p class="cardo_reg" style="color:black; background-color: none;">radakovich.4@osu.edu </p>	
-				</a>
- 				<a href='https://www.linkedin.com/in/mitchradakovich/'> 
-					<img src="Images/linkedin.png" style="width:50px;max-width:100%" class="button"/> 
-				</a>
-				<a href='https://www.instagram.com/mitchrad99/'> 
-					<img src="Images/instagram.png" style="width:50px;max-width:100%" class="button"/> 
-				</a>
-				<a href='https://twitter.com/mitchrad99'> 
-					<img src="Images/twitter.png" style="width:50px;max-width:100%" class="button"/> 
-				</a>
-				<a href='https://github.com/mitchrad99'> 
-					<img src="Images/github.png" style="width:50px;max-width:100%" class="button"/> 
-				</a>
-				<a href='https://www.goodreads.com/user/show/56386416-mitch-radakovich'> 
-					<img src="Images/goodreads.png" style="width:50px;max-width:100%" class="button"/> 
-				</a>
-			</center>
-		</div>
-		<div class="col-lg-6">
-  	 		<center>
-				<img src="Images/casual.JPG" class="intro_img" style="width:70%;">
-  	 		</center>
-		</div>
-	</div>  
-	<div id="rectangle"></div>
-  	<div id="footer"></div>
-</div>  
-
+          <div class="contact-form-container">
+            <form class="contact-form" id="contact-form">
+              <h2>Send a Message</h2>
+              
+              <div class="form-group">
+                <label for="name" class="form-label">Name *</label>
+                <input type="text" id="name" name="name" class="form-input" required>
+              </div>
+              
+              <div class="form-group">
+                <label for="email" class="form-label">Email *</label>
+                <input type="email" id="email" name="email" class="form-input" required>
+              </div>
+              
+              <div class="form-group">
+                <label for="subject" class="form-label">Subject</label>
+                <input type="text" id="subject" name="subject" class="form-input">
+              </div>
+              
+              <div class="form-group">
+                <label for="message" class="form-label">Message *</label>
+                <textarea id="message" name="message" class="form-textarea" rows="5" required></textarea>
+              </div>
+              
+              <button type="submit" class="btn btn-primary">Send Message</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  
+  <div id="footer-component"></div>
+  
+  <script type="module" src="assets/js/main.js"></script>
+  <script type="module" src="assets/js/components.js"></script>
+  <script type="module" src="assets/js/contact.js"></script>
 </body>
 </html>
