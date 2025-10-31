@@ -1,137 +1,168 @@
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" >
+<html lang="en">
 <head>
-<title>Mitch Radakovich</title>
-<link href="styles.css" rel="stylesheet">
-<link href="bootstrap.css" rel="stylesheet">
-<link rel="icon" href=IMG_8687.JPG>
-
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Blog posts by Mitch Radakovich on data science, technology, and student life">
+  <title>Blog - Mitch Radakovich</title>
+  
+  <link rel="icon" href="assets/images/IMG_8687.JPG" type="image/jpeg">
+  <link rel="stylesheet" href="assets/css/main.css">
+  <link rel="stylesheet" href="assets/css/components.css">
+  <link rel="stylesheet" href="assets/css/responsive.css">
 </head>
 <body>
+  <a href="#main-content" class="skip-link">Skip to main content</a>
+  
+  <!-- Header -->
+  <header class="site-header" role="banner">
+    <nav class="navbar" role="navigation" aria-label="Main navigation">
+      <div class="navbar-container">
+        
+        <!-- Brand/Logo -->
+        <div class="navbar-brand">
+          <a href="index.html" class="brand-link">
+            <span class="brand-text">Mitch Radakovich</span>
+          </a>
+        </div>
 
-<nav class="navbar navbar-default">
-    <div class="container-fluid" style="background-color: white; width:100%; left:0; top:0; position: fixed; opacity: 1; z-index: 1;">
-      
-      <!-- start collapsed navbar-->
-      <div class="navbar-header">
-        <button 
-        type="button" 
-        class="navbar-toggle collapsed" 
-        data-toggle="collapse" 
-        data-target="#main_navbar" 
-        aria-expanded="false">open!</button>
-      </div><!-- / collapsed navbar-->
+        <!-- Mobile menu toggle -->
+        <button class="navbar-toggle" 
+                type="button" 
+                aria-label="Toggle navigation menu"
+                aria-expanded="false"
+                aria-controls="navbar-menu">
+          <span class="hamburger-line"></span>
+          <span class="hamburger-line"></span>
+          <span class="hamburger-line"></span>
+        </button>
 
-      <!-- start un-collapsed navbar-->
-      <div 
-         class="collapse navbar-collapse" 
-         id="main_navbar">
-        <ul class="nav navbar-nav cardo_reg" style="font-size:20px;">
-          <li><a href="index.html">Home</a></li>
-          <li class="active"><a href="blog.html">Blog</a></li>
-          <li><a href="academics.html">Academics</a></li>
-          <li><a href="contact.html">Contact</a></li>
+        <!-- Navigation menu -->
+        <div class="navbar-menu" id="navbar-menu">
+          <ul class="navbar-nav" role="menubar">
+            <li class="nav-item" role="none">
+              <a href="index.html" class="nav-link" role="menuitem" data-page="home">Home</a>
+            </li>
+            <li class="nav-item" role="none">
+              <a href="blog.html" class="nav-link active" role="menuitem" data-page="blog">Blog</a>
+            </li>
+            <li class="nav-item" role="none">
+              <a href="academics.html" class="nav-link" role="menuitem" data-page="academics">Academics</a>
+            </li>
+            <li class="nav-item" role="none">
+              <a href="contact.html" class="nav-link" role="menuitem" data-page="contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+  
+  <main id="main-content" role="main">
+    <section class="blog-hero">
+      <div class="container">
+        <div class="img-placeholder blog-header" title="Blog header image placeholder"></div>
+      </div>
+    </section>
 
+    <section class="page-header">
+      <div class="container">
+        <h1 class="page-title">Blog</h1>
+        <p class="page-description">Thoughts on data science, technology, and my journey as a student</p>
+      </div>
+    </section>
 
-        </ul>
-      </div><!-- / un-collapsed navbar-->
+    <section class="blog-content">
+      <div class="container">
+        <div class="blog-grid" id="blog-posts">
+          <!-- Blog posts with your authentic content -->
+          <article class="blog-card">
+            <div class="img-placeholder blog-icon" title="Data Ethics blog image placeholder"></div>
+            <div class="blog-card-content">
+              <h2 class="blog-title">Data Ethics</h2>
+              <p class="blog-excerpt">Exploring ethical considerations in data science and the impact of surveillance capitalism on our society...</p>
+              <div class="blog-meta">
+                <time class="blog-date">March 7, 2021</time>
+                <span class="blog-category">Data Science</span>
+              </div>
+              <a href="pages/data_ethics_blog.html" class="blog-link">Read More</a>
+            </div>
+          </article>
 
-    </div> <!-- /container -->
-  </nav>
+          <article class="blog-card">
+            <div class="img-placeholder blog-icon" title="Mapbox Challenge blog image placeholder"></div>
+            <div class="blog-card-content">
+              <h2 class="blog-title">Mapbox Challenge</h2>
+              <p class="blog-excerpt">Analyzing voting patterns and gerrymandering through data visualization using Mapbox tools...</p>
+              <div class="blog-meta">
+                <time class="blog-date">November 30, 2020</time>
+                <span class="blog-category">Data Visualization</span>
+              </div>
+              <a href="pages/mapbox_challenge_blog.html" class="blog-link">Read More</a>
+            </div>
+          </article>
 
-<div class="holder afterclap" style="width:100%; height:40%;">
-	<img src="Images/maroon_header.jpg" style="width:100%; height:90%;">
-  	<div class="centered" style="font-size:100px; width:80%">What's On My Mind</div>
+          <article class="blog-card">
+            <div class="img-placeholder blog-icon" title="P&G Internship blog image placeholder"></div>
+            <div class="blog-card-content">
+              <h2 class="blog-title">Procter & Gamble, Take Two</h2>
+              <p class="blog-excerpt">My virtual internship experience building supply chain models and the lessons learned about engineering process...</p>
+              <div class="blog-meta">
+                <time class="blog-date">August 4, 2020</time>
+                <span class="blog-category">Experience</span>
+              </div>
+              <a href="pages/online_internship_blog.html" class="blog-link">Read More</a>
+            </div>
+          </article>
 
+          <article class="blog-card">
+            <div class="img-placeholder blog-icon" title="Uncertain Spring blog image placeholder"></div>
+            <div class="blog-card-content">
+              <h2 class="blog-title">Uncertain Spring</h2>
+              <p class="blog-excerpt">Adapting to life during the pandemic and finding new routines during an unprecedented time...</p>
+              <div class="blog-meta">
+                <time class="blog-date">April 22, 2020</time>
+                <span class="blog-category">Personal</span>
+              </div>
+              <a href="pages/uncertain_spring_blog.html" class="blog-link">Read More</a>
+            </div>
+          </article>
 
-</div>
+          <article class="blog-card">
+            <div class="img-placeholder blog-icon" title="Data in DC blog image placeholder"></div>
+            <div class="blog-card-content">
+              <h2 class="blog-title">Data in DC</h2>
+              <p class="blog-excerpt">My STEP project experience learning about data usage in government, business, and nonprofits in Washington DC...</p>
+              <div class="blog-meta">
+                <time class="blog-date">March 2020</time>
+                <span class="blog-category">Experience</span>
+              </div>
+              <a href="pages/data_in_dc_blog.html" class="blog-link">Read More</a>
+            </div>
+          </article>
 
-<div class="container-fluid" style="margin-top:2%; width:99%;">
-    <div class="row" style="min-height:90%">
-        <a href="thoughts_before_copenhagen.html">
-			<div class="col-lg-3 col-sm-6 blog">
-				  <center>
-					  <img src="Images/copenhagen-stock.jpg" style="height: same-as-width; width:100%; margin-top:3%;">
-					  <h3 class="afterclap">Thoughts Before Copenhagen</h3>
-					  <p class="cardo_reg" style="font-size:18px;">Why I am so excited to be back.</p>
-				  </center>
-			</div>
-			</a>
-        <a href="data_ethics_blog.html">
-    	<div class="col-lg-3 col-sm-6 blog">
-      		<center>
-      			<img src="Images/data-ethics-balance.JPG" style="height: same-as-width; width:100%; margin-top:3%;">
-      			<h3 class="afterclap">Data Ethics</h3>
-      			<p class="cardo_reg" style="font-size:18px">Just because you <em>can</em> do it doesn't mean you should.</p>
-    		</center>
-    	</div>
-    	</a>        
-    	<a href="mapbox_challenge_blog.html">
-    	<div class="col-lg-3 col-sm-6 blog">
-      		<center>
-      			<img src="Images/mapbox.PNG" style="height: same-as-width; width:100%; margin-top:3%;">
-      			<h3 class="afterclap">Mapbox Challenge</h3>
-      			<p class="cardo_reg" style="font-size:18px">My entry for the Mapbox Election Data Challenge- Awarded Honorable Mention!</p>
-    		</center>
-    	</div>
-    	</a>
-        <a href="online_internship_blog.html">
-    	<div class="col-lg-3 col-sm-6 blog">
-      		<center>
-      			<img src="Images/PG_Desk_Pic_Blog.JPG" style="height: same-as-width; width:100%; margin-top:3%;">
-      			<h3 class="afterclap">P&G, Take Two</h3>
-      			<p class="cardo_reg" style="font-size:18px">What does it take to get Toilet Paper from Mehoopany, PA to you?</p>
-    		</center>
-    	</div>
-    	</a>
-
-   
-    </div>
-	<div class="row" style="min-height:90%">
-        <a href="uncertain_spring_blog.html">
-			<div class="col-lg-3 col-sm-6 blog">
-				  <center>
-					  <img src="Images/QuarentineDesk.JPG" style="height: same-as-width; width:100%; margin-top:3%;">
-					  <h3 class="afterclap">Uncertain Spring</h3>
-					  <p class="cardo_reg" style="font-size:18px;">Thoughts on life in quarantine and what lies ahead.</p>
-				  </center>
-			</div>
-			</a>
-        <a href="data_in_dc_blog.html">
-
-    	<div class="col-lg-3 col-sm-6 blog">
-      		<center>
-      		  	<img src="Images/DCData.JPG" style="height: same-as-width; width:100%; margin-top:3%;">
-      			<h3 class="afterclap">Data in DC</h3>
-      			<p class="cardo_reg" style="font-size:18px">A review of my trip to DC with Ohio State's STEP program. </p>
-    		</center>
-    	</div>
-    	</a>
-    	<a href="hobbies_blog.html">
-    	<div class="col-lg-3 col-sm-6 blog">
-      		<center>
-				<img src="Images/ShrimpHobby.JPG" style="height: same-as-width; width:100%; margin-top:3%;">
-      			<h3 class="afterclap">Hobbies</h3>
-      			<p class="cardo_reg" style="font-size:18px">Sometimes you just need to close the computer and breed some shrimp.</p>
-			</center>    	
-    	</div>
-      	</a>
-    
-        <a href="hack_ohio_2019_blog.html">
-    	<div class="col-lg-3 col-sm-6 blog">
-      		<center>
-      			<img src="Images/HackOH2019.JPG" style="height: same-as-width; width:100%; margin-top:3%;">
-      			<h3 class="afterclap">Hack OHI/O 2O19</h3>
-      			<p class="cardo_reg" style="font-size:18px">Unlimited Food. Limited Sleep. Sufficient Forklift Data.</p>
-    		</center>
-    	</div>
-    	</a>
-    </div>
-    
-</div>  
-
-
-<div id="rectangle"></div>
-<div id="footer"></div>
+          <article class="blog-card">
+            <div class="img-placeholder blog-icon" title="Hack Ohio 2019 blog image placeholder"></div>
+            <div class="blog-card-content">
+              <h2 class="blog-title">Hack OHI/O 2019</h2>
+              <p class="blog-excerpt">Reflections on my hackathon experience at Ohio State...</p>
+              <div class="blog-meta">
+                <time class="blog-date">November 25, 2019</time>
+                <span class="blog-category">Hackathon</span>
+              </div>
+              <a href="pages/hack_ohio_2019_blog.html" class="blog-link">Read More</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+  </main>
+  
+  <div id="footer-component"></div>
+  
+  <script type="module" src="assets/js/main.js"></script>
+  <script type="module" src="assets/js/components.js"></script>
+  <script type="module" src="assets/js/blog.js"></script>
+  <script src="assets/js/navigation-fallback.js"></script>
 </body>
 </html>

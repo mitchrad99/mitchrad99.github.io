@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Navigation Test</title>
+  <link rel="stylesheet" href="assets/css/main.css">
+  <link rel="stylesheet" href="assets/css/components.css">
+  <link rel="stylesheet" href="assets/css/responsive.css">
+</head>
+<body>
+  <!-- Navigation Header Component -->
+  <header class="site-header" role="banner">
+    <nav class="navbar" role="navigation" aria-label="Main navigation">
+      <div class="navbar-container">
+        
+        <!-- Brand/Logo -->
+        <div class="navbar-brand">
+          <a href="index.html" class="brand-link">
+            <span class="brand-text">Mitch Radakovich</span>
+          </a>
+        </div>
+
+        <!-- Mobile menu toggle -->
+        <button class="navbar-toggle" 
+                type="button" 
+                aria-label="Toggle navigation menu"
+                aria-expanded="false"
+                aria-controls="navbar-menu">
+          <span class="hamburger-line"></span>
+          <span class="hamburger-line"></span>
+          <span class="hamburger-line"></span>
+        </button>
+
+        <!-- Navigation menu -->
+        <div class="navbar-menu" id="navbar-menu">
+          <ul class="navbar-nav" role="menubar">
+            <li class="nav-item" role="none">
+              <a href="index.html" class="nav-link" role="menuitem" data-page="home">Home</a>
+            </li>
+            <li class="nav-item" role="none">
+              <a href="blog.html" class="nav-link" role="menuitem" data-page="blog">Blog</a>
+            </li>
+            <li class="nav-item" role="none">
+              <a href="academics.html" class="nav-link" role="menuitem" data-page="academics">Academics</a>
+            </li>
+            <li class="nav-item" role="none">
+              <a href="contact.html" class="nav-link" role="menuitem" data-page="contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section style="padding: var(--space-2xl) 0;">
+      <div class="container">
+        <h1>Navigation Test</h1>
+        <p>This page tests the navigation header functionality.</p>
+        <p>The header should be fixed at the top, and the mobile menu should work on small screens.</p>
+        
+        <div style="height: 200vh; background: linear-gradient(to bottom, #f0f0f0, #e0e0e0); margin: var(--space-lg) 0; display: flex; align-items: center; justify-content: center;">
+          <p>Scroll area to test fixed header</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <script>
+    // Simple mobile menu toggle for testing
+    document.addEventListener('DOMContentLoaded', function() {
+      const toggle = document.querySelector('.navbar-toggle');
+      const menu = document.querySelector('.navbar-menu');
+      
+      if (toggle && menu) {
+        toggle.addEventListener('click', function() {
+          const isActive = menu.classList.contains('active');
+          
+          if (isActive) {
+            menu.classList.remove('active');
+            toggle.classList.remove('active');
+            toggle.setAttribute('aria-expanded', 'false');
+          } else {
+            menu.classList.add('active');
+            toggle.classList.add('active');
+            toggle.setAttribute('aria-expanded', 'true');
+          }
+        });
+      }
+    });
+  </script>
+</body>
+</html>

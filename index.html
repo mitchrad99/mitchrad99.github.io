@@ -1,177 +1,137 @@
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" >
+<html lang="en">
 <head>
-<title>Mitch Radakovich</title>
-<link href="styles.css" rel="stylesheet">
-<link href="bootstrap.css" rel="stylesheet">
-<link rel="icon" href=IMG_8687.JPG>
-
+  <!-- Meta tags -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Mitch Radakovich - Data Science Student at Ohio State University">
+  <meta name="keywords" content="Data Science, Ohio State, Student, Portfolio, Blog">
+  <meta name="author" content="Mitch Radakovich">
+  
+  <!-- Open Graph Meta Tags -->
+  <meta property="og:title" content="Mitch Radakovich - Data Science Portfolio">
+  <meta property="og:description" content="Fourth Year Data Science Student at Ohio State University">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://mitchrad99.github.io/">
+  
+  <!-- Title -->
+  <title>Mitch Radakovich - Data Science Portfolio</title>
+  
+  <!-- Favicon -->
+  <link rel="icon" href="assets/images/IMG_8687.JPG" type="image/jpeg">
+  
+  <!-- Preload critical fonts -->
+  <link rel="preload" href="assets/fonts/Afterclap_Personal_Use.otf" as="font" type="font/otf" crossorigin>
+  <link rel="preload" href="assets/fonts/Cardo-Regular.ttf" as="font" type="font/ttf" crossorigin>
+  
+  <!-- CSS -->
+  <link rel="stylesheet" href="assets/css/main.css">
+  <link rel="stylesheet" href="assets/css/components.css">
+  <link rel="stylesheet" href="assets/css/responsive.css">
 </head>
 <body>
-
-<nav class="navbar navbar-default">
-    <div class="container-fluid" style="background-color: white; width:100%; left:0; top:0; position: fixed; opacity: 1; z-index: 1;">
-
-      <!-- start collapsed navbar-->
-      <div class="navbar-header">
-        <button 
-        type="button" 
-        class="navbar-toggle collapsed" 
-        data-toggle="collapse" 
-        data-target="#main_navbar" 
-        aria-expanded="false">open!</button>
-      </div><!-- / collapsed navbar-->
-
-      <!-- start un-collapsed navbar-->
-      <div 
-         class="collapse navbar-collapse" 
-         id="main_navbar">
-        <ul class="nav navbar-nav cardo_reg" style="font-size:20px;">
-          <li class="active"><a href="index.html">Home</a></li>
-          <li><a href="blog.html">Blog</a></li>
-          <li><a href="academics.html">Academics</a></li>
-          <li><a href="contact.html">Contact</a></li>
-
-        </ul>
-      </div><!-- / un-collapsed navbar-->
-
-    </div> <!-- /container -->
-  </nav>
+  <!-- Skip to main content for accessibility -->
+  <a href="#main-content" class="skip-link">Skip to main content</a>
   
+  <!-- Header -->
+  <header class="site-header" role="banner">
+    <nav class="navbar" role="navigation" aria-label="Main navigation">
+      <div class="navbar-container">
+        
+        <!-- Brand/Logo -->
+        <div class="navbar-brand">
+          <a href="index.html" class="brand-link">
+            <span class="brand-text">Mitch Radakovich</span>
+          </a>
+        </div>
+
+        <!-- Mobile menu toggle -->
+        <button class="navbar-toggle" 
+                type="button" 
+                aria-label="Toggle navigation menu"
+                aria-expanded="false"
+                aria-controls="navbar-menu">
+          <span class="hamburger-line"></span>
+          <span class="hamburger-line"></span>
+          <span class="hamburger-line"></span>
+        </button>
+
+        <!-- Navigation menu -->
+        <div class="navbar-menu" id="navbar-menu">
+          <ul class="navbar-nav" role="menubar">
+            <li class="nav-item" role="none">
+              <a href="index.html" class="nav-link active" role="menuitem" data-page="home">Home</a>
+            </li>
+            <li class="nav-item" role="none">
+              <a href="blog.html" class="nav-link" role="menuitem" data-page="blog">Blog</a>
+            </li>
+            <li class="nav-item" role="none">
+              <a href="academics.html" class="nav-link" role="menuitem" data-page="academics">Academics</a>
+            </li>
+            <li class="nav-item" role="none">
+              <a href="contact.html" class="nav-link" role="menuitem" data-page="contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
   
-<div class="container-fluid" style="height:85%">
-	<div class="row">
-		<div class="col-xs-6">
- 	 		<h1 class="title">Hi! I'm Mitch Radakovich</h1>
- 	   		<p class="subtitle">I am a Fourth Year at Ohio State studying Data Science</p>
-  	 	</div>
-  		<div class="col-xs-6">
-			<img src="Images/IMG_8687.JPG" class="intro_img"/>
-		</div>
-	</div>
+  <!-- Main Content -->
+  <main id="main-content" role="main">
+    <section class="hero-section">
+      <div class="container">
+        <div class="hero-content">
+          <div class="hero-text">
+            <h1 class="hero-title">Hi! I'm Mitch Radakovich</h1>
+            <p class="hero-subtitle">Fourth Year Data Science Student at Ohio State University</p>
+            <div class="hero-actions">
+              <a href="blog.html" class="btn btn-primary">Read My Blog</a>
+              <a href="contact.html" class="btn btn-secondary">Get In Touch</a>
+            </div>
+          </div>
+          <div class="hero-image">
+            <div class="img-placeholder profile" title="Profile photo placeholder"></div>
+          </div>
+        </div>
+      </div>
+    </section>
 
+    <section class="about-section">
+      <div class="container">
+        <h2 class="section-title">About Me</h2>
+        <div class="about-content">
+          <p>Welcome to my digital portfolio! I'm a passionate Data Science student exploring the intersection of technology, analytics, and real-world problem solving.</p>
+        </div>
+      </div>
+    </section>
 
-	<div id="rectangle"></div>
-
-  	<div class="row">
-  		<div class="container-fluid" >
- 	   		<p class="section_header"><b>My Thoughts:</b></p>
- 	   	</div>  			
-  	</div>
-  	<div class="row">
-        <a href="data_ethics_blog.html">
-    	<div class="col-lg-3 col-sm-6 blog">
-      		<center>
-      			<img src="Images/data-ethics-balance.JPG" style="height: same-as-width; width:100%; margin-top:3%;">
-      			<h3 class="afterclap">Data Ethics</h3>
-      			<p class="cardo_reg" style="font-size:18px">Just because you <em>can</em> do it doesn't mean you should.</p>
-    		</center>
-    	</div>
-    	</a>        
-    	<a href="mapbox_challenge_blog.html">
-    	<div class="col-lg-3 col-sm-6 blog">
-      		<center>
-      			<img src="Images/mapbox.PNG" style="height: same-as-width; width:100%; margin-top:3%;">
-      			<h3 class="afterclap">Mapbox Challenge</h3>
-      			<p class="cardo_reg" style="font-size:18px">My entry for the Mapbox Election Data Challenge- Awarded Honorable Mention!</p>
-    		</center>
-    	</div>
-    	</a>
-    	<a href="online_internship_blog.html">
-    	<div class="col-sm-3 blog">
-      		<center>
-      			<img src="Images/PG_Desk_Pic_Blog.JPG" class="blog_icon_image">
-      			<h3 class="blog_icon_title">P&G, Take Two</h3>
-      			<p class="blog_icon_summary">What does it take to get Toilet Paper from Mehoopany, PA to you?</p>
-    		</center>
-    	</div>
-    	</a>
-    	<a href="uncertain_spring_blog.html">
-    	<div class="col-sm-3 blog">
-      		<center>
-      			<img src="Images/QuarentineDesk.JPG" class="blog_icon_image">
-      			<h3 class="blog_icon_title">Uncertain Spring</h3>
-      			<p class="blog_icon_summary">Thoughts on life in quarantine and what lies ahead.</p>
-      		</center>
-    	</div>
-    	</a>
-
-    </div>
+    <section class="featured-content">
+      <div class="container">
+        <h2 class="section-title">Featured Work</h2>
+        <div class="content-grid">
+          <article class="content-card">
+            <h3>Latest Blog Posts</h3>
+            <p>Explore my thoughts on data science, technology, and student life.</p>
+            <a href="blog.html" class="card-link">View Blog</a>
+          </article>
+          
+          <article class="content-card">
+            <h3>Academic Work</h3>
+            <p>Check out my academic projects and coursework in Data Science.</p>
+            <a href="academics.html" class="card-link">View Academics</a>
+          </article>
+        </div>
+      </div>
+    </section>
+  </main>
   
-	<div id="rectangle"></div>
-
-  	<div class="row" >
-  		<div class="container-fluid">
- 	   		<p class="section_header"><b>Favorite Books:</b></p>
- 	   	</div>  			
-  	</div>
-  	<div class="row">
-    	<div class="col-sm-2 col-xs-3 book">
-			<a href="https://www.goodreads.com/book/show/41949311-someone-who-will-love-you-in-all-your-damaged-glory" target="_blank">
- 	   			<img src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1550524422l/41949311.jpg" class="book_img">
-			</a> 
-		</div> 	
-    	<div class="col-sm-2 col-xs-3 book">
- 	   		<a href="https://www.goodreads.com/book/show/9592.Mother_Night" target="_blank">
- 	   			<img src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1344621657l/9592.jpg" class="book_img">
-			</a>
- 	   	</div> 
-    	<div class="col-sm-2 col-xs-3 book">
-			<a href="https://www.goodreads.com/review/show/3308961192" target="_blank">
- 	   			<img src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1569380119l/50185600._SX318_SY475_.jpg" class="book_img">
-			</a> 
-		</div> 	
-    	<div class="col-sm-2 col-xs-3 book">
-			<a href="https://www.goodreads.com/book/show/20170404-station-eleven" target="_blank">
- 	   			<img src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1451446835l/20170404.jpg" class="book_img">
-			</a>
- 	   	</div>
-    	<div class="col-sm-2 col-xs-3 book">
-			<a href="https://www.goodreads.com/book/show/2318271.The_Last_Lecture" target="_blank">
- 	   			<img src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1388075896l/2318271.jpg" class="book_img">
-			</a>
- 	   	</div>
-    	<div class="col-sm-2 col-xs-3 book">
- 	   		<a href="https://www.goodreads.com/book/show/5941033-let-the-great-world-spin" target="_blank">
- 	   			<img src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1474988022l/5941033.jpg" class="book_img">
-			</a>
- 	   	</div> 
-    	<div class="col-sm-2 col-xs-3 book">
-			<a href="https://www.goodreads.com/book/show/27071490-homegoing" target="_blank">
- 	   			<img src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1448108591l/27071490.jpg" class="book_img">
-			</a> 
-		</div> 	
-    	<div class="col-sm-2 col-xs-3 book">
- 	   		<a href="https://www.goodreads.com/book/show/5129.Brave_New_World" target="_blank">
- 	   			<img src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1575509280l/5129._SY475_.jpg" class="book_img">
-			</a>
- 	   	</div> 
-    	<div class="col-sm-2 col-xs-3 book">
-			<a href="https://www.goodreads.com/book/show/33585392-dear-ijeawele-or-a-feminist-manifesto-in-fifteen-suggestions" target="_blank">
- 	   			<img src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1493035257l/33585392.jpg" class="book_img">
-			</a> 
-		</div> 	
-    	<div class="col-sm-2 col-xs-3 book">
-			<a href="https://www.goodreads.com/book/show/18774964-a-man-called-ove" target="_blank">
- 	   			<img src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1405259930l/18774964.jpg" class="book_img">
-			</a>
- 	   	</div>
-    	<div class="col-sm-2 col-xs-3 book">
-			<a href="https://www.goodreads.com/book/show/21424655-life-animated" target="_blank">
- 	   			<img src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1394580916l/21424655.jpg" class="book_img">
-			</a>
- 	   	</div>
-    	<div class="col-sm-2 col-xs-3 book">
- 	   		<a href="https://www.goodreads.com/book/show/13486632-the-hundred-year-old-man-who-climbed-out-of-the-window-and-disappeared" target="_blank">
- 	   			<img src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1334848488l/13486632.jpg" class="book_img">
-			</a>
- 	   	</div> 
-  	</div>
-
-	<div id="rectangle"></div>
-	<div id="footer"></div>
-
-</div>
-
-  </body>
+  <!-- Footer -->
+  <div id="footer-component"></div>
+  
+  <!-- Scripts -->
+  <script type="module" src="assets/js/main.js"></script>
+  <script type="module" src="assets/js/components.js"></script>
+  <script src="assets/js/navigation-fallback.js"></script>
+</body>
 </html>
