@@ -50,6 +50,7 @@ export class BlogManager {
       
       this.filteredPosts = [...this.blogPosts];
       console.log(`✅ Loaded ${this.blogPosts.length} blog posts from JSON`);
+      console.log('🖼️  First post image:', this.blogPosts[0]?.image);
     } catch (error) {
       console.error('Error loading blog posts from JSON:', error);
       console.log('📦 Falling back to static posts');
@@ -191,6 +192,7 @@ export class BlogManager {
     article.setAttribute('data-category', post.category.toLowerCase().replace(/\s+/g, '-'));
 
     const formattedDate = this.formatDate(post.date);
+    console.log(`🖼️  Rendering ${post.title} with image: ${post.image}`);
     const imageElement = post.image ? 
       `<img src="${post.image}" alt="${post.title}" class="blog-image" loading="lazy">` :
       `<div class="img-placeholder blog-icon" title="${post.title} blog image placeholder"></div>`;
