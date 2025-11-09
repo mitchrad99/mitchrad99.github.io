@@ -97,17 +97,11 @@ class App {
     console.log('📝 Initializing blog page features');
     
     try {
-      console.log('🔄 Creating BlogManager instance...');
-      
       if (!this.blogManager) {
         this.blogManager = new BlogManager();
-        console.log('✅ BlogManager instance created');
       }
       
-      console.log('🚀 Calling blogManager.init()...');
       this.blogManager.init();
-      console.log('✅ blogManager.init() called successfully');
-      
     } catch (error) {
       console.error('❌ Error in initBlogPage:', error);
     }
