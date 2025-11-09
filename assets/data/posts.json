@@ -7,7 +7,7 @@
       "date": "2021-03-07",
       "category": "Data Science",
       "url": "pages/data_ethics_blog.html",
-      "image": null,
+      "image": "assets/images/data-ethics-balance.JPG",
       "tags": ["ethics", "privacy", "surveillance"],
       "readTime": "8 min read"
     },
@@ -18,7 +18,7 @@
       "date": "2020-11-30",
       "category": "Data Visualization", 
       "url": "pages/mapbox_challenge_blog.html",
-      "image": null,
+      "image": "assets/images/Mapbox.PNG",
       "tags": ["visualization", "mapping", "politics"],
       "readTime": "6 min read"
     },
@@ -29,7 +29,7 @@
       "date": "2020-08-04",
       "category": "Experience",
       "url": "pages/online_internship_blog.html",
-      "image": null,
+      "image": "assets/images/PG_Desk_Pic_Blog.JPG",
       "tags": ["internship", "supply-chain", "remote-work"],
       "readTime": "5 min read"
     },
@@ -40,7 +40,7 @@
       "date": "2020-04-22",
       "category": "Personal",
       "url": "pages/uncertain_spring_blog.html",
-      "image": null,
+      "image": "assets/images/QuarentineDesk.JPG",
       "tags": ["pandemic", "reflection", "adaptation"],
       "readTime": "4 min read"
     },
@@ -51,7 +51,7 @@
       "date": "2020-03-01",
       "category": "Experience",
       "url": "pages/data_in_dc_blog.html",
-      "image": null,
+      "image": "assets/images/DCData.JPG",
       "tags": ["government", "nonprofits", "policy"],
       "readTime": "7 min read"
     },
@@ -62,7 +62,7 @@
       "date": "2019-11-25",
       "category": "Hackathon",
       "url": "pages/hack_ohio_2019_blog.html",
-      "image": null,
+      "image": "assets/images/HackOH2019.JPG",
       "tags": ["hackathon", "coding", "teamwork"],
       "readTime": "3 min read"
     }
