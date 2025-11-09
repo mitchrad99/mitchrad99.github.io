@@ -14,19 +14,33 @@ export class BlogManager {
 
   // Initialize blog manager
   async init() {
+    console.log('🚀 Starting blog manager initialization...');
+    
     try {
+      console.log('🔍 Looking for DOM elements...');
       this.blogContainer = document.getElementById('blog-posts');
       this.filterContainer = document.getElementById('blog-filters');
       
+      console.log('Blog container found:', !!this.blogContainer);
+      console.log('Filter container found:', !!this.filterContainer);
+      
       if (!this.blogContainer) {
-        console.warn('Blog container not found');
+        console.error('❌ Blog container (#blog-posts) not found in DOM!');
+        console.log('Available elements with IDs:', 
+          Array.from(document.querySelectorAll('[id]')).map(el => el.id));
         return;
       }
 
+      console.log('📂 Loading blog posts...');
       await this.loadBlogPosts();
+      
+      console.log('🎛️ Setting up filters...');
       this.setupFilters();
+      
+      console.log('🎨 Rendering blog posts...');
       this.renderBlogPosts();
-      console.log('✅ Blog manager initialized');
+      
+      console.log('✅ Blog manager initialized successfully');
     } catch (error) {
       console.error('❌ Blog manager initialization failed:', error);
     }
@@ -34,7 +48,17 @@ export class BlogManager {
 
   // Load blog posts from posts.json
   async loadBlogPosts() {
+    console.log('🔄 Attempting to load blog posts from JSON...');
+    
+    // For now, let's use fallback posts to ensure it works
+    console.log('📦 Using fallback posts for reliable loading');
+    this.loadFallbackPosts();
+    return;
+    
+    // Commented out JSON loading temporarily
+    /* 
     try {
+      console.log('📡 Fetching posts.json...');
       const response = await fetch('assets/data/posts.json');
       if (!response.ok) {
         throw new Error(`Failed to load posts: ${response.status}`);
@@ -53,6 +77,7 @@ export class BlogManager {
       console.error('Error loading blog posts:', error);
       this.loadFallbackPosts();
     }
+    */
   }
 
   // Fallback to existing static posts if JSON fails
@@ -149,11 +174,24 @@ export class BlogManager {
 
   // Render blog posts to the grid
   renderBlogPosts() {
-    if (!this.blogContainer || !this.filteredPosts.length) {
+    console.log('🎨 Rendering blog posts...');
+    console.log('Blog container:', this.blogContainer);
+    console.log('Filtered posts count:', this.filteredPosts.length);
+    console.log('Filtered posts:', this.filteredPosts);
+    
+    if (!this.blogContainer) {
+      console.error('❌ Blog container not found! Looking for #blog-posts');
+      return;
+    }
+    
+    if (!this.filteredPosts.length) {
+      console.log('⚠️ No filtered posts available, showing empty state');
       this.showEmptyState();
       return;
     }
 
+    console.log('✅ Proceeding with rendering...');
+    
     // Clear existing content
     this.blogContainer.innerHTML = '';
 
@@ -161,9 +199,12 @@ export class BlogManager {
     const startIndex = (this.currentPage - 1) * this.postsPerPage;
     const endIndex = startIndex + this.postsPerPage;
     const postsToShow = this.filteredPosts.slice(startIndex, endIndex);
+    
+    console.log(`📄 Showing posts ${startIndex + 1} to ${Math.min(endIndex, this.filteredPosts.length)} of ${this.filteredPosts.length}`);
 
     // Render each post
     postsToShow.forEach((post, index) => {
+      console.log(`🔨 Creating card for: ${post.title}`);
       const blogCard = this.createBlogCard(post);
       this.blogContainer.appendChild(blogCard);
       
