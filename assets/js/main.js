@@ -68,21 +68,14 @@ class App {
   initPageSpecific() {
     const page = Utils.getCurrentPage();
     
-    switch (page) {
-      case 'index':
-        this.initHomePage();
-        break;
-      case 'blog':
-        this.initBlogPage();
-        break;
-      case 'contact':
-        this.initContactPage();
-        break;
-      case 'academics':
-        this.initAcademicsPage();
-        break;
-      default:
-        console.log(`No specific initialization for page: ${page}`);
+    // Convert 'contact' → 'initContactPage'
+    const methodName = `init${page.charAt(0).toUpperCase() + page.slice(1)}Page`;
+    
+    if (typeof this[methodName] === 'function') {
+      console.log(`🎯 Initializing ${page} page features`);
+      this[methodName]();
+    } else {
+      console.log(`📄 No specific initialization for page: ${page}`);
     }
   }
 
