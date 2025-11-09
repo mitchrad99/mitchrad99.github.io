@@ -33,7 +33,7 @@ export class Navigation {
     this.navLinks = document.querySelectorAll('.nav-link');
 
     if (!this.navbar) {
-      throw new Error('Navigation elements not found');
+      console.warn('Navigation elements not found');
     }
   }
 
@@ -58,7 +58,7 @@ export class Navigation {
 
     // Close mobile menu when clicking outside
     document.addEventListener('click', (e) => {
-      if (this.isMenuOpen && !this.navbar.contains(e.target)) {
+      if (this.isMenuOpen && this.navbar && !this.navbar.contains(e.target)) {
         this.closeMobileMenu();
       }
     });
@@ -70,16 +70,6 @@ export class Navigation {
       scrollTimeout = setTimeout(() => {
         this.handleScroll();
       }, 10);
-    });
-
-    // Handle window resize
-    window.addEventListener('resize', () => {
-      this.handleResize();
-    });
-
-    // Handle keyboard navigation
-    document.addEventListener('keydown', (e) => {
-      this.handleKeyboard(e);
     });
   }
 
@@ -113,9 +103,6 @@ export class Navigation {
     if (firstNavLink) {
       setTimeout(() => firstNavLink.focus(), 100);
     }
-
-    // Dispatch custom event
-    this.dispatchEvent('navigation:menu-opened');
   }
 
   // Close mobile menu
@@ -133,9 +120,6 @@ export class Navigation {
 
     // Restore body scrolling
     document.body.style.overflow = '';
-
-    // Dispatch custom event
-    this.dispatchEvent('navigation:menu-closed');
   }
 
   // Handle scroll events
@@ -149,63 +133,16 @@ export class Navigation {
       if (this.navbar) {
         this.navbar.classList.toggle('scrolled', this.isScrolled);
       }
-
-      // Dispatch custom event
-      this.dispatchEvent('navigation:scroll-change', { scrolled: this.isScrolled });
     }
   }
 
-  // Handle window resize
+  // Handle window resize (called from main.js global events)
   handleResize() {
     const isMobile = window.innerWidth <= 768;
     
     // Close mobile menu on desktop
     if (!isMobile && this.isMenuOpen) {
       this.closeMobileMenu();
-    }
-
-    // Dispatch custom event
-    this.dispatchEvent('navigation:resize', { isMobile });
-  }
-
-  // Handle keyboard navigation
-  handleKeyboard(e) {
-    if (!this.isMenuOpen) return;
-
-    switch (e.key) {
-      case 'Escape':
-        e.preventDefault();
-        this.closeMobileMenu();
-        this.navbarToggle?.focus();
-        break;
-      
-      case 'Tab':
-        this.handleTabNavigation(e);
-        break;
-    }
-  }
-
-  // Handle tab navigation within mobile menu
-  handleTabNavigation(e) {
-    const focusableElements = this.navbarMenu.querySelectorAll(
-      'a, button, [tabindex]:not([tabindex="-1"])'
-    );
-    
-    const firstElement = focusableElements[0];
-    const lastElement = focusableElements[focusableElements.length - 1];
-
-    if (e.shiftKey) {
-      // Shift + Tab
-      if (document.activeElement === firstElement) {
-        e.preventDefault();
-        lastElement.focus();
-      }
-    } else {
-      // Tab
-      if (document.activeElement === lastElement) {
-        e.preventDefault();
-        firstElement.focus();
-      }
     }
   }
 
@@ -227,94 +164,5 @@ export class Navigation {
         link.removeAttribute('aria-current');
       }
     });
-  }
-
-  // Smooth scroll to section
-  scrollToSection(sectionId, offset = 80) {
-    const section = document.getElementById(sectionId);
-    if (!section) return;
-
-    const sectionTop = section.getBoundingClientRect().top + window.pageYOffset - offset;
-    
-    window.scrollTo({
-      top: sectionTop,
-      behavior: 'smooth'
-    });
-  }
-
-  // Add navigation link programmatically
-  addNavLink(text, href, position = 'end') {
-    const navList = document.querySelector('.navbar-nav');
-    if (!navList) return;
-
-    const listItem = document.createElement('li');
-    listItem.className = 'nav-item';
-    listItem.setAttribute('role', 'none');
-
-    const link = document.createElement('a');
-    link.href = href;
-    link.className = 'nav-link';
-    link.textContent = text;
-    link.setAttribute('role', 'menuitem');
-
-    listItem.appendChild(link);
-
-    if (position === 'start') {
-      navList.insertBefore(listItem, navList.firstChild);
-    } else {
-      navList.appendChild(listItem);
-    }
-
-    // Update cached nav links
-    this.navLinks = document.querySelectorAll('.nav-link');
-    
-    // Add event listener to new link
-    link.addEventListener('click', () => {
-      if (this.isMenuOpen) {
-        this.closeMobileMenu();
-      }
-    });
-  }
-
-  // Remove navigation link
-  removeNavLink(href) {
-    const link = document.querySelector(`.nav-link[href="${href}"]`);
-    if (link) {
-      const listItem = link.closest('.nav-item');
-      if (listItem) {
-        listItem.remove();
-        // Update cached nav links
-        this.navLinks = document.querySelectorAll('.nav-link');
-      }
-    }
-  }
-
-  // Dispatch custom events
-  dispatchEvent(eventName, detail = {}) {
-    const event = new CustomEvent(eventName, { detail });
-    document.dispatchEvent(event);
-  }
-
-  // Get navigation state
-  getState() {
-    return {
-      isMenuOpen: this.isMenuOpen,
-      isScrolled: this.isScrolled,
-      activeLink: document.querySelector('.nav-link.active')?.href || null,
-      isMobile: window.innerWidth <= 768
-    };
-  }
-
-  // Destroy navigation (cleanup)
-  destroy() {
-    // Remove event listeners and clean up
-    if (this.navbarToggle) {
-      this.navbarToggle.replaceWith(this.navbarToggle.cloneNode(true));
-    }
-    
-    document.body.style.overflow = '';
-    this.closeMobileMenu();
-    
-    console.log('Navigation destroyed');
   }
 }

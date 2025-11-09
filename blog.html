@@ -74,86 +74,26 @@
 
     <section class="blog-content">
       <div class="container">
-        <div class="blog-grid" id="blog-posts">
-          <!-- Blog posts with your authentic content -->
-          <article class="blog-card">
-            <div class="img-placeholder blog-icon" title="Data Ethics blog image placeholder"></div>
-            <div class="blog-card-content">
-              <h2 class="blog-title">Data Ethics</h2>
-              <p class="blog-excerpt">Exploring ethical considerations in data science and the impact of surveillance capitalism on our society...</p>
-              <div class="blog-meta">
-                <time class="blog-date">March 7, 2021</time>
-                <span class="blog-category">Data Science</span>
-              </div>
-              <a href="pages/data_ethics_blog.html" class="blog-link">Read More</a>
-            </div>
-          </article>
-
-          <article class="blog-card">
-            <div class="img-placeholder blog-icon" title="Mapbox Challenge blog image placeholder"></div>
-            <div class="blog-card-content">
-              <h2 class="blog-title">Mapbox Challenge</h2>
-              <p class="blog-excerpt">Analyzing voting patterns and gerrymandering through data visualization using Mapbox tools...</p>
-              <div class="blog-meta">
-                <time class="blog-date">November 30, 2020</time>
-                <span class="blog-category">Data Visualization</span>
-              </div>
-              <a href="pages/mapbox_challenge_blog.html" class="blog-link">Read More</a>
-            </div>
-          </article>
-
-          <article class="blog-card">
-            <div class="img-placeholder blog-icon" title="P&G Internship blog image placeholder"></div>
-            <div class="blog-card-content">
-              <h2 class="blog-title">Procter & Gamble, Take Two</h2>
-              <p class="blog-excerpt">My virtual internship experience building supply chain models and the lessons learned about engineering process...</p>
-              <div class="blog-meta">
-                <time class="blog-date">August 4, 2020</time>
-                <span class="blog-category">Experience</span>
-              </div>
-              <a href="pages/online_internship_blog.html" class="blog-link">Read More</a>
-            </div>
-          </article>
-
-          <article class="blog-card">
-            <div class="img-placeholder blog-icon" title="Uncertain Spring blog image placeholder"></div>
-            <div class="blog-card-content">
-              <h2 class="blog-title">Uncertain Spring</h2>
-              <p class="blog-excerpt">Adapting to life during the pandemic and finding new routines during an unprecedented time...</p>
-              <div class="blog-meta">
-                <time class="blog-date">April 22, 2020</time>
-                <span class="blog-category">Personal</span>
-              </div>
-              <a href="pages/uncertain_spring_blog.html" class="blog-link">Read More</a>
-            </div>
-          </article>
-
-          <article class="blog-card">
-            <div class="img-placeholder blog-icon" title="Data in DC blog image placeholder"></div>
-            <div class="blog-card-content">
-              <h2 class="blog-title">Data in DC</h2>
-              <p class="blog-excerpt">My STEP project experience learning about data usage in government, business, and nonprofits in Washington DC...</p>
-              <div class="blog-meta">
-                <time class="blog-date">March 2020</time>
-                <span class="blog-category">Experience</span>
-              </div>
-              <a href="pages/data_in_dc_blog.html" class="blog-link">Read More</a>
-            </div>
-          </article>
-
-          <article class="blog-card">
-            <div class="img-placeholder blog-icon" title="Hack Ohio 2019 blog image placeholder"></div>
-            <div class="blog-card-content">
-              <h2 class="blog-title">Hack OHI/O 2019</h2>
-              <p class="blog-excerpt">Reflections on my hackathon experience at Ohio State...</p>
-              <div class="blog-meta">
-                <time class="blog-date">November 25, 2019</time>
-                <span class="blog-category">Hackathon</span>
-              </div>
-              <a href="pages/hack_ohio_2019_blog.html" class="blog-link">Read More</a>
-            </div>
-          </article>
+        <!-- Category Filter -->
+        <div class="blog-filters" id="blog-filters">
+          <button class="filter-btn active" data-category="all">All Posts</button>
+          <button class="filter-btn" data-category="data-science">Data Science</button>
+          <button class="filter-btn" data-category="experience">Experience</button>
+          <button class="filter-btn" data-category="personal">Personal</button>
+          <button class="filter-btn" data-category="hackathon">Hackathon</button>
+          <button class="filter-btn" data-category="data-visualization">Visualization</button>
         </div>
+
+        <!-- Dynamic blog grid -->
+        <div class="blog-grid" id="blog-posts">
+          <!-- Blog posts will be dynamically inserted here -->
+          <div class="loading-message">
+            <div class="loading-spinner"></div>
+            <p>Loading blog posts...</p>
+          </div>
+        </div>
+
+        <!-- Pagination will be added dynamically here -->
       </div>
     </section>
   </main>

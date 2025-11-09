@@ -6,6 +6,7 @@ import { Navigation } from './modules/navigation.js';
 import { ComponentLoader } from './modules/component-loader.js';
 import { ThemeManager } from './modules/theme-manager.js';
 import { Utils } from './modules/utils.js';
+import { BlogManager } from './modules/blog-manager.js'; // ← ADD THIS LINE
 
 // ===== MAIN APPLICATION CLASS =====
 class App {
@@ -13,6 +14,7 @@ class App {
     this.navigation = null;
     this.componentLoader = null;
     this.themeManager = null;
+    this.blogManager = null;  // ← ADD THIS LINE
     this.isInitialized = false;
   }
 
@@ -68,21 +70,14 @@ class App {
   initPageSpecific() {
     const page = Utils.getCurrentPage();
     
-    switch (page) {
-      case 'index':
-        this.initHomePage();
-        break;
-      case 'blog':
-        this.initBlogPage();
-        break;
-      case 'contact':
-        this.initContactPage();
-        break;
-      case 'academics':
-        this.initAcademicsPage();
-        break;
-      default:
-        console.log(`No specific initialization for page: ${page}`);
+    // Convert 'contact' → 'initContactPage'
+    const methodName = `init${page.charAt(0).toUpperCase() + page.slice(1)}Page`;
+    
+    if (typeof this[methodName] === 'function') {
+      console.log(`🎯 Initializing ${page} page features`);
+      this[methodName]();
+    } else {
+      console.log(`📄 No specific initialization for page: ${page}`);
     }
   }
 
@@ -101,11 +96,11 @@ class App {
   initBlogPage() {
     console.log('📝 Initializing blog page features');
     
-    // Could add blog-specific features like:
-    // - Search functionality
-    // - Filter by category
-    // - Load more posts
-    // - Reading time calculation
+    if (!this.blogManager) {
+      this.blogManager = new BlogManager();
+    }
+    
+    this.blogManager.init();
   }
 
   // Initialize contact page specific features
