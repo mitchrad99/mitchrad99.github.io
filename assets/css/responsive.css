@@ -333,3 +333,32 @@ img {
     color: var(--color-primary);
   }
 }
+
+/* ===== BLOG RESPONSIVE STYLES ===== */
+@media (max-width: 768px) {
+  .blog-filters {
+    gap: 0.25rem;
+  }
+  
+  .filter-btn {
+    font-size: 0.8rem;
+    padding: 0.4rem 0.8rem;
+  }
+  
+  .blog-pagination {
+    gap: 0.25rem;
+  }
+  
+  .pagination-btn {
+    padding: 0.4rem 0.8rem;
+    font-size: 0.9rem;
+  }
+  
+  .blog-meta {
+    gap: 0.5rem;
+  }
+  
+  .blog-tag {
+    font-size: 0.7rem;
+  }
+}

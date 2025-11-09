@@ -1,0 +1,70 @@
+{
+  "posts": [
+    {
+      "id": "data-ethics",
+      "title": "Data Ethics",
+      "excerpt": "Exploring ethical considerations in data science and the impact of surveillance capitalism on our society...",
+      "date": "2021-03-07",
+      "category": "Data Science",
+      "url": "pages/data_ethics_blog.html",
+      "image": null,
+      "tags": ["ethics", "privacy", "surveillance"],
+      "readTime": "8 min read"
+    },
+    {
+      "id": "mapbox-challenge",
+      "title": "Mapbox Challenge",
+      "excerpt": "Analyzing voting patterns and gerrymandering through data visualization using Mapbox tools...",
+      "date": "2020-11-30",
+      "category": "Data Visualization", 
+      "url": "pages/mapbox_challenge_blog.html",
+      "image": null,
+      "tags": ["visualization", "mapping", "politics"],
+      "readTime": "6 min read"
+    },
+    {
+      "id": "pg-internship",
+      "title": "Procter & Gamble, Take Two",
+      "excerpt": "My virtual internship experience building supply chain models and the lessons learned about engineering process...",
+      "date": "2020-08-04",
+      "category": "Experience",
+      "url": "pages/online_internship_blog.html",
+      "image": null,
+      "tags": ["internship", "supply-chain", "remote-work"],
+      "readTime": "5 min read"
+    },
+    {
+      "id": "uncertain-spring",
+      "title": "Uncertain Spring",
+      "excerpt": "Adapting to life during the pandemic and finding new routines during an unprecedented time...",
+      "date": "2020-04-22",
+      "category": "Personal",
+      "url": "pages/uncertain_spring_blog.html",
+      "image": null,
+      "tags": ["pandemic", "reflection", "adaptation"],
+      "readTime": "4 min read"
+    },
+    {
+      "id": "data-in-dc",
+      "title": "Data in DC",
+      "excerpt": "My STEP project experience learning about data usage in government, business, and nonprofits in Washington DC...",
+      "date": "2020-03-01",
+      "category": "Experience",
+      "url": "pages/data_in_dc_blog.html",
+      "image": null,
+      "tags": ["government", "nonprofits", "policy"],
+      "readTime": "7 min read"
+    },
+    {
+      "id": "hack-ohio-2019",
+      "title": "Hack OHI/O 2019",
+      "excerpt": "Reflections on my hackathon experience at Ohio State...",
+      "date": "2019-11-25",
+      "category": "Hackathon",
+      "url": "pages/hack_ohio_2019_blog.html",
+      "image": null,
+      "tags": ["hackathon", "coding", "teamwork"],
+      "readTime": "3 min read"
+    }
+  ]
+}
