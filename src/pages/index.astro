@@ -35,9 +35,9 @@ const posts = (await getPublishedPosts()).slice(0, 3);
     </p>
     <p>
       By day I'm a data scientist at Procter &amp; Gamble, working on freight and
-      how to move it more efficiently. The other half of my time goes to All
-      Aboard Ohio, a nonprofit I chair that pushes the state to take public
-      transportation seriously.
+      how to move it more efficiently. The other half of my time goes to
+      <a href="https://allaboardohio.org">All Aboard Ohio</a>, a nonprofit I
+      chair that pushes the state to take public transportation seriously.
     </p>
     <p>
       Outside of that: running, soccer, a lot of books, trombone, and too much
@@ -58,7 +58,7 @@ const posts = (await getPublishedPosts()).slice(0, 3);
           description={post.data.description}
           pubDate={post.data.pubDate}
           tags={post.data.tags}
-          compact
+          image={post.data.heroImage}
         />
       ))
     }
@@ -111,6 +111,9 @@ const posts = (await getPublishedPosts()).slice(0, 3);
   }
   .about p {
     max-width: var(--measure);
+  }
+  .about a {
+    text-decoration-color: var(--accent);
   }
 
   .writing {
