@@ -7,44 +7,84 @@ interface Props {
   description: string;
   pubDate: Date;
   tags?: string[];
+  image?: string;
+  compact?: boolean;
 }
-const { href, title, description, pubDate, tags = [] } = Astro.props;
+const {
+  href,
+  title,
+  description,
+  pubDate,
+  tags = [],
+  image,
+  compact = false,
+} = Astro.props;
 ---
 
-<article class="card">
-  <a href={href} class="title-link">
-    <h2>{title}</h2>
-  </a>
-  <p class="meta">
-    <FormattedDate date={pubDate} />
-    {tags.length > 0 && <span class="tags">{tags.slice(0, 3).join(' · ')}</span>}
-  </p>
-  <p class="excerpt">{description}</p>
-  <a href={href} class="more">Read →</a>
+<article class:list={['card', { compact }]}>
+  {
+    !compact && (
+      <a class="thumb" href={href} tabindex="-1" aria-hidden="true">
+        {image ? (
+          <img src={image} alt="" loading="lazy" />
+        ) : (
+          <span class="thumb-empty">{tags[0] ?? 'Essay'}</span>
+        )}
+      </a>
+    )
+  }
+  <div class="body">
+    <p class="meta">
+      <FormattedDate date={pubDate} />
+      {tags.length > 0 && <span class="tags">{tags.slice(0, 3).join(' · ')}</span>}
+    </p>
+    <h2><a class="title-link" href={href}>{title}</a></h2>
+    <p class="excerpt">{description}</p>
+  </div>
 </article>
 
 <style>
   .card {
+    position: relative;
+    display: grid;
+    grid-template-columns: 13rem 1fr;
+    gap: var(--space-m);
     padding-block: var(--space-l);
     border-bottom: 1px solid var(--rule);
+  }
+  .card.compact {
+    grid-template-columns: 1fr;
   }
   .card:first-child {
     padding-top: 0;
   }
-  .title-link {
-    text-decoration: none;
+
+  .thumb {
+    display: block;
   }
-  .title-link:hover h2 {
-    color: var(--accent);
+  .thumb img,
+  .thumb-empty {
+    width: 100%;
+    aspect-ratio: 4 / 3;
+    object-fit: cover;
+    display: block;
+    border: 1px solid var(--rule);
   }
-  h2 {
-    font-size: var(--step-2);
+  .thumb-empty {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--paper-sunk);
+    font-size: var(--step--1);
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: var(--ink-faint);
   }
+
   .meta {
     display: flex;
     flex-wrap: wrap;
     gap: var(--space-s);
-    margin-top: var(--space-2xs);
     font-size: var(--step--1);
     color: var(--ink-faint);
   }
@@ -52,18 +92,36 @@ const { href, title, description, pubDate, tags = [] } = Astro.props;
     letter-spacing: 0.04em;
     text-transform: uppercase;
   }
+  h2 {
+    margin-top: var(--space-2xs);
+    font-size: var(--step-2);
+  }
+  .title-link {
+    text-decoration: none;
+  }
+  /* whole card is the click target */
+  .title-link::after {
+    content: '';
+    position: absolute;
+    inset: 0;
+  }
+  .card:hover .title-link {
+    color: var(--accent);
+  }
   .excerpt {
     margin-top: var(--space-xs);
     max-width: var(--measure);
     color: var(--ink-soft);
   }
-  .more {
-    display: inline-block;
-    margin-top: var(--space-s);
-    font-size: var(--step--1);
-    letter-spacing: 0.06em;
-    text-transform: uppercase;
-    text-decoration: none;
-    border-bottom: 1px solid var(--accent);
+
+  @media (max-width: 34rem) {
+    .card {
+      grid-template-columns: 1fr;
+      gap: var(--space-s);
+    }
+    .thumb img,
+    .thumb-empty {
+      aspect-ratio: 16 / 9;
+    }
   }
 </style>

@@ -3,6 +3,7 @@ title: Testimony to the Ohio House Transportation Committee
 description: In February 2025 I testified in support of an amendment to reinstate Ohio's membership in the Midwest Interstate Passenger Rail Commission.
 pubDate: 2025-02-12
 tags: [advocacy, passenger rail, testimony]
+heroImage: /blog/testimony.jpg
 ---
 
 *On February 12, 2025 I testified before the Ohio House Transportation Committee on behalf of All Aboard Ohio, in support of an amendment to House Bill 54 that would reinstate and fund Ohio's membership in the Midwest Interstate Passenger Rail Commission. A [recording is on the Ohio Channel](https://ohiochannel.org/video/ohio-house-transportation-committee-2-12-2025). The written testimony follows.*

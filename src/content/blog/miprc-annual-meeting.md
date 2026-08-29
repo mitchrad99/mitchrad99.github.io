@@ -3,6 +3,7 @@ title: 5 Takeaways from the MIPRC Annual Meeting
 description: What I learned representing Ohio at the Midwest Interstate Passenger Rail Commission meeting in St. Paul.
 pubDate: 2024-11-22
 tags: [advocacy, passenger rail]
+heroImage: /blog/miprc.jpg
 ---
 
 From November 18 to 20, I had the privilege of representing Ohio at the Midwest Interstate Passenger Rail Commission annual meeting in St. Paul, Minnesota. I gained valuable insights and connections to advance passenger rail in our state, and I wanted to share my main takeaways.

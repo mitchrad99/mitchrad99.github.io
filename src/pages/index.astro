@@ -58,6 +58,7 @@ const posts = (await getPublishedPosts()).slice(0, 3);
           description={post.data.description}
           pubDate={post.data.pubDate}
           tags={post.data.tags}
+          compact
         />
       ))
     }
