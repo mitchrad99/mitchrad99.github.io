@@ -1,6 +1,6 @@
 ---
-title: Data Ethics in Modern Analytics
-description: Notes from a class on the social history of data — and why the ethics conversation matters for anyone entering the field.
+title: Data Ethics
+description: Thoughts on data ethics and privacy after a class on the social history of data.
 pubDate: 2021-03-07
 tags: [ethics, privacy, data science]
 heroImage: /blog/data-ethics.jpg

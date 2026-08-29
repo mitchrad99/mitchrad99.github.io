@@ -1,7 +1,6 @@
 ---
 import BaseLayout from './BaseLayout.astro';
 import FormattedDate from '../components/FormattedDate.astro';
-import { site } from '../site';
 
 interface Props {
   title: string;
@@ -40,12 +39,7 @@ const { title, description, pubDate, updatedDate, tags = [], heroImage, prev, ne
       {next ? <a href={next.href} class="align-right">{next.title} →</a> : <span></span>}
     </nav>
 
-    <footer class="bio">
-      <p>
-        Written by <strong>Mitch Radakovich</strong>. {site.tagline}
-        <a href="/blog">More posts →</a>
-      </p>
-    </footer>
+    <p class="back"><a href="/blog">← All posts</a></p>
   </article>
 </BaseLayout>
 
@@ -110,13 +104,15 @@ const { title, description, pubDate, updatedDate, tags = [], heroImage, prev, ne
     text-align: right;
     margin-left: auto;
   }
-  .bio {
+  .back {
     margin-top: var(--space-l);
-    max-width: var(--measure);
-    color: var(--ink-soft);
     font-size: var(--step--1);
   }
-  .bio a {
-    white-space: nowrap;
+  .back a {
+    text-decoration: none;
+    color: var(--ink-soft);
+  }
+  .back a:hover {
+    color: var(--accent);
   }
 </style>

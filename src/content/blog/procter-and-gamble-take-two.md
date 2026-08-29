@@ -1,6 +1,6 @@
 ---
 title: Procter & Gamble, Take Two
-description: Wrapping up a second P&G internship — this one fully virtual — building a Python model of the supply chain and learning that the engineering process pays off.
+description: Notes from my second P&G internship, spent building a Python model of the supply chain from home.
 pubDate: 2020-08-04
 tags: [experience, supply chain, python]
 heroImage: /blog/pg-take-two.jpg

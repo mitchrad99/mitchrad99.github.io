@@ -1,6 +1,6 @@
 ---
 title: Uncertain Spring
-description: Rebuilding a routine at home after the pandemic cut a research trip short and moved the rest of college online.
+description: On rebuilding a daily routine at home after March 2020.
 pubDate: 2020-04-22
 tags: [personal, reflection]
 heroImage: /blog/uncertain-spring.jpg

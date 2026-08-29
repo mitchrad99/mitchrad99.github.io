@@ -1,6 +1,6 @@
 ---
-title: Mapbox Challenge — Mapping Ohio's Vote Over Time
-description: Digging into two decades of Ohio election data to see where the state's voting habits are shifting, and how gerrymandering shows up in the numbers.
+title: Mapbox Challenge
+description: A look at twenty years of Ohio election data, county by county.
 pubDate: 2020-11-30
 tags: [data visualization, tableau, politics]
 heroImage: /blog/mapbox-challenge.png
@@ -46,6 +46,6 @@ I was interested in seeing the effects of gerrymandering on voter turnout, so I 
 
 Mapping over time is difficult. Too often, we can only look at the results of a single election, which leads to a massive loss of context. By comparing maps year over year, we can pull trends out of geography. These trends can be incredibly useful to people in politics, especially when planning for future campaigns.
 
-- [Explore my dashboards on Tableau Public](https://public.tableau.com/profile/mitch.daniel.radakovich)
+- [Explore my dashboards on Tableau Public](https://public.tableau.com/app/profile/mitch.daniel.radakovich)
 - [Data from the Ohio Secretary of State](https://www.sos.state.oh.us/elections/election-results-and-data/)
 - [Challenge from Mapbox](https://www.mapbox.com/elections-challenge-2020)

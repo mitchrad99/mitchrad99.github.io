@@ -1,10 +1,8 @@
 export const site = {
   title: 'Mitch Radakovich',
-  // Timeless one-liner — no job titles or dates that go stale.
-  tagline: 'Data scientist. I write about analytics, supply chain, ethics in tech, and whatever I am learning.',
-  description:
-    'Personal site and blog of Mitch Radakovich — writing on data, analytics, supply chain, and technology.',
+  description: 'Mitch Radakovich — personal site and blog.',
   url: 'https://mitchradakovich.com',
+  // TODO: replace with a current address — this OSU one is almost certainly dead.
   email: 'radakovich.1@osu.edu',
 };
 
@@ -15,8 +13,9 @@ export const nav = [
 ];
 
 export const socials = [
-  { label: 'Email', href: 'mailto:radakovich.1@osu.edu' },
+  { label: 'Email', href: `mailto:${site.email}` },
   { label: 'GitHub', href: 'https://github.com/mitchrad99' },
+  // TODO: confirm this LinkedIn URL is correct.
   { label: 'LinkedIn', href: 'https://www.linkedin.com/in/mitchradakovich' },
-  { label: 'Goodreads', href: 'https://www.goodreads.com/mitchradakovich' },
+  // TODO: add real Goodreads profile URL (Goodreads uses numeric IDs) or drop this.
 ];
