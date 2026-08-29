@@ -1,0 +1,23 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+---
+
+<BaseLayout title="Not found" description="Page not found.">
+  <section class="wrap">
+    <div class="page-rule"></div>
+    <h1>That page isn't here.</h1>
+    <p class="lede">
+      The link may be old. Try the <a href="/blog">blog</a> or head
+      <a href="/">home</a>.
+    </p>
+  </section>
+</BaseLayout>
+
+<style>
+  .wrap {
+    padding-block: var(--space-xl);
+  }
+  .lede {
+    margin-top: var(--space-s);
+  }
+</style>

@@ -1,0 +1,27 @@
+---
+title: What Ohio's Transit Advocates Can Teach Washington About Coalition Building
+description: A dormant Ohio nonprofit grew to more than 8,000 members in three years. Here is what that taught me about building coalitions on infrastructure.
+pubDate: 2026-09-01
+tags: [advocacy, passenger rail, coalition building]
+heroImage: /blog/smart-cities.jpg
+---
+
+*I wrote this for the Dentons Infrastructure Think Tank.*
+
+Around 2022, I got involved with All Aboard Ohio, a statewide transit advocacy nonprofit founded in the 1970s, with a mission that had never lost its relevance even as the organization itself had lost momentum.
+
+All Aboard Ohio aims to expand transportation choices, improve mobility, and increase access across the state, working through a state board that supports local chapters and leads statewide coalitions. Stakeholders and influential partners are brought together to take advantage of opportunities for passenger rail development that present themselves through state and federal funding. The organization acts as a liaison in helping this network achieve its shared vision by uniting leadership to navigate those opportunities.
+
+I helped organize and rebuild the Cincinnati chapter, and after leading that effort for a few years, the board elected me chair of the statewide organization in February 2024.
+
+Over the past three years the organization has grown from about 200 members to more than 8,000 across eight chapters. Work on economic and regional integration, focused on job creation, Midwest community connectivity, and investment benefits, is fueling support for passenger rail service expansion in a state that had little enthusiasm for such activity for decades. That growth is a case study in what patient, often unglamorous advocacy work can accomplish. It is also an object lesson on how, even in a highly polarized political climate, infrastructure as a policy area is one of the strongest spaces to build real coalitions, spanning party lines and bringing together professionals and grassroots organizers to achieve a common goal.
+
+Advocacy groups like All Aboard Ohio rarely get much credit outside their own circles. Nobody writes headlines about chapter-building, member recruitment, or showing up to city council meetings, but that groundwork is what eventually gives a coalition enough weight to make a real impact. Ohio's chapters trained local leaders, built a strong membership system, and turned a niche cause into an organization that policymakers, journalists, and business leaders now take seriously. Community empowerment is one of the organization's stated values, and it shows up in how the state board works alongside local chapters to shape priorities for their regions of the state. Amtrak, the Rail Passengers Association, and the Ohio Chamber of Commerce all now engage directly with Ohio's advocacy work, something that would have been hard to picture three years ago.
+
+This spring's inaugural Ohio Rail Summit in Columbus drew nearly 200 attendees, a keynote from Amtrak's Board Vice Chair, six local TV news stations, and coalition partners including the Environmental Law and Policy Center, regional planning commissions, the French Consulate, and professors from universities across the state. The room spanned college freshmen and seasoned advocates who'd been at this for decades, state and local government leaders and the people they represent and, in some cases, oppose. Groups that rarely have occasion to gather around a common table came together with a unity of purpose that day. The room pulsed with an energy that drives people to lay the tracks (so to speak!) to actually do something afterward.
+
+In the Statehouse, legislation to reinstate Ohio's membership in the Midwest Interstate Passenger Rail Compact moved forward with co-sponsorship from a Republican and a Democratic senator, both members of their party's leadership. In a demonstration of an obvious notion too often lost in our current era, legislators can back the same bill for different reasons: here, one focused on a future of tourism and economic vitality for their small town, another on environmental impact and job creation. Infrastructure tends to have something in it for everyone, which is a big part of why it's still able to rally bipartisan support when so little else does.
+
+Successful coalitions like this need two things working together: grassroots organizations doing the slow, often thankless work of building public support, and professionals bringing the technical and policy expertise to turn that support into something real. Advocates push harder than industry professionals acting alone usually can, since professionals are constrained by the budgets and politics of the institutions they work for in a way advocates may not be. This is why groups like All Aboard Ohio can be the engine that drives the train, doing what interested professionals often can't do on their own. Progress on an issue requires both roles at once, even when they're pulling with different levels of force.
+
+This fall, I'm heading to Washington, DC for a sabbatical focused on bringing some of what Ohio has learned through the All Aboard Ohio experience to a national audience. A handful of people found common ground in a desire to organize around a system that had been partially derailed for years but whose mission is more relevant than ever. They kept showing up, and by building consensus around that common vision, they're now driving something bigger than any one of them.

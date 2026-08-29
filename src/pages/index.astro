@@ -1,0 +1,142 @@
+---
+import { Image } from 'astro:assets';
+import BaseLayout from '../layouts/BaseLayout.astro';
+import PostCard from '../components/PostCard.astro';
+import { getPublishedPosts, postHref } from '../lib/posts';
+import heroPhoto from '../assets/photos/nyc-portrait-hero.jpg';
+
+const posts = (await getPublishedPosts()).slice(0, 3);
+---
+
+<BaseLayout>
+  <section class="hero wrap">
+    <div class="hero-text">
+      <h1>
+        I optimize freight networks for a living and organize for public
+        transportation the rest of the time.
+      </h1>
+      <p class="sub">This is where I write about both.</p>
+    </div>
+    <figure class="hero-photo">
+      <Image
+        src={heroPhoto}
+        alt="Mitch Radakovich in front of the Williamsburg Bridge and Manhattan skyline"
+        widths={[360, 540, 720]}
+        sizes="(max-width: 48rem) 100vw, 22rem"
+      />
+    </figure>
+  </section>
+
+  <section class="about wrap">
+    <h2>About</h2>
+    <p>
+      I grew up in Ohio and now split my time between Cincinnati and Washington,
+      DC.
+    </p>
+    <p>
+      By day I'm a data scientist at Procter &amp; Gamble, working on freight and
+      how to move it more efficiently. The other half of my time goes to
+      <a href="https://allaboardohio.org">All Aboard Ohio</a>, a nonprofit I
+      chair that pushes the state to take public transportation seriously.
+    </p>
+    <p>
+      Outside of that: running, soccer, a lot of books, trombone, and too much
+      coffee.
+    </p>
+  </section>
+
+  <section class="writing wrap">
+    <div class="section-head">
+      <h2>Recent writing</h2>
+      <a href="/blog" class="all">All posts →</a>
+    </div>
+    {
+      posts.map((post) => (
+        <PostCard
+          href={postHref(post)}
+          title={post.data.title}
+          description={post.data.description}
+          pubDate={post.data.pubDate}
+          tags={post.data.tags}
+          image={post.data.heroImage}
+        />
+      ))
+    }
+  </section>
+</BaseLayout>
+
+<style>
+  .hero {
+    padding-top: var(--space-2xl);
+    padding-bottom: var(--space-l);
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) 22rem;
+    gap: clamp(1.5rem, 5vw, 4rem);
+    align-items: center;
+  }
+  .hero h1 {
+    font-size: var(--step-3);
+    text-wrap: balance;
+  }
+  .hero .sub {
+    margin-top: var(--space-s);
+    font-size: var(--step-0);
+    color: var(--ink-soft);
+  }
+  .hero-photo {
+    margin: 0;
+  }
+  .hero-photo :global(img) {
+    width: 100%;
+    height: auto;
+    display: block;
+    border: 1px solid var(--rule);
+  }
+  @media (max-width: 48rem) {
+    .hero {
+      grid-template-columns: 1fr;
+    }
+    .hero-photo {
+      max-width: 20rem;
+    }
+  }
+
+  .about {
+    padding-top: var(--space-l);
+    margin-top: var(--space-l);
+    border-top: 1px solid var(--rule);
+  }
+  .about > * + * {
+    margin-top: var(--space-m);
+  }
+  .about p {
+    max-width: var(--measure);
+  }
+  .about a {
+    text-decoration-color: var(--accent);
+  }
+
+  .writing {
+    padding-top: var(--space-l);
+    margin-top: var(--space-xl);
+    border-top: 1px solid var(--rule);
+  }
+  .section-head {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    gap: var(--space-m);
+    margin-bottom: var(--space-s);
+  }
+  .all {
+    font-size: var(--step--1);
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: var(--ink-soft);
+    white-space: nowrap;
+  }
+  .all:hover {
+    color: var(--accent);
+  }
+</style>

@@ -1,0 +1,62 @@
+# PagesCMS configuration — https://pagescms.org
+# Connect this repo at https://app.pagescms.org to edit posts in a rich editor.
+
+media:
+  - name: blog-media
+    label: Blog images
+    input: public/blog
+    output: /blog
+    extensions: [jpg, jpeg, png, gif, webp, svg, avif]
+
+content:
+  - name: blog
+    label: Blog posts
+    type: collection
+    path: src/content/blog
+    filename: '{fields.title}.md'
+    view:
+      fields: [title, pubDate, draft]
+      primary: title
+      sort: [pubDate, title]
+      default:
+        sort: pubDate
+        order: desc
+    fields:
+      - name: title
+        label: Title
+        type: string
+        required: true
+      - name: description
+        label: Excerpt / summary
+        type: text
+        required: true
+        description: One or two sentences. Shown on the blog index and used for search/social previews.
+      - name: pubDate
+        label: Publish date
+        type: date
+        required: true
+        options:
+          format: yyyy-MM-dd
+      - name: updatedDate
+        label: Updated date
+        type: date
+        options:
+          format: yyyy-MM-dd
+      - name: tags
+        label: Tags
+        type: string
+        list: true
+      - name: heroImage
+        label: Hero image
+        type: image
+        options:
+          media: blog-media
+      - name: draft
+        label: Draft (hide from the live site)
+        type: boolean
+        default: false
+      - name: body
+        label: Post
+        type: rich-text
+        options:
+          media: blog-media
