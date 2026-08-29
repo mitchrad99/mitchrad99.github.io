@@ -1,0 +1,122 @@
+---
+import BaseLayout from './BaseLayout.astro';
+import FormattedDate from '../components/FormattedDate.astro';
+import { site } from '../site';
+
+interface Props {
+  title: string;
+  description: string;
+  pubDate: Date;
+  updatedDate?: Date;
+  tags?: string[];
+  heroImage?: string;
+  prev?: { href: string; title: string } | null;
+  next?: { href: string; title: string } | null;
+}
+
+const { title, description, pubDate, updatedDate, tags = [], heroImage, prev, next } = Astro.props;
+---
+
+<BaseLayout title={title} description={description} image={heroImage} article={true}>
+  <article class="wrap">
+    <header class="post-head">
+      <p class="breadcrumb"><a href="/blog">Blog</a></p>
+      <h1>{title}</h1>
+      <p class="meta">
+        <FormattedDate date={pubDate} />
+        {updatedDate && <span>· updated <FormattedDate date={updatedDate} /></span>}
+        {tags.length > 0 && <span class="tags">{tags.join(' · ')}</span>}
+      </p>
+    </header>
+
+    {heroImage && <img class="hero" src={heroImage} alt="" />}
+
+    <div class="prose post-body">
+      <slot />
+    </div>
+
+    <nav class="post-nav">
+      {prev ? <a href={prev.href}>← {prev.title}</a> : <span></span>}
+      {next ? <a href={next.href} class="align-right">{next.title} →</a> : <span></span>}
+    </nav>
+
+    <footer class="bio">
+      <p>
+        Written by <strong>Mitch Radakovich</strong>. {site.tagline}
+        <a href="/blog">More posts →</a>
+      </p>
+    </footer>
+  </article>
+</BaseLayout>
+
+<style>
+  .wrap {
+    padding-top: var(--space-xl);
+  }
+  .post-head {
+    max-width: var(--measure);
+  }
+  .breadcrumb {
+    font-size: var(--step--1);
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--ink-faint);
+  }
+  .breadcrumb a {
+    text-decoration: none;
+  }
+  h1 {
+    margin-top: var(--space-xs);
+    font-size: var(--step-3);
+  }
+  .meta {
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--space-s);
+    margin-top: var(--space-s);
+    font-size: var(--step--1);
+    color: var(--ink-faint);
+  }
+  .tags {
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+  }
+  .hero {
+    margin-block: var(--space-l);
+    width: 100%;
+    border: 1px solid var(--rule);
+  }
+  .post-body {
+    margin-top: var(--space-l);
+  }
+  .post-nav {
+    display: flex;
+    justify-content: space-between;
+    gap: var(--space-m);
+    margin-top: var(--space-xl);
+    padding-top: var(--space-m);
+    border-top: 1px solid var(--rule);
+    font-size: var(--step--1);
+  }
+  .post-nav a {
+    text-decoration: none;
+    color: var(--ink-soft);
+    max-width: 22ch;
+  }
+  .post-nav a:hover {
+    color: var(--accent);
+  }
+  .align-right {
+    text-align: right;
+    margin-left: auto;
+  }
+  .bio {
+    margin-top: var(--space-l);
+    max-width: var(--measure);
+    color: var(--ink-soft);
+    font-size: var(--step--1);
+  }
+  .bio a {
+    white-space: nowrap;
+  }
+</style>

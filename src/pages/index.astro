@@ -1,0 +1,134 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import PostCard from '../components/PostCard.astro';
+import { getPublishedPosts, postHref } from '../lib/posts';
+import { site } from '../site';
+
+const posts = (await getPublishedPosts()).slice(0, 3);
+---
+
+<BaseLayout>
+  <section class="hero wrap">
+    <p class="eyebrow">Mitch Radakovich</p>
+    <h1>
+      Data scientist writing about analytics, supply chain, and the ethics of the
+      systems we build.
+    </h1>
+  </section>
+
+  <section class="about wrap">
+    <div class="about-grid">
+      <div class="prose">
+        <h2>About</h2>
+        <p>
+          I work in data science — the day-to-day is analytics, modeling, and the
+          logistics of moving information (and physical things) from one place to
+          another. I studied it formally, but most of what I use I picked up by
+          building things and getting them wrong first.
+        </p>
+        <p>
+          This site is mostly a place to write. I'm interested in how data gets
+          used well, how it gets used badly, and the gap between a clean model and
+          a messy real-world process. Some posts are technical, some are just
+          notes from whatever I'm learning at the time.
+        </p>
+      </div>
+      <aside class="sidecard">
+        <p class="eyebrow">Elsewhere</p>
+        <ul>
+          <li><a href="https://github.com/mitchrad99">GitHub</a></li>
+          <li><a href="https://www.linkedin.com/in/mitchradakovich">LinkedIn</a></li>
+          <li><a href="/resume">Resume</a></li>
+          <li><a href={`mailto:${site.email}`}>Email</a></li>
+        </ul>
+      </aside>
+    </div>
+  </section>
+
+  <section class="writing wrap">
+    <div class="section-head">
+      <h2>Recent writing</h2>
+      <a href="/blog" class="all">All posts →</a>
+    </div>
+    {
+      posts.map((post) => (
+        <PostCard
+          href={postHref(post)}
+          title={post.data.title}
+          description={post.data.description}
+          pubDate={post.data.pubDate}
+          tags={post.data.tags}
+        />
+      ))
+    }
+  </section>
+</BaseLayout>
+
+<style>
+  .hero {
+    padding-top: var(--space-2xl);
+    padding-bottom: var(--space-xl);
+  }
+  .hero h1 {
+    margin-top: var(--space-s);
+    max-width: 20ch;
+  }
+  .about {
+    padding-block: var(--space-l);
+    border-top: 1px solid var(--rule);
+  }
+  .about-grid {
+    display: grid;
+    grid-template-columns: minmax(0, var(--measure)) 1fr;
+    gap: var(--space-xl);
+    align-items: start;
+  }
+  .sidecard {
+    position: sticky;
+    top: var(--space-m);
+  }
+  .sidecard ul {
+    list-style: none;
+    padding: 0;
+    margin-top: var(--space-xs);
+  }
+  .sidecard li + li {
+    margin-top: 0.4em;
+  }
+  .sidecard a {
+    text-decoration: none;
+    border-bottom: 1px solid var(--rule);
+  }
+  .sidecard a:hover {
+    border-color: var(--accent);
+  }
+  .writing {
+    padding-top: var(--space-xl);
+  }
+  .section-head {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    gap: var(--space-m);
+    margin-bottom: var(--space-s);
+  }
+  .all {
+    font-size: var(--step--1);
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: var(--ink-soft);
+  }
+  .all:hover {
+    color: var(--accent);
+  }
+  @media (max-width: 46rem) {
+    .about-grid {
+      grid-template-columns: 1fr;
+      gap: var(--space-l);
+    }
+    .sidecard {
+      position: static;
+    }
+  }
+</style>

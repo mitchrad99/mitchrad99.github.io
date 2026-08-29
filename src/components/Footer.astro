@@ -1,0 +1,57 @@
+---
+import { socials } from '../site';
+const year = new Date().getFullYear();
+---
+
+<footer class="site-footer">
+  <div class="wrap inner">
+    <ul class="links">
+      {
+        socials.map((s) => (
+          <li>
+            <a href={s.href}>{s.label}</a>
+          </li>
+        ))
+      }
+    </ul>
+    <p class="copy">&copy; {year} Mitch Radakovich</p>
+  </div>
+</footer>
+
+<style>
+  .site-footer {
+    border-top: 1px solid var(--rule);
+    margin-top: var(--space-2xl);
+    padding-block: var(--space-l);
+  }
+  .inner {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    gap: var(--space-m);
+  }
+  .links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--space-m);
+    list-style: none;
+    padding: 0;
+  }
+  .links a {
+    font-size: var(--step--1);
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: var(--ink-soft);
+    border-bottom: 1px solid transparent;
+  }
+  .links a:hover {
+    color: var(--ink);
+    border-color: var(--accent);
+  }
+  .copy {
+    font-size: var(--step--1);
+    color: var(--ink-faint);
+  }
+</style>

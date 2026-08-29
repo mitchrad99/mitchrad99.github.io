@@ -1,0 +1,75 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { socials, site } from '../site';
+---
+
+<BaseLayout title="Contact" description="Get in touch with Mitch Radakovich.">
+  <section class="wrap">
+    <p class="eyebrow">Contact</p>
+    <h1>Get in touch</h1>
+    <p class="lede">
+      The fastest way to reach me is email. I'm also around in the usual places.
+    </p>
+
+    <ul class="channels">
+      <li>
+        <span class="k">Email</span>
+        <a href={`mailto:${site.email}`}>{site.email}</a>
+      </li>
+      {
+        socials
+          .filter((s) => s.label !== 'Email')
+          .map((s) => (
+            <li>
+              <span class="k">{s.label}</span>
+              <a href={s.href}>{s.href.replace(/^https?:\/\//, '')}</a>
+            </li>
+          ))
+      }
+    </ul>
+  </section>
+</BaseLayout>
+
+<style>
+  .wrap {
+    padding-top: var(--space-2xl);
+  }
+  h1 {
+    margin-top: var(--space-2xs);
+  }
+  .lede {
+    margin-top: var(--space-s);
+    max-width: var(--measure);
+    color: var(--ink-soft);
+  }
+  .channels {
+    margin-top: var(--space-xl);
+    list-style: none;
+    padding: 0;
+    max-width: var(--measure);
+  }
+  .channels li {
+    display: flex;
+    gap: var(--space-m);
+    padding-block: var(--space-s);
+    border-bottom: 1px solid var(--rule);
+  }
+  .channels li:first-child {
+    border-top: 1px solid var(--rule);
+  }
+  .k {
+    flex: 0 0 6rem;
+    font-size: var(--step--1);
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--ink-faint);
+    padding-top: 0.15em;
+  }
+  .channels a {
+    text-decoration: none;
+    border-bottom: 1px solid var(--rule);
+  }
+  .channels a:hover {
+    border-color: var(--accent);
+  }
+</style>
