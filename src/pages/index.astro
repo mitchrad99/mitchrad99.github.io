@@ -1,8 +1,10 @@
 ---
+import { Image } from 'astro:assets';
 import BaseLayout from '../layouts/BaseLayout.astro';
 import PostCard from '../components/PostCard.astro';
 import { getPublishedPosts, postHref } from '../lib/posts';
 import { site } from '../site';
+import portrait from '../assets/mitch-radakovich.jpg';
 
 const posts = (await getPublishedPosts()).slice(0, 3);
 ---
@@ -31,6 +33,13 @@ const posts = (await getPublishedPosts()).slice(0, 3);
         </p>
       </div>
       <aside class="sidecard">
+        <Image
+          src={portrait}
+          alt="Mitch Radakovich"
+          class="portrait"
+          widths={[320, 480, 640]}
+          sizes="(max-width: 46rem) 60vw, 20rem"
+        />
         <p class="eyebrow">Elsewhere</p>
         <ul>
           <li><a href="https://github.com/mitchrad99">GitHub</a></li>
@@ -80,9 +89,12 @@ const posts = (await getPublishedPosts()).slice(0, 3);
     gap: var(--space-xl);
     align-items: start;
   }
-  .sidecard {
-    position: sticky;
-    top: var(--space-m);
+  .portrait {
+    width: 100%;
+    max-width: 20rem;
+    height: auto;
+    border: 1px solid var(--rule);
+    margin-bottom: var(--space-m);
   }
   .sidecard ul {
     list-style: none;
@@ -123,9 +135,6 @@ const posts = (await getPublishedPosts()).slice(0, 3);
     .about-grid {
       grid-template-columns: 1fr;
       gap: var(--space-l);
-    }
-    .sidecard {
-      position: static;
     }
   }
 </style>
