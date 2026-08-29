@@ -1,56 +1,84 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
 
-// PLACEHOLDER CONTENT — replace with real details (or wire this into PagesCMS later).
-// Drop a PDF at /public/resume.pdf to enable the download link.
-const experience = [
+const advocacy = [
   {
-    role: 'Job Title',
-    org: 'Company',
-    dates: 'Year – Present',
+    role: 'Board Chair',
+    org: 'All Aboard Ohio',
+    dates: 'June 2023 – Present',
     points: [
-      'What you did in this role.',
-      'A specific project and how it went.',
+      "Revived AAO's dormant Cincinnati chapter after a 10-year hiatus and grew it tenfold. That work led to a seat on the AAO board in June 2023 and to Board Chair in February 2024.",
+      'Grew AAO membership from roughly 200 to over 8,000 across 8 chapters statewide, building an intergenerational coalition that runs from college chapters to advocates who have been at this for decades.',
+      'Engaged directly with city councils and county commissioners in nearly two dozen Ohio cities on multimodal transportation and transit-oriented development. Presented to the Cincinnati CEO Roundtable and met with chambers of commerce statewide.',
+      "Testified before the Ohio House and Senate on passenger rail policy. Led AAO's advocacy during the 2025 Ohio budget cycle, including helping secure Ohio's reentry into the Midwest Interstate Passenger Rail Commission (MIPRC).",
+      "Built bipartisan relationships with Ohio legislators, hosting the Republican chair of the House Transportation Committee at AAO's 2025 annual meeting and supporting a bill cosponsored by a Republican Senate leader and the Democratic Senate Minority Leader.",
+      'Advise rail advocacy organizations in Oregon, Washington, and Michigan on coalition building and campaign strategy. Presented at statewide meetings for All Aboard Oregon and All Aboard Washington.',
+      "Organized AAO's inaugural Rail Summit and presented at Rail Nation, the national passenger rail conference, alongside Amtrak President Roger Harris.",
+      "Serve on the High Speed Rail Alliance's Young Professionals Board and coordinate with the Rail Passengers Association, including planning this year's Rail Nation conference in Toledo, Ohio.",
+      "Earned more than 80 media hits in 2025 and a Cincinnati Enquirer front-page feature in 2024. Grew AAO's social media from a few hundred followers to over 50,000 across 9 platforms.",
+      "Ran two one-year strategic planning cycles and a separate 3-to-5-year plan, formalized AAO's first paid staff positions, and secured over $40,000 in grant funding.",
     ],
   },
+];
+
+const experience = [
   {
-    role: 'Earlier Job Title',
-    org: 'Company',
-    dates: 'Year – Year',
-    points: ['What you did here.'],
+    role: 'Senior Data Scientist, Global Transportation',
+    org: 'Procter & Gamble',
+    dates: '2021 – Present',
+    points: [
+      'Promoted after two years into a newly created global role, after identifying a gap in transportation data science capability and convincing leadership to build a function to fill it.',
+      "Lead algorithm strategy for a freight network representing over $5 billion in annual spend, working across 4 of P&G's 5 global regions and with colleagues in more than a dozen countries.",
+      "Designed and built P&G's North America Network Optimizer from scratch. It is an end-to-end, cloud-based production system that optimizes intersite transportation for products moving to every North American retail store.",
+      'Mentor junior data scientists across 6 countries and supervise a data science intern, applying optimization, simulation, forecasting, and generative AI to global transportation problems.',
+      'Led the North America rollout of "AI Factory," P&G\'s framework for production-grade data science tools, and taught an internal course on building production-grade algorithms across two terms.',
+      "Led the Data & Analytics New Hire Network of more than 100 members for two years, running onboarding, networking, and leadership programming across P&G's North America IT organization.",
+    ],
   },
 ];
 
 const education = [
   {
-    credential: 'B.S. in Data Science',
+    credential: 'B.S., Data Science',
     org: 'The Ohio State University',
-    dates: 'Year',
-    detail: 'Relevant coursework, honors, or activities.',
+    dates: '2021',
+    detail:
+      'Business and Logistics specialization. Minors in City & Regional Planning and History.',
   },
 ];
 
-const skills = [
-  { group: 'Languages', items: 'Python, R, SQL' },
-  { group: 'Tools', items: 'pandas, scikit-learn, Tableau, Git' },
-  { group: 'Focus areas', items: 'Analytics, forecasting, supply chain / operations research' },
-];
+const additional =
+  'SPHINX Honorary (top 24 of the OSU class). Eagle Scout. May Festival Chorus. P&G Jazz Band, trombone. Two-time marathon finisher. Avid reader. Coffee enthusiast.';
 ---
 
 <BaseLayout title="Resume" description="Mitch Radakovich's resume.">
   <section class="wrap">
+    <div class="page-rule"></div>
     <div class="head">
-      <div>
-        <p class="eyebrow">Resume</p>
-        <h1>Resume</h1>
-      </div>
+      <h1>Resume</h1>
       <a class="download" href="/resume.pdf">Download PDF ↓</a>
     </div>
 
-    <p class="note">
-      <strong>Placeholder.</strong> Replace the content in
-      <code>src/pages/resume.astro</code> and add <code>public/resume.pdf</code>.
-    </p>
+    <div class="section">
+      <h2>Advocacy</h2>
+      {
+        advocacy.map((job) => (
+          <div class="entry">
+            <div class="entry-head">
+              <h3>
+                {job.role} · <span class="org">{job.org}</span>
+              </h3>
+              <span class="dates">{job.dates}</span>
+            </div>
+            <ul>
+              {job.points.map((p) => (
+                <li>{p}</li>
+              ))}
+            </ul>
+          </div>
+        ))
+      }
+    </div>
 
     <div class="section">
       <h2>Experience</h2>
@@ -91,34 +119,23 @@ const skills = [
     </div>
 
     <div class="section">
-      <h2>Skills</h2>
-      <dl class="skills">
-        {
-          skills.map((s) => (
-            <div>
-              <dt>{s.group}</dt>
-              <dd>{s.items}</dd>
-            </div>
-          ))
-        }
-      </dl>
+      <h2>Additional</h2>
+      <p class="additional">{additional}</p>
     </div>
   </section>
 </BaseLayout>
 
 <style>
   .wrap {
-    padding-top: var(--space-2xl);
+    padding-top: var(--space-xl);
     max-width: 52rem;
   }
   .head {
     display: flex;
-    align-items: flex-end;
+    align-items: baseline;
     justify-content: space-between;
     gap: var(--space-m);
-  }
-  h1 {
-    margin-top: var(--space-2xs);
+    flex-wrap: wrap;
   }
   .download {
     font-size: var(--step--1);
@@ -127,14 +144,6 @@ const skills = [
     text-decoration: none;
     border-bottom: 1px solid var(--accent);
     white-space: nowrap;
-  }
-  .note {
-    margin-top: var(--space-m);
-    padding: var(--space-s);
-    background: var(--paper-sunk);
-    border: 1px solid var(--rule);
-    font-size: var(--step--1);
-    color: var(--ink-soft);
   }
   .section {
     margin-top: var(--space-xl);
@@ -169,26 +178,10 @@ const skills = [
     color: var(--ink-soft);
   }
   .entry li + li {
-    margin-top: 0.3em;
+    margin-top: 0.4em;
   }
-  .skills {
+  .additional {
     margin-top: var(--space-m);
-  }
-  .skills > div {
-    display: flex;
-    gap: var(--space-m);
-    padding-block: var(--space-xs);
-    border-bottom: 1px solid var(--rule);
-  }
-  .skills dt {
-    flex: 0 0 9rem;
-    font-size: var(--step--1);
-    letter-spacing: 0.06em;
-    text-transform: uppercase;
-    color: var(--ink-faint);
-  }
-  .skills dd {
-    margin: 0;
     color: var(--ink-soft);
   }
 </style>

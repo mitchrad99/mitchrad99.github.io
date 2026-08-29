@@ -17,3 +17,5 @@ pnpm-debug.log*
 # editor
 .vscode/
 .idea/
+# local source material (resumes, drafts, docs) — keep out of the public repo
+sources/

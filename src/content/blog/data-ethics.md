@@ -3,7 +3,6 @@ title: Data Ethics
 description: Thoughts on data ethics and privacy after a class on the social history of data.
 pubDate: 2021-03-07
 tags: [ethics, privacy, data science]
-heroImage: /blog/data-ethics.jpg
 ---
 
 Last semester, I took a class through the Big Ten Academic Alliance at Rutgers entitled Data: A Social History. This class was an exploration into a number of data-related historical topics, including the introduction of data and aggregation techniques, development of data applications over the past 200 years, and the history of data ethics and privacy.

@@ -191,3 +191,11 @@ h3 {
   text-transform: uppercase;
   color: var(--ink-faint);
 }
+
+/* Interior page header: a short rule instead of a small-caps label */
+.page-rule {
+  width: 3.5rem;
+  height: 2px;
+  background: var(--ink);
+  margin-bottom: var(--space-m);
+}

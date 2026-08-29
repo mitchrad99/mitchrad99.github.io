@@ -4,7 +4,7 @@ import BaseLayout from '../layouts/BaseLayout.astro';
 
 <BaseLayout title="Not found" description="Page not found.">
   <section class="wrap">
-    <p class="eyebrow">404</p>
+    <div class="page-rule"></div>
     <h1>That page isn't here.</h1>
     <p class="lede">
       The link may be old. Try the <a href="/blog">blog</a> or head
@@ -15,10 +15,7 @@ import BaseLayout from '../layouts/BaseLayout.astro';
 
 <style>
   .wrap {
-    padding-block: var(--space-2xl);
-  }
-  h1 {
-    margin-top: var(--space-2xs);
+    padding-block: var(--space-xl);
   }
   .lede {
     margin-top: var(--space-s);

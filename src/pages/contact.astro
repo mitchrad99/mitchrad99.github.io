@@ -5,7 +5,7 @@ import { socials, site } from '../site';
 
 <BaseLayout title="Contact" description="How to reach Mitch Radakovich.">
   <section class="wrap">
-    <p class="eyebrow">Contact</p>
+    <div class="page-rule"></div>
     <h1>Get in touch</h1>
     <p class="lede">
       Email is the best way to reach me. The rest are below.
@@ -22,7 +22,7 @@ import { socials, site } from '../site';
           .map((s) => (
             <li>
               <span class="k">{s.label}</span>
-              <a href={s.href}>{s.href.replace(/^https?:\/\//, '')}</a>
+              <a href={s.href}>{s.href.replace(/^https?:\/\/(www\.)?/, '')}</a>
             </li>
           ))
       }
@@ -32,10 +32,7 @@ import { socials, site } from '../site';
 
 <style>
   .wrap {
-    padding-top: var(--space-2xl);
-  }
-  h1 {
-    margin-top: var(--space-2xs);
+    padding-top: var(--space-xl);
   }
   .lede {
     margin-top: var(--space-s);

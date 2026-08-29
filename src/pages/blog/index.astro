@@ -8,6 +8,7 @@ const posts = await getPublishedPosts();
 
 <BaseLayout title="Blog" description="Blog posts by Mitch Radakovich.">
   <section class="wrap head">
+    <div class="page-rule"></div>
     <h1>Blog</h1>
     <p class="lede">
       Posts about my work, plus notes on things I'm reading and thinking about.
@@ -32,10 +33,7 @@ const posts = await getPublishedPosts();
 
 <style>
   .head {
-    padding-top: var(--space-2xl);
-  }
-  h1 {
-    margin-top: var(--space-2xs);
+    padding-top: var(--space-xl);
   }
   .lede {
     margin-top: var(--space-s);
