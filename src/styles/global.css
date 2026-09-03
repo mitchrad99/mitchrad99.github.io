@@ -127,6 +127,8 @@ h3 {
 }
 .prose img {
   margin-block: var(--space-l);
+  margin-inline: auto;
+  max-height: min(80vh, 40rem);
   border: 1px solid var(--rule);
 }
 .prose blockquote {

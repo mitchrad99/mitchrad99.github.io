@@ -77,7 +77,10 @@ const { title, description, pubDate, updatedDate, tags = [], heroImage, prev, ne
   }
   .hero {
     margin-block: var(--space-l);
-    width: 100%;
+    margin-inline: auto;
+    max-width: 100%;
+    /* portrait photos are bounded by height, landscape by width */
+    max-height: min(75vh, 36rem);
     border: 1px solid var(--rule);
   }
   .post-body {
