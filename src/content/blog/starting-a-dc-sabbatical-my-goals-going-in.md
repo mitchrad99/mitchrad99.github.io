@@ -7,7 +7,7 @@ updatedDate: 2026-09-03
 heroImage: /blog/IMG_4979.jpeg
 draft: false
 ---
-*This is the first of what I plan to send out most Thursdays or Fridays during my DC sabbatical. It's a bit different than the ones I intend to send in the future, since I've only been here two days, but I wanted to share with you all about where my head is and what I'm chasing.*
+*This is the first of what I plan to send out most Thursdays or Fridays during my DC sabbatical (Sep 1 -> Nov 30, 2026). It's a bit different than the ones I intend to send in the future, since I've only been here two days, but I wanted to share with you all about where my head is and what I'm chasing.*
 
 I knew going into this sabbatical that the first week would be ambiguous. I did not expect just how overwhelming it would feel to stand in front of the sheer range of what is possible here. This week has been full of meetings and calls with the people who make up my life in Ohio and in DC: Lisa, Beth, Fred, and Liz at All Aboard Ohio, my mentor Kim, Margaret at Amtrak, Maddock (a recent Brown grad and transportation policy whiz), and Sam at United Way, all in the span of two days. Later today I am meeting with Jim from the Rail Passengers Association, along with two more of my mentors, Lindsey and Becky. Most of these conversations have followed a similar shape: brainstorming, talking through my goals, and listening to what people who have been at this far longer than I have think I should focus on next.
 
