@@ -37,6 +37,11 @@ content:
         required: true
         options:
           format: yyyy-MM-dd
+      - name: updatedDate
+        label: Updated date
+        type: date
+        options:
+          format: yyyy-MM-dd
       - name: tags
         label: Tags
         type: string
