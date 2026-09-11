@@ -30,7 +30,7 @@ Kaleb Neal showed me an application he is building to connect intercity travel d
 A call with James Flattum out of Colorado, who is putting his whole heart into the new [Colorado Connector](https://coloradoconnector.com) route on the Front Range, energized me in a similar way, and I'm looking forward to continuing to bounce ideas off him. I had coffee with Jerome Horne, a transit advocate and professional who has made a tremendous impact on projects across the country. I look forward to a follow up chat when I visit him in Baltimore in a few weeks! Also, an enlightening conversation with Jaibin Matthew from the Senate Transportation Committee, who gave me an introduction to "how stuff works" on Capitol Hill. 
 
 <figure style="text-align: center; margin: 2rem auto;">
-  <img src="/blog/1000091603.jpg" alt="Mitch and Jerome at a coffee shop" style="max-width: 100%; width: 500px; border-radius: 8px;" />
+  <img src="/blog/1000091603.jpg" alt="Mitch and Jerome at a coffee shop" style="max-width: 100%; width: 700px; border-radius: 8px;" />
   <figcaption style="margin-top: 0.5rem; font-size: 0.9rem; color: #666;">Me and Jerome, a prominent transit voice from Baltimore.</figcaption>
 </figure>
 
@@ -39,7 +39,7 @@ But the conversation that stuck with me most was with Thomas Davidenko, an Amtra
 On the personal side, I took it easy Friday and Saturday, hanging out with my new roommate Felix, who is here from Germany for a six-month legal fellowship. We hit the neighborhood dive bar Friday, and Saturday brought Jazz Fest at the Wharf. Coffee with my old college friend Emma gave me a longer-term resident's perspective on the city, and Sunday night I was back at the dive bar for neighborhood legend Granny and the Boys, who is 94 and has been performing there for 30 years. Sitting on the shore of the Potomac during Jazz Fest turned out to be one of the more relaxing hours of my whole week.
 
 <figure style="text-align: center; margin: 2rem auto;">
-  <img src="/blog/IMG_4996.jpeg" alt="Granny performing at the neighborhood dive bar" style="max-width: 100%; width: 500px; border-radius: 8px;" />
+  <img src="/blog/IMG_4996.jpeg" alt="Granny performing at the neighborhood dive bar" style="max-width: 100%; width: 700px; border-radius: 8px;" />
   <figcaption style="margin-top: 0.5rem; font-size: 0.9rem; color: #666;">Granny, neighborhood legend, who is 94 and has been performing there for 30 years.</figcaption>
 </figure>
 
