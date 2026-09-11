@@ -38,6 +38,11 @@ But the conversation that stuck with me most was with Thomas Davidenko, an Amtra
 
 On the personal side, I took it easy Friday and Saturday, hanging out with my new roommate Felix, who is here from Germany for a six-month legal fellowship. We hit the neighborhood dive bar Friday, and Saturday brought Jazz Fest at the Wharf. Coffee with my old college friend Emma gave me a longer-term resident's perspective on the city, and Sunday night I was back at the dive bar for neighborhood legend Granny and the Boys, who is 94 and has been performing there for 30 years. Sitting on the shore of the Potomac during Jazz Fest turned out to be one of the more relaxing hours of my whole week.
 
+<div style="display: flex; gap: 1.5rem; align-items: center; flex-wrap: wrap;">
+  <img src="/blog/IMG_4996.jpeg" alt="Granny performing at the neighborhood dive bar" style="width: 40%; min-width: 250px; border-radius: 8px;" />
+  <p>Granny, neighborhood legend, who is 94 and has been performing there for 30 years.</p>
+</div>
+
 I also kept up my reading! I finished [The Hard Thing About Hard Things](https://www.goodreads.com/book/show/20657434-the-hard-thing-about-hard-things) by Ben Horowitz. I don't agree with everything about his politics today, but the book delivered exactly what I was hoping for, real lessons on leading an organization that looks a lot like a startup in a lot of ways, and I'd recommend it widely.
 
 I'm halfway through [If You Want to Win, You've Got to Fight](https://www.goodreads.com/book/show/231233505?ref=s_s), a field guide to transportation advocacy, and I'm looking forward to talking with the author, Carter, when I meet him next week. We are also floating the idea of an AAO book club to read it together. And I'm halfway through [Boards That Lead](https://www.goodreads.com/book/show/17675452), which digs into board dynamics on the business side. A lot of it translates to nonprofit governance and a lot of it doesn't, but I'm finding real value in pulling out what applies to AAO.
