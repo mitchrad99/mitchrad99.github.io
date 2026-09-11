@@ -52,16 +52,15 @@ const ogImage = new URL(image, site.url).href;
 
     <!--
       Cloudflare Web Analytics — privacy-first, cookieless, no consent banner needed.
-      Replace TOKEN_GOES_HERE with the token from
-      https://dash.cloudflare.com/?to=/:account/web-analytics after adding this site.
+      Dashboard: https://dash.cloudflare.com/?to=/:account/web-analytics
       This token is meant to be public (it's embedded in client-side JS), so it's fine
       to commit as-is.
     -->
     <script
       is:inline
-      defer
+      type="module"
       src="https://static.cloudflareinsights.com/beacon.min.js"
-      data-cf-beacon='{"token": "TOKEN_GOES_HERE"}'></script>
+      data-cf-beacon='{"token": "04fc5e7f3d8348669c7905fcc9d5da51"}'></script>
   </head>
   <body>
     <a href="#main" class="skip-link">Skip to content</a>
