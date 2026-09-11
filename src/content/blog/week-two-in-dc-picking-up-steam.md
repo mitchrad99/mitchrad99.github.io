@@ -29,10 +29,12 @@ Kaleb Neal showed me an application he is building to connect intercity travel d
 
 A call with James Flattum out of Colorado, who is putting his whole heart into the new [Colorado Connector](https://coloradoconnector.com) route on the Front Range, energized me in a similar way, and I'm looking forward to continuing to bounce ideas off him. I had coffee with Jerome Horne, a transit advocate and professional who has made a tremendous impact on projects across the country. I look forward to a follow up chat when I visit him in Baltimore in a few weeks! Also, an enlightening conversation with Jaibin Matthew from the Senate Transportation Committee, who gave me an introduction to "how stuff works" on Capitol Hill. 
 
-   <div style="display: flex; gap: 1.5rem; align-items: center; flex-wrap: wrap;">
-     <img src="/images/blog/1000091603.jpg" alt="Description" style="width: 40%; min-width: 250px; border-radius: 8px;" />
+<div style="display: flex; gap: 1.5rem; align-items: center; flex-wrap: wrap;">
+     <img src="/blog/1000091603.jpg" alt="Description" style="width: 40%; min-width: 250px; border-radius: 8px;" />
      <p>A call with James Flattum out of Colorado, who is putting his whole heart into the new [Colorado Connector](https://coloradoconnector.com) route on the Front Range, energized me in a similar way, and I'm looking forward to continuing to bounce ideas off him. I had coffee with Jerome Horne, a transit advocate and professional who has made a tremendous impact on projects across the country. I look forward to a follow up chat when I visit him in Baltimore in a few weeks! Also, an enlightening conversation with Jaibin Matthew from the Senate Transportation Committee, who gave me an introduction to "how stuff works" on Capitol Hill.</p>
    </div>
+
+A call with James Flattum out of Colorado, who is putting his whole heart into the new [Colorado Connector](https://coloradoconnector.com) route on the Front Range, energized me in a similar way, and I'm looking forward to continuing to bounce ideas off him. I had coffee with Jerome Horne, a transit advocate and professional who has made a tremendous impact on projects across the country. I look forward to a follow up chat when I visit him in Baltimore in a few weeks! Also, an enlightening conversation with Jaibin Matthew from the Senate Transportation Committee, who gave me an introduction to "how stuff works" on Capitol Hill.
 
 But the conversation that stuck with me most was with Thomas Davidenko, an Amtrak employee who chairs Young Professionals in Transportation internationally. We went deep on what it would mean for RPA, APTA, and Amtrak to have boots on the ground doing grassroots advocacy all over the country.
 
