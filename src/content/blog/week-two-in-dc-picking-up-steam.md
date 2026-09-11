@@ -34,8 +34,6 @@ A call with James Flattum out of Colorado, who is putting his whole heart into t
      <p>Me and Jerome, a prominent transit voice from Baltimore.</p>
    </div>
 
-A call with James Flattum out of Colorado, who is putting his whole heart into the new [Colorado Connector](https://coloradoconnector.com) route on the Front Range, energized me in a similar way, and I'm looking forward to continuing to bounce ideas off him. I had coffee with Jerome Horne, a transit advocate and professional who has made a tremendous impact on projects across the country. I look forward to a follow up chat when I visit him in Baltimore in a few weeks! Also, an enlightening conversation with Jaibin Matthew from the Senate Transportation Committee, who gave me an introduction to "how stuff works" on Capitol Hill.
-
 But the conversation that stuck with me most was with Thomas Davidenko, an Amtrak employee who chairs Young Professionals in Transportation internationally. We went deep on what it would mean for RPA, APTA, and Amtrak to have boots on the ground doing grassroots advocacy all over the country.
 
 On the personal side, I took it easy Friday and Saturday, hanging out with my new roommate Felix, who is here from Germany for a six-month legal fellowship. We hit the neighborhood dive bar Friday, and Saturday brought Jazz Fest at the Wharf. Coffee with my old college friend Emma gave me a longer-term resident's perspective on the city, and Sunday night I was back at the dive bar for neighborhood legend Granny and the Boys, who is 94 and has been performing there for 30 years. Sitting on the shore of the Potomac during Jazz Fest turned out to be one of the more relaxing hours of my whole week.
