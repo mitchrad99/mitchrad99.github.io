@@ -23,7 +23,7 @@ I closed out the week with Beth, our comms director, planning out what her team 
 
 <figure style="text-align: center; margin: 2rem auto;">
   <img src="/blog/tempImageY7RfQt.jpg" alt="Rail Passengers Association Office" style="max-width: 100%; width: 500px; border-radius: 8px;" />
-  <figcaption style="margin-top: 0.5rem; font-size: 0.9rem; color: #666;">The Rail Passenger Association office, my home base during the sabbatical.</figcaption>
+  <figcaption style="margin-top: 0.5rem; font-size: 0.9rem; color: #666;">The Rail Passengers Association office, my home base during the sabbatical.</figcaption>
 </figure>
 
 The rest of the week kept building the case for a national coalition of state and local advocacy organizations, something I've been informally calling "All Aboard America" in my head. Dinner with Jim Mathews, RPA's CEO, gave me a much clearer picture of what is working in federal advocacy right now, and how much of it comes down to the same thing Ohio depends on: coalitions. We ran into Mariah, one of Amtrak's Government Affairs leaders, while we were there, which was a nice bonus.
