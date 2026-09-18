@@ -64,7 +64,7 @@ On top of all that, I started rereading [Catcher in the Rye](https://www.goodrea
 Against the three goals from the first post, this was the biggest week yet across the board. Personally, DC keeps finding new ways to surprise me, apparently including running errands by bike now.
 
 <figure style="text-align: center; margin: 2rem auto;">
-  <img src="/blog/IMG_5031.jpeg" alt="Mitch at bus stop" style="max-width: 100%; width: 500px; height: auto; object-fit: contain; border-radius: 8px;">
+  <img src="/blog/IMG_5031.jpeg" alt="Mitch at bus stop." style="max-width: 100%; width: 500px; height: auto; object-fit: contain; border-radius: 8px;">
   <figcaption style="margin-top: 0.5rem; font-size: 0.9rem; color: #666;">Waiting for the bus to take me to the APTA Fly-In.</figcaption>
 </figure>
 
