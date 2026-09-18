@@ -34,7 +34,7 @@ Thursday brought a different kind of room, the [Surface Transportation Board (ST
 Watching leaders from CSX and Norfolk Southern sit across the table from Amtrak and federal officials and watching STB Chair Patrick Fuchs and Committee Chair Henry Posner III run the meeting, gave me a lot to think about, especially right after finishing Boards That Lead this week and having board facilitation on the brain.
 
 <figure style="text-align: center; margin: 2rem auto;">
-  <img src="/blog/IMG_5053.jpg" alt="STB badge on a notebook" style="max-width: 100%; width: 500px; border-radius: 8px;">
+  <img src="/blog/IMG_5053.jpeg" alt="STB badge on a notebook" style="max-width: 100%; width: 500px; border-radius: 8px;">
   <figcaption style="margin-top: 0.5rem; font-size: 0.9rem; color: #666;">Super official.</figcaption>
 </figure>
 
