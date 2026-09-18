@@ -7,7 +7,7 @@ updatedDate: 2026-09-18
 heroImage: /blog/IMG_7698.jpeg
 draft: false
 ---
-*This is the third in a weekly series on my DC sabbatical (Sep 1 → Nov 30, 2026). Catch up on the first two posts if you missed them.*
+*This is the third in a weekly series on my DC sabbatical (Sep 1 → Nov 30, 2026). [Catch up on the first two posts](https://mitchradakovich.com/blog/) if you missed them.*
 
 Three weeks in, and my sabbatical is now full speed ahead. This week I had multiple incredible new experiences and many of my ideas have solidified further. Between a day on Capitol Hill, a day in the room with the passenger rail decision makers, and more one-on-one conversations than I can easily list, this was the busiest week yet.
 
