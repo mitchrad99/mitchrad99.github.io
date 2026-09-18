@@ -4,6 +4,7 @@ description: Days on the Hill for the APTA Fly-In, plus a seat in the room at
   the Surface Transportation Board.
 pubDate: 2026-09-18
 updatedDate: 2026-09-18
+heroImage: /blog/IMG_7698.jpeg
 draft: false
 ---
 *This is the third in a weekly series on my DC sabbatical (Sep 1 → Nov 30, 2026). Catch up on the first two posts if you missed them.*
