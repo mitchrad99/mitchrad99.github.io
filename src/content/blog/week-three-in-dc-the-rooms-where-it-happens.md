@@ -51,7 +51,7 @@ Outside of these big events, the frequent 1:1s and connects continued. I had man
   <figcaption style="margin-top: 0.5rem; font-size: 0.9rem; color: #666;">Virtual podcast recording session with Ryan and James.</figcaption>
 </figure>
 
-On the personal side, I got in a long bike ride up the full length of Rock Creek Park into Maryland over the weekend. Rock Creek is such a gem, which I have now enjoyed biking through along with running (I had a great morning 8 miler on Tuesday, joining my friend India for a trail run in the park!) I worked Monday from a coffee shop in the neighborhood with my friend Alex, then went shopping for a suit and rode my bike between stores the whole way, which might be my new favorite way to run an errand in this city. That suit got its first real use at the week's big events.
+On the personal side, I got in a long bike ride up the full length of Rock Creek Park into Maryland over the weekend. Rock Creek is such a gem, which I have now enjoyed biking through along with running (I had a great morning 8 miler on Tuesday, joining my friend India for a trail run in the park!) I worked Monday from a coffee shop in the neighborhood with my friend Alex, then went shopping for a suit and rode my bike between stores the whole way, which might be my new favorite way to run an errand in this city. That suit got its first use at the week's big events.
 
 Roommate Felix, the rest of the lawyer crew and I hit Old Ebbitt Grill this week, and we are hiking Old Rag in Shenandoah tomorrow. DC keeps delivering on fun, interesting, and affordable things to do!
 
