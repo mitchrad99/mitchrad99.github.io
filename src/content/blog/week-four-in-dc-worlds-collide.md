@@ -11,13 +11,19 @@ draft: false
 
 I knew I had become a regular at the RPA offices when I left my badge at home this week and Patterson at the front desk bailed me out no questions asked. The office fridge now has a shelf of my turkey sandwich supplies, plus apples, peppers, and hummus. When I need a change of scenery, the MLK public library has become my favorite spot to grind out specific projects (this week, mostly the national plan). It is also where I keep checking out my books. Shout out public libraries!!! But as settled as I am starting to feel, this was also the week my worlds collided, in the best way.
 
-[Photo: MLK Library]
-
-*MLK Library, my home away from the RPA office.*
+<figure style="text-align: center; margin: 2rem auto;">
+  <img src="/blog/MLK.png" alt="Library rooftop with greenery" style="max-width: 100%; width: 500px; border-radius: 8px;">
+  <figcaption style="margin-top: 0.5rem; font-size: 0.9rem; color: #666;">Rooftop of MLK Library, quite pleasant when it's not 120% humidity.</figcaption>
+</figure>
 
 I visited Procter & Gamble's DC office (yes, you read that right!) to meet the US Government Affairs team, at the invitation of Nicole, the VP who leads it. It was fascinating to see how much corporate and nonprofit government affairs have in common, and fun to find how much of my last five years at P&G has touched their work. I ended up in a long conversation with Christina, who worked on transportation policy at the US Chamber of Commerce before P&G. The next day we got happy hour with her friend Jen, who spent years working transportation policy on the Republican side of the Hill. Jen reaffirmed my belief that rail and transit can be truly bipartisan, and wowed me with her knowledge of both the policy and how to sell it.
 
 One of my favorite days this week started with coffee with my mentor Becky at the Georgetown Tatte. Becky knows the internal workings and politics of DC far better than I do, and I love when she challenges me or broadens how I think about something. Afterward I biked to RPA to help Jonsie, RPA's Chief of Staff, pack up equipment for [RailNation Toledo](https://www.allaboardohio.org/posts/toledo-to-host-national-rail-conference-where-michigan-s-momentum-meets-ohio-s-passenger-rail-futur). I cannot wait to welcome people from across the country to Ohio, and to show Ohio leaders that the rest of the country is counting on us.
+
+<figure style="text-align: center; margin: 2rem auto;">
+  <img src="/blog/Toledo.png" alt="Toledo amtrak sign" style="max-width: 100%; width: 500px; border-radius: 8px;">
+  <figcaption style="margin-top: 0.5rem; font-size: 0.9rem; color: #666;">Get hype.</figcaption>
+</figure>
 
 Ahead of the event, the RPA and AAO comms teams put out two releases, one announcing RailNation and another showcasing [John Christoph's economic modeling](https://news.railpassengers.org/p/passenger-rail-network-could-bring). John found that six proposed services could bring Ohio nearly $190 million in annual benefits and 1.69 million passenger trips a year. He usually works at the same table I do at RPA, so I get to talk tech and analytics with him often. His passion for this space is radiant.
 
@@ -33,15 +39,20 @@ Vice chair Lisa and I also met with Bill and Ed, two of the most experienced rai
 
 The biggest AAO news of the week was the announcement that John Esterly, our executive director, is stepping down effective September 30th. I wish John so well and look forward to working with him as a coalition partner in his role leading Ohio BLET. I am also excited about the growth ahead for AAO. Stay tuned for more there.
 
-[Photo: Old Rag]
-
-*Old Rag, with a lot more scrambling than expected.*
+<figure style="text-align: center; margin: 2rem auto; max-width: 700px;">
+  <div style="display: flex; flex-wrap: wrap; gap: 1rem; justify-content: center;">
+    <img src="/blog/old rag 3.jpg" alt="Group scrambling" style="flex: 1 1 280px; max-width: 100%; height: 300px; object-fit: cover; border-radius: 8px;">
+    <img src="/blog/old rag 1.png" alt="Mitch on a boulder" style="flex: 1 1 280px; max-width: 100%; height: 300px; object-fit: cover; border-radius: 8px;">
+  </div>
+  <figcaption style="margin-top: 0.5rem; font-size: 0.9rem; color: #666;">On top of the world at Old Rag, Shenandoah.</figcaption>
+</figure>
 
 On the personal side, the week opened on Old Rag in Shenandoah with the international lawyer crew. The next day brought the Smithsonian's National Museum of the American Indian and I enjoyed debrief calls with my friends Michael and Nashad who are far from DC. Felix played his first ever game of cribbage at a new neighborhood bar and came back from a near skunking to beat me, an underdog story worthy of an ESPN 30 for 30. The weather turned sunny and in the 60s and 70s, so I took afternoon runs to get my mileage back up, 5 to 6 miles at a time. [Follow me on Strava](https://www.strava.com/athletes/114123235)! We closed out the week with tapas to send off Charlotte and Nina, whose fellowships have ended. They will be missed.
 
-[Photo: cribbage with Felix]
-
-*Felix, moments before his historic comeback.*
+<figure style="text-align: center; margin: 2rem auto;">
+  <img src="/blog/cribbage.png" alt="Felix playing cribbage card game" style="max-width: 100%; width: 500px; border-radius: 8px;">
+  <figcaption style="margin-top: 0.5rem; font-size: 0.9rem; color: #666;">Felix, moments before his historic comeback.</figcaption>
+</figure>
 
 I finished [Catcher in the Rye](https://www.goodreads.com/book/show/5107.The_Catcher_in_the_Rye?ref=nav_sb_ss_1_7) and am well into [Trillion Dollar Coach](https://www.goodreads.com/book/show/42118073-trillion-dollar-coach), about Bill Campbell, the Silicon Valley great who mentored many of tech's most successful founders. He treated relationships, mentorship, and emotional intelligence as just as important as business or technical skill. It has me thinking about what I want AAO to be. I want it to be a place where people feel comfortable, bring their best selves, and see their talents celebrated and encouraged to grow. I want people stretched in a healthy way, so it is not just the movement that grows but each of our people too. I have grown so much through this experiment over the past few years, and I hope my team can say the same.
 
