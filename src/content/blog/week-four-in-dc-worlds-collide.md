@@ -7,7 +7,7 @@ updatedDate: 2026-09-26
 heroImage: /blog/old rag 2-1.jpg
 draft: false
 ---
-*This is the fourth in a weekly series on my DC sabbatical (Sep 1 → Nov 30, 2026). Catch up on earlier posts if you missed them.*
+*This is the fourth in a weekly series on my DC sabbatical (Sep 1 → Nov 30, 2026). [Catch up on earlier posts](https://mitchradakovich.com/blog/) if you missed them, and join my [mailing list](mailto:mitch@allaboardohio.org?subject=Add%20me%20to%20your%20mailing%20list&body=Please%20add%20me%20to%20your%20mailing%20list.) for future posts.*
 
 I knew I had become a regular at the RPA offices when I left my badge at home this week and Patterson at the front desk bailed me out no questions asked. The office fridge now has a shelf of my turkey sandwich supplies, plus apples, peppers, and hummus. When I need a change of scenery, the MLK public library has become my favorite spot to grind out specific projects (this week, mostly the national plan). It is also where I keep checking out my books. Shout out public libraries!!! But as settled as I am starting to feel, this was also the week my worlds collided, in the best way.
 
