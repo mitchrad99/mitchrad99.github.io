@@ -7,7 +7,7 @@ updatedDate: 2026-09-11
 heroImage: /blog/286E43C9-7DBA-4E68-9807-5DE095DC2BC3_1_105_c.jpeg
 draft: false
 ---
-*This is the second in a weekly series on my DC sabbatical (Sep 1 → Nov 30, 2026). Catch up on [the first post](https://mitchradakovich.com/blog/starting-a-dc-sabbatical-my-goals-going-in/) if you missed it.*
+*This is the second in a weekly series on my DC sabbatical (Sep 1 → Nov 30, 2026). Catch up on [the first post](https://mitchradakovich.com/blog/starting-a-dc-sabbatical-my-goals-going-in/) if you missed it, and [join my mailing list](mailto:mitch@allaboardohio.org?subject=Add%20me%20to%20your%20mailing%20list&body=Please%20add%20me%20to%20your%20mailing%20list.) for future posts.*
 
 It has been about a week since my last post. The nebulous sabbatical in front of me has solidified into a more concrete plan with weekly goals.
 
@@ -21,10 +21,9 @@ It all came together Wednesday night at our board meeting, which was an extremel
 
 I closed out the week with Beth, our comms director, planning out what her team has coming, and I left that call energized, and very pleased with how she is leading her team. We are so lucky to have her.
 
-<figure style="text-align: center; margin: 2rem auto;">
-  <img src="/blog/tempImageY7RfQt.jpg" alt="Rail Passengers Association Office" style="max-width: 100%; width: 500px; border-radius: 8px;" />
-  <figcaption style="margin-top: 0.5rem; font-size: 0.9rem; color: #666;">The Rail Passengers Association office, my home base during the sabbatical.</figcaption>
-</figure>
+![Rail Passengers Association Office](/blog/tempImageY7RfQt.jpg)
+
+The Rail Passengers Association office, my home base during the sabbatical.
 
 The rest of the week kept building the case for a national coalition of state and local advocacy organizations, something I've been informally calling "All Aboard America" in my head. Dinner with Jim Mathews, RPA's CEO, gave me a much clearer picture of what is working in federal advocacy right now, and how much of it comes down to the same thing Ohio depends on: coalitions. We ran into Mariah, one of Amtrak's Government Affairs leaders, while we were there, which was a nice bonus.
 
@@ -34,19 +33,17 @@ Kaleb Neal showed me an application he is building to connect intercity travel d
 
 A call with James Flattum out of Colorado, who is putting his whole heart into the new [Colorado Connector](https://coloradoconnector.com) route on the Front Range, energized me in a similar way, and I'm looking forward to continuing to bounce ideas off him. I had coffee with Jerome Horne, a transit advocate and professional who has made a tremendous impact on projects across the country. I look forward to a follow up chat when I visit him in Baltimore in a few weeks! Also, an enlightening conversation with Jaibin Matthew from the Senate Transportation Committee, who gave me an introduction to "how stuff works" on Capitol Hill. 
 
-<figure style="text-align: center; margin: 2rem auto;">
-  <img src="/blog/1000091603.jpg" alt="Mitch and Jerome at a coffee shop" style="max-width: 100%; width: 500px; border-radius: 8px;" />
-  <figcaption style="margin-top: 0.5rem; font-size: 0.9rem; color: #666;">Me and Jerome, a prominent transit voice from Baltimore.</figcaption>
-</figure>
+![Mitch and Jerome at a coffee shop](/blog/1000091603.jpg)
+
+Me and Jerome, a prominent transit voice from Baltimore.
 
 But the conversation that stuck with me most was with Thomas Davidenko, an Amtrak employee who chairs Young Professionals in Transportation internationally. We went deep on what it would mean for RPA, APTA, and Amtrak to have boots on the ground doing grassroots advocacy all over the country.
 
 On the personal side, I took it easy Friday and Saturday, hanging out with my new roommate Felix, who is here from Germany for a six-month legal fellowship. We hit the neighborhood dive bar Friday, and Saturday brought Jazz Fest at the Wharf. Coffee with my old college friend Emma gave me a longer-term resident's perspective on the city, and Sunday night I was back at the dive bar for neighborhood legend Granny and the Boys, who is 94 and has been performing there for 30 years. Sitting on the shore of the Potomac during Jazz Fest turned out to be one of the more relaxing hours of my whole week.
 
-<figure style="text-align: center; margin: 2rem auto;">
-  <img src="/blog/IMG_4996.jpeg" alt="Granny performing at the neighborhood dive bar" style="max-width: 100%; width: 700px; border-radius: 8px;" />
-  <figcaption style="margin-top: 0.5rem; font-size: 0.9rem; color: #666;">Granny, neighborhood legend, who is 94 and has been performing there for 30 years.</figcaption>
-</figure>
+![Granny performing at the neighborhood dive bar](/blog/IMG_4996.jpeg)
+
+Granny, neighborhood legend, who is 94 and has been performing there for 30 years.
 
 I also kept up my reading! I finished [The Hard Thing About Hard Things](https://www.goodreads.com/book/show/20657434-the-hard-thing-about-hard-things) by Ben Horowitz. I don't agree with everything about his politics today, but the book delivered exactly what I was hoping for, real lessons on leading an organization that looks a lot like a startup in a lot of ways, and I'd recommend it widely.
 
