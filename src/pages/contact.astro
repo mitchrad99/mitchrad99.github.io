@@ -16,6 +16,14 @@ import { socials, site } from '../site';
         <span class="k">Email</span>
         <a href={`mailto:${site.email}`}>{site.email}</a>
       </li>
+      <li>
+        <span class="k">Mailing list</span>
+        <a
+          href={`mailto:${site.email}?subject=${encodeURIComponent('Add me to your mailing list')}&body=${encodeURIComponent('Please add me to your mailing list.')}`}
+        >
+          Join my mailing list
+        </a>
+      </li>
       {
         socials
           .filter((s) => s.label !== 'Email')
