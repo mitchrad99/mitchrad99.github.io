@@ -42,7 +42,7 @@ The biggest AAO news of the week was the announcement that John Esterly, our exe
 <figure style="text-align: center; margin: 2rem auto; max-width: 700px;">
   <div style="display: flex; flex-wrap: wrap; gap: 1rem; justify-content: center;">
     <img src="/blog/old rag 3.jpg" alt="Group scrambling" style="flex: 1 1 280px; max-width: 100%; height: 300px; object-fit: cover; border-radius: 8px;">
-    <img src="/blog/old rag 1.png" alt="Mitch on a boulder" style="flex: 1 1 280px; max-width: 100%; height: 300px; object-fit: cover; border-radius: 8px;">
+    <img src="/blog/old rag 1.jpg" alt="Mitch on a boulder" style="flex: 1 1 280px; max-width: 100%; height: 300px; object-fit: cover; border-radius: 8px;">
   </div>
   <figcaption style="margin-top: 0.5rem; font-size: 0.9rem; color: #666;">On top of the world at Old Rag, Shenandoah.</figcaption>
 </figure>
@@ -50,7 +50,7 @@ The biggest AAO news of the week was the announcement that John Esterly, our exe
 On the personal side, the week opened on Old Rag in Shenandoah with the international lawyer crew. The next day brought the Smithsonian's National Museum of the American Indian and I enjoyed debrief calls with my friends Michael and Nashad who are far from DC. Felix played his first ever game of cribbage at a new neighborhood bar and came back from a near skunking to beat me, an underdog story worthy of an ESPN 30 for 30. The weather turned sunny and in the 60s and 70s, so I took afternoon runs to get my mileage back up, 5 to 6 miles at a time. [Follow me on Strava](https://www.strava.com/athletes/114123235)! We closed out the week with tapas to send off Charlotte and Nina, whose fellowships have ended. They will be missed.
 
 <figure style="text-align: center; margin: 2rem auto;">
-  <img src="/blog/cribbage.png" alt="Felix playing cribbage card game" style="max-width: 100%; width: 500px; border-radius: 8px;">
+  <img src="/blog/cribbage.png" alt="Felix playing cribbage card game" style="display: block; margin: 0 auto; max-width: 100%; width: auto; height: auto; max-height: 600px; border-radius: 8px;">
   <figcaption style="margin-top: 0.5rem; font-size: 0.9rem; color: #666;">Felix, moments before his historic comeback.</figcaption>
 </figure>
 
