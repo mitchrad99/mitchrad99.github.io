@@ -20,25 +20,21 @@ The ride home brought the first rain of the incoming nor'easter. I was skeptical
 
 The rain did not stop me from biking to Union Station the next morning, duffel bag over my shoulder, to catch Amtrak to Philadelphia. Talk about multimodal! Waiting for me were Sujan and Ben, dear friends from my Ohio State days. South Philly blew me away, with its density, grit, and palpable culture. A highlight was Bok, an old trade school turned home to hundreds of small creative businesses, where we got delicious pastries. We closed out the night at Kalaya, a Michelin recommended spot with some of the best Southeast Asian food I have ever had. We waddled home to a proper greeting from Bruno Bear, one of the world's friendliest dogs.
 
-<figure style="text-align: center; margin: 2rem auto;">
-  <img src="/blog/bruno.jpeg" alt="Cute dog" style="max-width: 100%; width: 500px; border-radius: 8px;">
-  <figcaption style="margin-top: 0.5rem; font-size: 0.9rem; color: #666;">Bruno, head of the welcoming committee.</figcaption>
-</figure>
+![Cute dog](/blog/bruno.jpeg)
 
-The next morning, I walked the Schuylkill River Trail while catching up with Chris from WisARP, Wisconsin's state rail advocacy group, whose background in advocacy and fundraising has already shaped the national plan. Then I met up with my friend Andrew, a reporter for NBC's Philadelphia station who covers transportation and infrastructure (the AAO mob got him drinking the Kool-Aid back when we met in Cincinnati). We took the train up to Manayunk for cheesesteaks, where the woman at the welcome center, 85 years old with 70 years working in town, dropped an f-bomb within five minutes of meeting us. I love Philly. Manayunk reminded me a lot of Pittsburgh, an old mill town tied to downtown by rail and a deep love of its football team.
+Bruno, head of the welcoming committee.
 
-<figure style="text-align: center; margin: 2rem auto;">
-  <img src="/blog/philly trolley.png" alt="3 young men on a trolley" style="max-width: 100%; width: 500px; border-radius: 8px;">
-  <figcaption style="margin-top: 0.5rem; font-size: 0.9rem; color: #666;">With Sujan and Andrew on a trolley in Philly - couldn't keep these nerds off the transit...</figcaption>
-</figure>
+The next morning, I walked the Schuylkill River Trail while catching up with Chris from WisARP, Wisconsin's state rail advocacy group, whose background in advocacy and fundraising has already shaped the national plan. Then I met up with my friend Andrew, a [reporter for NBC's Philadelphia station who covers transportation and infrastructure](https://www.instagram.com/andrewrowan128/) (the AAO mob got him drinking the Kool-Aid back when we met in Cincinnati). We took the train up to Manayunk for cheesesteaks, where the woman at the welcome center, 85 years old with 70 years working in town, dropped an f-bomb within five minutes of meeting us. I love Philly. Manayunk reminded me a lot of Pittsburgh, an old mill town tied to downtown by rail and a deep love of its football team.
+
+![3 young men on a trolley](</blog/philly trolley.png>)
+
+With Sujan and Andrew on a trolley in Philly - couldn't keep these nerds off the transit...
 
 After breakfast the next morning with my college friend Riley, I caught the train back to DC for a stacked afternoon. First up was Kirby, the Ohio DOT manager for [GoBus](https://ridegobus.com), the state supported intercity bus network my team rode on our Oxford field trip in August. Kirby is speaking at our [virtual statewide meeting this Saturday, October 10th](https://www.allaboardohio.org/event-details/aao-statewide-meeting-2026-10-10-10-00), and I encourage everyone to attend!
 
-<figure style="text-align: center; margin: 2rem auto;">
-  <img src="/blog/Riley.jpeg" alt="2 young men on a street" style="max-width: 100%; width: 500px; border-radius: 8px;">
-  <figcaption style="margin-top: 0.5rem; font-size: 0.9rem; color: #666;">So great to see Riley!
-</figcaption>
-</figure>
+![2 young men on a street](/blog/Riley.jpeg)
+
+So great to see Riley!
 
 Next was John Robert Smith from [Transportation for America](https://t4america.org), who I really look up to for his decades of rail and community advocacy. I love how he works out the steps that *actually* need to happen to reach a goal, even if that means inventing something entirely new. Then came two AAO calls, one planning our 2027 Ohio Rail Summit with Liz Quigley, who continues to knock it out of the park, and one with John, in my last official meeting with him as executive director, where he taught me how to submit our lobbying ethics disclosure 🙈.
 
@@ -52,26 +48,23 @@ An early Thursday flight took me home to Cincinnati, where I called Dave from th
 
 Bright and early the next morning, Ryan and Ryan, members of the Choo Choo Crew, picked me up for the drive to Toledo. At the opening science fair, AAO had a beautiful booth (shout out to Beth and the comms team!), and even more states asked us for advice and support. I also grabbed lunch with Liz Webb, a [SPHINX](https://org.osu.edu/sphinx/) friend from Ohio State who now works at MORPC, one of AAO's main partners in Columbus.
 
-<figure style="text-align: center; margin: 2rem auto;">
-  <img src="/blog/kaptur.jpeg" alt="people in front of sign including congresswoman" style="max-width: 100%; width: 500px; border-radius: 8px;">
-  <figcaption style="margin-top: 0.5rem; font-size: 0.9rem; color: #666;">The AAO team with Rep. Marcy Kaptur</figcaption>
-</figure>
+![people in front of sign including congresswoman](/blog/kaptur.jpeg)
+
+The AAO team with Rep. Marcy Kaptur
 
 After a happy hour drink (and a shot) to quell my nerves, I gave the welcome speech at AleNation. I welcomed everyone to Ohio and tried to fire people up about injecting youth and energy into this movement across the country. Once again, people came up afterward asking to collaborate. It seems this whole national playbook idea has some demand ;)
 
-<figure style="text-align: center; margin: 2rem auto;">
-  <img src="/blog/aleNation.jpg" alt="mitch speaking" style="max-width: 100%; width: 500px; border-radius: 8px;">
-  <figcaption style="margin-top: 0.5rem; font-size: 0.9rem; color: #666;">Welcoming the country to Ohio.</figcaption>
-</figure>
+![mitch speaking](/blog/aleNation.jpg)
+
+Welcoming the country to Ohio.
 
 The main conference day was a whirlwind. Rock stars Ryan Pecaut and Sally Fish both knocked their panels out of the park, and I am so proud to lead a team of such incredible thinkers and speakers. I especially enjoyed connecting with Rusty from the Federal Railroad Administration and Amit Bose, who led the FRA during the previous administration. Closer to home, I met with leaders from five of our chapters, along with William and Joe from MORPC, John and Clyde from labor, and partners from across Ohio.
 
 That night I boarded the Floridian, which left Toledo right on time at midnight with me and nearly 40 Toledoans aboard. After seven hours of surprisingly good sleep in an economy seat, I camped out in the cafe car and watched the Appalachians roll by.
 
-<figure style="text-align: center; margin: 2rem auto;">
-  <img src="/blog/scenery.jpeg" alt="fall foliage" style="max-width: 100%; width: 500px; border-radius: 8px;">
-  <figcaption style="margin-top: 0.5rem; font-size: 0.9rem; color: #666;">Not a bad view from the cafe car.</figcaption>
-</figure>
+![fall foliage](/blog/scenery.jpeg)
+
+Not a bad view from the cafe car.
 
 My book of the week was a break from business reading, *[The Book of Longings](https://www.goodreads.com/book/show/52698452-the-book-of-longings)* by Sue Monk Kidd, a novel that imagines Jesus had a wife. It is beautifully written and got me thinking about the unrecorded role of women in the ancient world. I recommend it!
 
