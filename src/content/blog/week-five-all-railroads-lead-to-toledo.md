@@ -5,6 +5,7 @@ description: A week on the road, from Philly with old friends to welcoming the
   way.
 pubDate: 2026-10-07
 updatedDate: 2026-10-07
+heroImage: /blog/IMG_6555.jpg
 draft: false
 ---
 *This is the fifth in a weekly series on my DC sabbatical (Sep 1 → Nov 30, 2026). [Catch up on earlier posts](https://mitchradakovich.com/blog/) if you missed them, and [join my mailing list](mailto:mitch@allaboardohio.org?subject=Add%20me%20to%20your%20mailing%20list&body=Please%20add%20me%20to%20your%20mailing%20list.) for future posts.*
