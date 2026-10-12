@@ -15,7 +15,7 @@ That run capped off a good week for my exercise routine. My wrist has finally he
 
 <figure style="text-align: center; margin: 2rem auto;">
   <img src="/blog/capitol_run.png" alt="View of the capitol from my run." style="max-width: 100%; width: 500px; border-radius: 8px;">
-  <figcaption style="margin-top: 0.5rem; font-size: 0.9rem; color: #666;">"View of the capitol from my run.</figcaption>
+  <figcaption style="margin-top: 0.5rem; font-size: 0.9rem; color: #666;">View of the capitol from my run.</figcaption>
 </figure>
 
 I have also found my local coffee shop, Coffee Bar, which has coffee at Cincinnati prices (thank goodness) and great indoor and outdoor seating. Most of my coffee still gets made at home for about a dollar a cup, but it is a nice change of scenery. If anyone at Coffee Bar is reading this, please start a loyalty program.
@@ -44,7 +44,7 @@ I was also back on Capitol Hill to meet with Jamari Hartley in Senator Husted's 
 
 <figure style="text-align: center; margin: 2rem auto;">
   <img src="/blog/Husted.png" alt="Mitch selfie by Sen Husted sign." style="max-width: 100%; width: 500px; border-radius: 8px;">
-  <figcaption style="margin-top: 0.5rem; font-size: 0.9rem; color: #666;">"If you didn't take a selfie outside the office, were you really there??</figcaption>
+  <figcaption style="margin-top: 0.5rem; font-size: 0.9rem; color: #666;">If you didn't take a selfie outside the office, were you really there??</figcaption>
 </figure>
 
 Afterward I treated myself to a bulgogi cheesesteak at the Family Dinette, a place I do not think has changed in 50 years. For budgetary reasons, it is back to the turkey sandwich shelf in the RPA fridge.
@@ -63,14 +63,14 @@ The national plan keeps getting a warm reception too. I had a great call with An
 
 <figure style="text-align: center; margin: 2rem auto;">
   <img src="/blog/marc.png" alt="Happy mitch on train" style="max-width: 100%; width: 500px; border-radius: 8px;">
-  <figcaption style="margin-top: 0.5rem; font-size: 0.9rem; color: #666;">"Aboard my chariot on the way to Baltimore.</figcaption>
+  <figcaption style="margin-top: 0.5rem; font-size: 0.9rem; color: #666;">Aboard my chariot on the way to Baltimore.</figcaption>
 </figure>
 
 Friday was a special adventure. I took the MARC train to Baltimore, $9 each way and under an hour, for a tour of Jerome Horne's hometown (we first got coffee back in week two). Man did he deliver. From 9am to 9pm, we took in Baltimore's architecture, urban planning, transit, and culture, with great food and drinks along the way. I came home a Baltimore enthusiast – my Cincy friends Ryan and Ben who spent summers there were not kidding when they said the city rocks.  
 
 <figure style="text-align: center; margin: 2rem auto;">
   <img src="/blog/seafood.png" alt="Crab cake and oysters." style="max-width: 100%; width: 500px; border-radius: 8px;">
-  <figcaption style="margin-top: 0.5rem; font-size: 0.9rem; color: #666;">"When in Baltimore...</figcaption>
+  <figcaption style="margin-top: 0.5rem; font-size: 0.9rem; color: #666;">When in Baltimore...</figcaption>
 </figure>
 
 At our monthly statewide meeting, Kirby Dearth, who manages [GoBus](https://ridegobus.com/) for the Ohio Department of Transportation, knocked his presentation out of the park, and attendees came ready with ideas for new routes. I also got some good time with my other roommates, David and Jacob, who I am leaning on to learn more about engineering and project financing. 
