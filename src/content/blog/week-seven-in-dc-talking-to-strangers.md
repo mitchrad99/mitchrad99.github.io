@@ -12,7 +12,7 @@ draft: false
 Most mornings this week started on the stoop outside the rowhome I am living in, coffee and book in tow. Neighbors walk past on their way to the bus stop. Dogs stop to inspect the bushes. People nod, say good morning, and acknowledge each other as part of the same community. And while I am sitting there, I am also keeping an eye on the street, which makes the block a little safer for everyone.
 
 <figure style="text-align: center; margin: 2rem auto;">
-  <img src="/blog/rowhome.png" alt="The stoop where mitch sits" style="max-width: 100%; width: 500px; border-radius: 8px;">
+  <img src="/blog/rowhome.jpg" alt="The stoop where mitch sits" style="max-width: 100%; width: 500px; border-radius: 8px;">
   <figcaption style="margin-top: 0.5rem; font-size: 0.9rem; color: #666;">My morning stoop.</figcaption>
 </figure>
 
