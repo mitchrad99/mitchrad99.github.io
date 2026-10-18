@@ -10,8 +10,10 @@ draft: false
 
 Most mornings this week started on the stoop outside the rowhome I am living in, coffee and book in tow. Neighbors walk past on their way to the bus stop. Dogs stop to inspect the bushes. People nod, say good morning, and acknowledge each other as part of the same community. And while I am sitting there, I am also keeping an eye on the street, which makes the block a little safer for everyone.
 
-[PHOTO: rowhome]  
-*My new favorite office.*
+<figure style="text-align: center; margin: 2rem auto;">
+  <img src="/blog/rowhome.png" alt="The stoop where mitch sits" style="max-width: 100%; width: 500px; border-radius: 8px;">
+  <figcaption style="margin-top: 0.5rem; font-size: 0.9rem; color: #666;">My morning stoop.</figcaption>
+</figure>
 
 It is a small thing, but it is one of the biggest benefits of density. When people live close together, they get endless natural chances to run into each other. Transit does the same thing. It takes people from completely different walks of life and puts them in the same metal container for twenty minutes. Without denser neighborhoods and good transit, we will keep drifting further apart, and the further apart we get, the more anxious we become about talking to each other at all.
 
@@ -21,15 +23,19 @@ On Thursday night I went to the kickoff of [DC Abundance](https://dcabundance.or
 
 One of the best of those conversations was with Allister, who now serves on the DC State Board of Education. We talked about abundance, but also about ambition, mindfulness, and wanting to make our cities better. Allister was born and raised in DC's Chinatown and has watched his neighborhood change dramatically over his lifetime, becoming less and less affordable along the way. He pointed out that DC now spends around $52,000 per student per year while results keep getting worse, and that a striking amount of the district's money goes to lawsuits. That sounded familiar. Back in week three at the STB's Passenger Rail Advisory Committee meeting, I heard about transit agencies now paying for $300 to $500 million insurance policies to protect themselves from predatory lawsuits. It seems to be a problem across industries.
 
-[PHOTO: selfie with Allister and crew]  
-*New friends from the DC Abundance kickoff.*
+<figure style="text-align: center; margin: 2rem auto;">
+  <img src="/blog/abundance.png" alt="Mitch with other guys from abundance" style="max-width: 100%; width: 500px; border-radius: 8px;">
+  <figcaption style="margin-top: 0.5rem; font-size: 0.9rem; color: #666;">New friends from the DC Abundance kickoff.</figcaption>
+</figure>
 
 The second came from a Hinge date. No, I am not counting my date as a stranger. I mean the folks at the table next to us, Betty and Christian, who we ended up chatting with. When my date had to head out to another commitment, I stayed and talked with them for the rest of the evening. They had met each other at the DNC, where Christian leads the graphic design team. Their energy was contagious, and I hope to see them again.
 
 Saturday started with a run with my friend India, which was lovely, if very hilly. Then came a unique event that I had stumbled across on Partiful: an "Anthony Bourdain Meet Cute." The idea was simple. Bring a snack to a local park and meet strangers. At this point in my DC journey, I could not have asked for a better event. I spent the hour beforehand reading in Malcolm X Park, which was incredibly peaceful with the water feature running. Then hundreds of people showed up, and I had a great time meeting new folks and hopefully a few new friends. It goes to show how much people are craving connection, even when they are stressed about how they are perceived in this crazy world.
 
-[PHOTO: Partiful screenshot]  
-*How could I say no?*
+<figure style="text-align: center; margin: 2rem auto;">
+  <img src="/blog/bourdain.png" alt="Partiful invite to meet cute event" style="max-width: 100%; width: 500px; border-radius: 8px;">
+  <figcaption style="margin-top: 0.5rem; font-size: 0.9rem; color: #666;">How could I say no?</figcaption>
+</figure>
 
 Don't worry, I did some train stuff this week too. I spoke with someone who will likely become AAO's new pro bono counsel, which would be a huge help for a volunteer organization growing as fast as ours. I also called my uncle Andrew, who has been finding success with his startup, to get his take on how to pitch an idea well. I look forward to getting more of his advice, and hopefully finding some pitching success of my own.
 
@@ -43,8 +49,10 @@ On Thursday I had calls with my mentors Becky and Alex. We talked through what i
 
 Mindfulness was a big part of my week too. I finished *[The Power of Now](https://www.goodreads.com/book/show/6708)* by Eckhart Tolle, which I found profound and still approachable. I especially enjoyed how often he draws ties between the teachings of Jesus and the teachings of Buddhism. It reminded me of another favorite of mine, *[The Book of Joy](https://www.goodreads.com/book/show/29496453)*, a series of conversations between the late Archbishop Desmond Tutu and the Dalai Lama. I recommend that one to everybody. I have been trying to find time every day to unplug, step away from my mind, and just be, and this book gave me new strategies and more questions to ponder.
 
-[PHOTO: Malcolm X Park]  
-*Pregame reading spot. The water feature does a lot of work.*
+<figure style="text-align: center; margin: 2rem auto;">
+  <img src="/blog/reading.png" alt="Park view with cascading water feature." style="max-width: 100%; width: 500px; border-radius: 8px;">
+  <figcaption style="margin-top: 0.5rem; font-size: 0.9rem; color: #666;">Top tier reading spot at Malcolm X park. One of the best water features ever.</figcaption>
+</figure>
 
 One of the strangers I met this week spent three months at a silent Buddhist monastery in Taiwan in his twenties. When I asked about his biggest takeaway, he said it came from asking himself why he was there. He had become the quietest person in the monastery, the most thorough with his chores, and the strictest in his lifestyle. But he was not the happiest. That stuck with me: working through the tasks of mindfulness just to check the box is not the point. I know I am not yet at the place where I can simply be, but I hope I get there, and this sabbatical is helping.
 
