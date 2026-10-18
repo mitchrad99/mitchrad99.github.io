@@ -4,6 +4,7 @@ description: Talking to strangers in DC, from the DC Abundance kickoff to an
   Anthony Bourdain Meet Cute, plus the AAO redesign goes to the board.
 pubDate: 2026-10-18
 updatedDate: 2026-10-18
+heroImage: /blog/reading.png
 draft: false
 ---
 *This is the seventh in a weekly series on my DC sabbatical (Sep 1 → Nov 30, 2026). [Catch up on earlier posts](https://mitchradakovich.com/blog/) if you missed them, and [join my mailing list](mailto:mitch@allaboardohio.org?subject=Add%20me%20to%20your%20mailing%20list&body=Please%20add%20me%20to%20your%20mailing%20list.) for future posts.*
