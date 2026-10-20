@@ -13,8 +13,8 @@
   --accent-soft: #b4432f;
 
   /* Type */
-  --font-display: 'Fraunces', Georgia, 'Times New Roman', serif;
-  --font-text: 'Fraunces', Georgia, 'Times New Roman', serif;
+  --font-display: 'Besley', Georgia, 'Times New Roman', serif;
+  --font-text: 'Besley', Georgia, 'Times New Roman', serif;
   --font-mono: ui-monospace, 'SF Mono', 'Menlo', monospace;
 
   /* Fluid type scale */
