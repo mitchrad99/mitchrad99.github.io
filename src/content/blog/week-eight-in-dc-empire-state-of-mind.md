@@ -38,7 +38,7 @@ Margaret Clark from Amtrak, who has experience in both advocacy and fundraising,
 Back in Ohio, All Aboard Ohio hosted Ray Delahanty, better known as [CityNerd](https://www.nerd4cities.com), in Cleveland alongside our local partners. I was bummed I could not be there, but so proud of the team, especially board member Rob Winn, who was on point the whole way. Our executive committee later talked through the coalition building happening in Cleveland, our statehouse lunch (which I am leading from afar), and the reorganization rollout.
 
 <figure style="text-align: center; margin: 2rem auto;">
-  <img src="/blog/citynerd.jpg" alt="City Nerd and Brian" style="max-width: 100%; width: 500px; border-radius: 8px;">
+  <img src="/blog/citynerd.jpg" alt="CityNerd and Brian" style="max-width: 100%; max-height: 600px; width: auto; border-radius: 8px;">
   <figcaption style="margin-top: 0.5rem; font-size: 0.9rem; color: #666;">THE CityNerd with board member Brian.</figcaption>
 </figure>
 
