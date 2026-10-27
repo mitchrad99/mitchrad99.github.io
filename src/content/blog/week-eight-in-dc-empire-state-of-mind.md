@@ -13,6 +13,11 @@ At 6am on Friday I was biking to Union Station with a duffel bag over my shoulde
 
 That bus took me to New York for the weekend, which is why this post is a few days late (good enough excuse?). But before New York, there was plenty happening back in DC.
 
+<figure style="text-align: center; margin: 2rem auto;">
+  <img src="/blog/busdepot.png" alt="DC Bus Depot" style="max-width: 100%; width: 500px; border-radius: 8px;">
+  <figcaption style="margin-top: 0.5rem; font-size: 0.9rem; color: #666;">Such a beautiful place</figcaption>
+</figure>
+
 During a coworking session with my friend Alex Hensley at a chic coffee shop called La Betty (which I completely recommend!), I took a call with Bill Gray and Kevin Moore, who works with Bill at AAPRCO and is a leader with [Western Pennsylvanians for Passenger Rail](https://www.wpprrail.org/). They invited me to ride the [inaugural second daily Pennsylvanian](https://www.pa.gov/agencies/penndot/news-and-media/newsroom/statewide/2026/second-daily-pennsylvanian-train-from-harrisburg-to-pittsburgh-t) on November 18! I am excited to learn from Pennsylvania's successes and talk up a potential extension to Cleveland to anyone who will listen. I would hate for Ohio to keep falling behind.
 
 From Alex's office, I spent an afternoon on the phone with Deborah Fisher Stout from the [Northern Flyer Alliance in Kansas](https://www.northernflyeralliance.net/). Their work is very impressive, including starting a passenger rail caucus and winning sustained funding from their legislature, two things on Ohio's own list. We dug into different ways to adapt the Statehouse Rail Network that will make it even better. Deborah is a powerhouse, and my only regret is that it took us so long to connect.
@@ -21,13 +26,21 @@ I also got a closer look at the federal and industry side of this work. Over cof
 
 Rick Ruskin, the father of one of my high school classmates, gave me a view from inside Amtrak. After a career in the toy and transportation industries, Rick is now on the team rolling out Amtrak's new trains, including the brand-new Acela and Airo. We talked about where advocates can encourage (and add a little pressure to) the inner workings of the organization, and I shared my perspective on customer experience in the heartland, where riders often board at stations Amtrak does not own, in the middle of the night. Rick then gave me a tour of Amtrak headquarters, which was so cool.
 
+<figure style="text-align: center; margin: 2rem auto;">
+  <img src="/blog/AmtraksNewHeadquartersDC.jpg" alt="Amtrak HQ" style="max-width: 100%; width: 500px; border-radius: 8px;">
+  <figcaption style="margin-top: 0.5rem; font-size: 0.9rem; color: #666;">Amtrak HQ.</figcaption>
+</figure>
+
 I had two conversations this week which were less about how to transportation advocacy and more about how to carry myself while doing it. A call with Bill Gray that was supposed to be a review of my pitch turned into something deeper, about doing things the right way, being frank with people, and sticking to your standards and values. Bill spent years as a pilot instructor, teaching everyone from fresh college grads to 30 year Air Force veterans, and he needed a strategy for every one of them to learn. That is the job of an advocate too. We work with all kinds of people to achieve specific goals.
 
 Margaret Clark from Amtrak, who has experience in both advocacy and fundraising, pushed me in a similar direction. She is teaching me to believe in myself and to be ready to sell what I am bringing to the table. I do not put enough financial value on the work I am doing and the impact it is making. The output I create should not be free, and that is a mindset I need to break out of. Between Bill and Margaret, I have a lot to reflect on.
 
 Back in Ohio, All Aboard Ohio hosted Ray Delahanty, better known as [CityNerd](https://www.nerd4cities.com), in Cleveland alongside our local partners. I was bummed I could not be there, but so proud of the team, especially board member Rob Winn, who was on point the whole way. Our executive committee later talked through the coalition building happening in Cleveland, our statehouse lunch (which I am leading from afar), and the reorganization rollout.
 
-*Brian and Ray
+<figure style="text-align: center; margin: 2rem auto;">
+  <img src="/blog/citynerd.jpg" alt="City Nerd and Brian" style="max-width: 100%; width: 500px; border-radius: 8px;">
+  <figcaption style="margin-top: 0.5rem; font-size: 0.9rem; color: #666;">THE CityNerd with board member Brian.</figcaption>
+</figure>
 
 That rollout took up a big share of my week, and I spent a lot of it on the phone with our board. I asked my vice chair Lisa Buffo to be as blunt as possible about where I can grow as a leader (she delivered). I talked comms strategy with Beth Russell, and caught up with Jayna Johnson, who leads engagement and brings a wealth of experience from her time with the UN. Jameson Locklear, who will lead our new governance committee, and I started looking at board openings, mapping the skills our board still lacks and the people who could fill those gaps. This is the moment the redesign shifts from a plan on paper to real people in real seats. Rob Winn, who despite being quite young is AAO's longest-serving board member, shared what has and has not worked over the years. I have started calling him Board Chair Pro Tempore. He does not like it.
 
@@ -39,19 +52,23 @@ Our advocacy committee welcomed new member Hunter, and the organizational letter
 
 Then it was off to New York! The FlixBus dropped me deep in Brooklyn, and I wandered Industry City, a great example of industrial reuse, while talking fundraising strategy with Derrick James from ELPC, who has become a friend and trusted advisor. After a coalition call from a public plaza in Downtown Brooklyn, I had lunch at a Turkish restaurant with Steve Strauss, executive director of the Empire State Passengers Association, AAO's equivalent in New York. The kebab was çok güzel! Steve walked me through his career in transit and government and what is and is not working in New York State, which reaffirmed the opportunity for efficiency and collaboration that a Statehouse Rail Network could unlock.
 
-[Photo: Brooklyn / Industry City]
-
 From there I met Hayden (aka [Transit Guy)](https://www.thetransitguy.com) on the Upper West Side, where he was catsitting at a friend's condo that became our base for the weekend. We hit the ground running, catching up on everything over coffee and a walk through Central Park. Next, I had dinner at Penn Station with Lucas from Siemens, which builds [many of Amtrak's trains](https://www.mobility.siemens.com/us/en/company/newsroom/press-releases/siemens-built-amtrak-airo-fleet-enters-service-marking-major-milestone-in-us-rail-modernization.html), and Noah from DB, a major consultant in the space. After only talking virtually, it was great to finally share a meal and dig into how businesses can get involved in the movement.
 
 Saturday was [TransportationCamp](https://transportationcamp.org/events/nyc-2026/), an "unconference" where attendees propose topics for group discussion. I led a session on the hurdles advocates face when starting a new organization or movement, and took notes on every gap in the recipe book that came up. My biggest takeaway was that New York's advocacy ecosystem is its own animal. Between the many different systems, city versus state politics, New York versus New Jersey, and Staten Island, there are endless issues that exist only there.
 
-[Photo: TransportationCamp]
+<figure style="text-align: center; margin: 2rem auto;">
+  <img src="/blog/camp.png" alt="Mitch, hayden and Jerome on the train" style="max-width: 100%; width: 500px; border-radius: 8px;">
+  <figcaption style="margin-top: 0.5rem; font-size: 0.9rem; color: #666;">Some transit guys headed home from camp.</figcaption>
+</figure>
 
 That evening Hayden and I had dinner with Jerome, now a recurring character on this blog. We went to [Ayat](https://www.ayatnyc.com), a phenomenal Palestinian restaurant. After, we met my friend Angelo in the East Village, where the greatest hit was [Burp Castle](https://en.wikipedia.org/wiki/Burp_Castle). There is a strict whispering policy, and the bartenders will shush you if your whispers get too loud, which was a real struggle for Hayden and me. We watched them kick a couple out for it. Every beer is Belgian, and Gregorian chant plays on the stereo. Not for everyone, but I loved it.
 
 Sunday was a classic Mitch Radakovich solo adventure, from Prospect Park and Jewish Williamsburg to the Cooper Hewitt, then down from Washington Square Park through Lower Manhattan to the Staten Island Ferry. The golden hour ride past the Statue of Liberty was beautiful. Staten Island itself was, in fact, unremarkable, and I would have known had I listened to literally everyone who warned me. I ended the night with a bubble tea from Mixue, a Chinese chain so cheap it blew my mind, and Monday morning Amtrak carried me home.
 
-[Photo: Statue of Liberty from the ferry at golden hour]
+<figure style="text-align: center; margin: 2rem auto;">
+  <img src="/blog/goldenHour.png" alt="Statue of Liberty" style="max-width: 100%; width: 500px; border-radius: 8px;">
+  <figcaption style="margin-top: 0.5rem; font-size: 0.9rem; color: #666;">Golden Hour.</figcaption>
+</figure>
 
 This week, I finished *[How Google Works](https://www.goodreads.com/book/show/23158207)*. The lesson that stuck with me most is giving "smart creatives" the freedom to truly be both smart and creative. It is a simple concept that I have not seen fully in practice anywhere yet, and I want AAO's volunteers to feel exactly that kind of freedom. I also read George Saunders's *[Liberation Day](https://www.goodreads.com/book/show/60471573?ref=s_s)*, which I did not enjoy quite as much as *[Tenth of December](https://www.goodreads.com/book/show/13641208?ref=s_s)*, but still found entertaining. And I am halfway through *[The Gods of New York*,](https://www.goodreads.com/book/show/222033782) about the city from 1986 to 1990, a period of racial strife, AIDS, and financial collapse. It is teaching me so much about how this crazy city works, and it is far more approachable than *The Power Broker* (no hate).
 
