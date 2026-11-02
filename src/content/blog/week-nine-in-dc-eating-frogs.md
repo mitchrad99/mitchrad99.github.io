@@ -12,7 +12,7 @@ draft: false
 On Wednesday morning I sent my dad a list of frogs I intended to eat. If you’ve never heard of eating frogs, the idea comes from Brian Tracy’s *[Eat That Frog](https://www.goodreads.com/en/book/show/95887.Eat_That_Frog_21_Great_Ways_to_Stop_Procrastinating_and_Get_More_Done_in_Less_Time)*, a book about biting the bullet and getting done the things you’ve been dreading and putting off. My dad pushed us to read it growing up (I will admit he got significant pushback at the time). In theory it’s easy, but in practice it’s a muscle you must keep building. It’s always good to have someone holding you accountable, and the idea of eating frogs makes it kinda sorta fun.
 
 <figure style="text-align: center; margin: 2rem auto;">
-  <img src="/blog/frog.png" alt="Eat that frog book" style="max-width: 100%; width: 500px; border-radius: 8px;">
+  <img src="/blog/frog.jpg" alt="Eat that frog book" style="max-width: 100%; width: 500px; border-radius: 8px;">
   <figcaption style="margin-top: 0.5rem; font-size: 0.9rem; color: #666;">The book in question. I occasionally have nightmares about that frog.</figcaption>
 </figure>
 
