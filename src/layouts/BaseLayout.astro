@@ -8,14 +8,22 @@ interface Props {
   title?: string;
   description?: string;
   image?: string;
+  imageAlt?: string;
   article?: boolean;
+  publishedTime?: Date;
+  modifiedTime?: Date;
+  jsonLd?: object[];
 }
 
 const {
   title,
   description = site.description,
   image = '/og-default.jpg',
+  imageAlt = `${site.authorName} — ${site.description}`,
   article = false,
+  publishedTime,
+  modifiedTime,
+  jsonLd = [],
 } = Astro.props;
 
 const pageTitle = title ? `${title} — ${site.title}` : `${site.title}`;
@@ -41,7 +49,18 @@ const ogImage = new URL(image, site.url).href;
     <meta property="og:description" content={description} />
     <meta property="og:url" content={canonical} />
     <meta property="og:image" content={ogImage} />
+    <meta property="og:image:alt" content={imageAlt} />
     <meta name="twitter:card" content="summary_large_image" />
+    {article && publishedTime && (
+      <meta property="article:published_time" content={publishedTime.toISOString()} />
+    )}
+    {article && modifiedTime && (
+      <meta property="article:modified_time" content={modifiedTime.toISOString()} />
+    )}
+
+    {jsonLd.map((data) => (
+      <script type="application/ld+json" is:inline set:html={JSON.stringify(data)} />
+    ))}
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />

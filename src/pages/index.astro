@@ -4,14 +4,17 @@ import BaseLayout from '../layouts/BaseLayout.astro';
 import PostCard from '../components/PostCard.astro';
 import { getPublishedPosts, postHref } from '../lib/posts';
 import heroPhoto from '../assets/photos/nyc-portrait-hero.jpg';
+import { personJsonLd, websiteJsonLd } from '../lib/structuredData';
 
 const posts = (await getPublishedPosts()).slice(0, 3);
+const jsonLd = [personJsonLd(), websiteJsonLd()];
 ---
 
-<BaseLayout>
+<BaseLayout jsonLd={jsonLd}>
   <section class="hero wrap">
     <div class="hero-text">
-      <h1>Transportation choices move America forward.</h1>
+      <h1 class="name">Mitch Radakovich</h1>
+      <p class="tagline">Transportation choices move America forward.</p>
       <p class="sub">I'm working so we arrive together.</p>
     </div>
     <figure class="hero-photo">
@@ -71,7 +74,16 @@ const posts = (await getPublishedPosts()).slice(0, 3);
     gap: clamp(1.5rem, 5vw, 4rem);
     align-items: center;
   }
-  .hero h1 {
+  .hero .name {
+    font-family: var(--font-text);
+    font-size: var(--step--1);
+    font-weight: 500;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--ink-faint);
+  }
+  .hero .tagline {
+    margin-top: var(--space-2xs);
     font-size: var(--step-3);
     text-wrap: balance;
   }

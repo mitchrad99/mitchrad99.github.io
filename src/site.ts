@@ -1,5 +1,6 @@
 export const site = {
   title: 'Mitch Radakovich',
+  authorName: 'Mitch Radakovich',
   description:
     'Personal site and blog of Mitch Radakovich: data scientist, transit advocate, and occasional trombone player.',
   url: 'https://mitchradakovich.com',

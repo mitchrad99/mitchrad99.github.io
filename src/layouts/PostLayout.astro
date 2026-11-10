@@ -2,6 +2,7 @@
 import BaseLayout from './BaseLayout.astro';
 import FormattedDate from '../components/FormattedDate.astro';
 import { site } from '../site';
+import { blogPostingJsonLd } from '../lib/structuredData';
 
 interface Props {
   title: string;
@@ -10,14 +11,46 @@ interface Props {
   updatedDate?: Date;
   tags?: string[];
   heroImage?: string;
+  heroImageAlt?: string;
   prev?: { href: string; title: string } | null;
   next?: { href: string; title: string } | null;
 }
 
-const { title, description, pubDate, updatedDate, tags = [], heroImage, prev, next } = Astro.props;
+const {
+  title,
+  description,
+  pubDate,
+  updatedDate,
+  tags = [],
+  heroImage,
+  heroImageAlt = title,
+  prev,
+  next,
+} = Astro.props;
+
+const canonical = new URL(Astro.url.pathname, site.url).href;
+const jsonLd = [
+  blogPostingJsonLd({
+    title,
+    description,
+    pubDate,
+    updatedDate,
+    url: canonical,
+    image: heroImage ? new URL(heroImage, site.url).href : undefined,
+  }),
+];
 ---
 
-<BaseLayout title={title} description={description} image={heroImage} article={true}>
+<BaseLayout
+  title={title}
+  description={description}
+  image={heroImage}
+  imageAlt={heroImageAlt}
+  article={true}
+  publishedTime={pubDate}
+  modifiedTime={updatedDate}
+  jsonLd={jsonLd}
+>
   <article class="wrap">
     <header class="post-head">
       <p class="breadcrumb"><a href="/blog">Blog</a></p>
@@ -29,7 +62,7 @@ const { title, description, pubDate, updatedDate, tags = [], heroImage, prev, ne
       </p>
     </header>
 
-    {heroImage && <img class="hero" src={heroImage} alt="" />}
+    {heroImage && <img class="hero" src={heroImage} alt={heroImageAlt} />}
 
     <div class="prose post-body">
       <slot />
