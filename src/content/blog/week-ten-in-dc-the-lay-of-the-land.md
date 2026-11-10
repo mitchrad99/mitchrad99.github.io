@@ -26,6 +26,10 @@ That said, an election is only a starting line. The real work for advocates is s
 
 Election night also brought great news from Colorado. Huge congratulations to James Flattum and the whole [Coloradans for CoCo](https://www.coloradansforcoco.com) team on passing Prop 7A for the Front Range Passenger Rail District! James joined us for AAO’s [first podcast episode](https://www.youtube.com/watch?v=M2XNgAGVtfw&t=190s) back in September, and it has been so fun to watch this campaign come together. Colorado just showed the rest of the country what is possible.
 
+<figure style="text-align: center; margin: 2rem auto;">
+  <img src="/blog/coco.png" alt="Colorado Connector train" style="max-width: 100%; width: 500px; border-radius: 8px;">
+  <figcaption style="margin-top: 0.5rem; font-size: 0.9rem; color: #666;">Inject this in my veins</figcaption>
+</figure>
 
 Speaking of the rest of the country, my week started Monday morning with a call with Corrigan Salerno of the [Metropolitan Abundance Project (MAP)](https://www.metroabundance.org). He and his team have already been mapping transit advocacy across the country, and there is a lot of overlap between what they are building and what I am trying to do with the Statehouse Rail Network. On Wednesday, Martha Roskowski from his team followed up to interview me about what is working at AAO, as part of a series of conversations with organizations nationwide. Pulling together all the materials we use to explain AAO made me realize how many of them belong in the starter kit.
 
