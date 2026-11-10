@@ -6,7 +6,7 @@ pubDate: 2026-11-09
 updatedDate: 2026-11-09
 draft: false
 ---
-*This is the tenth post in my weekly series about my DC sabbatical, which runs September 1 to November 30, 2026.*
+*This is the tenth in a weekly series on my DC sabbatical (Sep 1 → Nov 30, 2026). [Catch up on earlier posts](*[https://mitchradakovich.com/blog/](https://mitchradakovich.com/blog/)*) if you missed them, and [join my mailing list](mailto:mitch@allaboardohio.org?subject=Add%20me%20to%20your%20mailing%20list&body=Please%20add%20me%20to%20your%20mailing%20list.) for future posts.*
 
 By Tuesday afternoon, I had refreshed the Polymarket elections page more times than I would like to admit (to be clear, I wasn’t betting, but it was the only thing that was changing). Nothing meaningful had been reported yet and I needed a distraction, so I called up Ryan Pecaut for a few hours of virtual coworking. I spent it going through every All Aboard Ohio member whose recurring payment had recently failed. It was an unglamorous way to spend election day, and probably one of the more valuable things I did all week.
 
@@ -58,4 +58,3 @@ Now I am getting everything ready for a rapid week of travel. On Thursday I head
 
 See you in Chicago!
 
- 
