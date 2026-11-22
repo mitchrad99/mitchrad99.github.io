@@ -14,10 +14,9 @@ I had just finished a coffee with my friend Matt Weiss after the [High Speed Rai
 
 Not ideal… The plan was to fly back to DC that night and meet one of my best friends, Scott, to kick off an adventure up the East Coast. We had already heard that Scott’s flight was delayed five hours, so something was clearly up. I hopped the L to O’Hare anyway (optimism!), and by the time I arrived it was official. A nationwide ground stop. This was obviously frustrating, but I chose not to let it get me tooo down. So I made some content for All Aboard Ohio (of course!). Nothing screams “please fund trains” quite like the collapse of our brittle transportation system. When life gives you lemons, am I right??
 
-<figure style="text-align: center; margin: 2rem auto;">
-  <img src="/blog/airport.png" alt="Departure board with all delays" style="max-width: 100%; width: 500px; border-radius: 8px;">
-  <figcaption style="margin-top: 0.5rem; font-size: 0.9rem; color: #666;">Amtrak would never</figcaption>
-</figure>
+![Departure board with all delays](/blog/airport.png)
+
+Amtrak would never
 
 I’ll come back to how that night went. First, let me back up, because there was a whole week before the airports shut down.
 
@@ -27,11 +26,9 @@ Our own board met Wednesday night. It was a long one, but a good one, with tons 
 
 That board meeting capped off a day of great calls with the team. Riley Gilson is absolutely cooking in our operations department. Nate Halm walked me through the chapter strategy he and Alaina Hawthorn have been building, and Ryan Pecaut and I caught up on his comms work (our second call of the week) and how to best pitch the network. Kerry Devery also filled me in on his advocacy research, along with a dose of Cincinnati drama, including some shakeups at City Hall.
 
+![Library reading room](/blog/library.png)
 
-<figure style="text-align: center; margin: 2rem auto;">
-  <img src="/blog/library.png" alt="Library reading room" style="max-width: 100%; width: 500px; border-radius: 8px;">
-  <figcaption style="margin-top: 0.5rem; font-size: 0.9rem; color: #666;">National Gallery Library, where I cranked out some work this week</figcaption>
-</figure>
+National Gallery Library, where I cranked out some work this week
 
 On the national side, the week started Monday with our coalition call on the Corridor ID program, where we talked through the program’s prospects and the plan Yoni Preuss and I had drafted. I spent much of the rest of the week editing the Statehouse Rail Network pilot based on feedback from folks, which at this point feels less like a phase and more like a lifestyle. On Wednesday morning I met with a potential funder, who gave me some valuable feedback on the best way to present the network to other funders. Edits are underway.
 
@@ -39,10 +36,9 @@ Later in the day, I met with Art Guzzetti, Vice President of Policy at [The Amer
 
 The next day, I was up early and headed to Dulles. My flight landed in Chicago right on time (if only it was always like that...), and I took the train into the city. After checking in, I had great calls with Ken Sislak from Cleveland and Councilmember Mark Jeffreys in Cincinnati, then set off for Chinatown, one of my favorite places to eat in the city. Dim sum and my favorite pork buns hit the spot (shoutout Chiu Quon Bakery).
 
-<figure style="text-align: center; margin: 2rem auto;">
-  <img src="/blog/dimsum.png" alt="Dim Sum menu" style="max-width: 100%; width: 500px; border-radius: 8px;">
-  <figcaption style="margin-top: 0.5rem; font-size: 0.9rem; color: #666;">Dim Sum is my love language</figcaption>
-</figure>
+![Dim Sum menu](/blog/dimsum.png)
+
+Dim Sum is my love language
 
 That evening, Derrick James was kind enough to invite me to the [Environmental Law & Policy Center’](https://elpc.org)s reception honoring Senator Dick Durbin, who has served Illinois and the broader environmental community for decades. It was so cool to hear from him directly, including stories from his political career in Springfield and in DC. Just as cool was the crowd, full of advocates and influential folks. I finally got to meet some people in person for the first time, like Kevin Brubaker, one of Derrick’s colleagues at ELPC, and Marty Sandoval from Amtrak.
 
@@ -50,11 +46,9 @@ I also had the pleasure of meeting Joe Szabo, who served as FRA Administrator in
 
 Friday was conference day. After some last-minute polishing of my slides (sorry for the late submission, Jordan Pokorney...), I headed to the High Speed Rail Alliance conference. There was a great crowd from across the Midwest, and it was again so nice to see faces in person for the first time, like Mitchell, a young advocate from Indianapolis, along with folks from Iowa, Wisconsin, Michigan and beyond.
 
-<figure style="text-align: center; margin: 2rem auto;">
-  <img src="/blog/hsra.png" alt="Mitch speaking at conference" style="max-width: 100%; width: 500px; border-radius: 8px;">
-  <figcaption style="margin-top: 0.5rem; font-size: 0.9rem; color: #666;">Not a bad action shot, if I do say so myself</figcaption>
-</figure>
+![Mitch speaking at conference](/blog/hsra.png)
 
+Not a bad action shot, if I do say so myself
 
 My talk was called “Plug and Play Advocacy: Ohio’s Toolkit for a Statewide Rail Movement,” essentially the core of the Statehouse Rail Network proposal. My main point was that advocates must work smarter, not harder, because almost every one of our organizations is limited by capacity and funding. I pitched the idea of shared templates and tools across states and challenged the room to think about how they could apply these lessons back home. The talk was very well received, and it led to a ton of follow-up conversations with leaders from those states, other organizations in the room, and even representatives from the Government of Quebec!
 
@@ -62,10 +56,9 @@ Which brings us back to the O’Hare standstill. After a few photos and TikToks,
 
 I had already spent Thursday night with Megan. After the ELPC reception I took the L up to Edgewater, where she lives, and it was great to see her after a few months. It was nearly as great to get an Italian beef from the beautiful Patio Beef down the street. If I could eat at slightly shabby neighborhood greasy joints for every meal for the rest of my life (assuming no health implications), I absolutely would. Diners, greasy spoons and spots like Patio Beef just make me so happy. I think part of it is the community, and part of it is how accessible they are to everyone. These are the places where America eats.
 
-<figure style="text-align: center; margin: 2rem auto;">
-  <img src="/blog/radakosibs.png" alt="Mitch and megan" style="max-width: 100%; width: 500px; border-radius: 8px;">
-  <figcaption style="margin-top: 0.5rem; font-size: 0.9rem; color: #666;">Catching up with the cooler sibling</figcaption>
-</figure>
+![Mitch and megan](/blog/radakosibs.png)
+
+Catching up with the cooler sibling
 
 Friday night was Radakovich sibling round two. I ordered a fantastic Chicago tavern-style pizza (I did not realize there are two kinds of Chicago-style pizza), and then we headed to a neighborhood dive bar with her roommate Miguel. It was such a nice way to spend the evening, catching up in a more casual setting, and it was fun to get to know one of her friends better. She lives in a great neighborhood. We finished the night with a movie before I crashed on her [extremely not comfortable] couch. But I can’t blame her. $10 on Facebook Marketplace is $10 on Facebook Marketplace.
 
@@ -75,10 +68,9 @@ The week wasn’t all travel and meetings. On Monday I caught up with Anand, and
 
 On Tuesday I went on a little adventure to Alexandria, Virginia. I grabbed coffee at a nice shop, worked from the waterfront for a bit, and got some life planning done before stopping for banh mi. I spent the afternoon at one of my favorite places to work in town, the library in the National Gallery’s East Building. It is such a cool midcentury space, and I reach high levels of productivity there. That said, my email backlog keeps growing as more and more things get moving. I am working on my prioritization, but for now I am doing my best to stay on top of everything. Apologies to anyone who got a delayed reply from me this week :)
 
-<figure style="text-align: center; margin: 2rem auto;">
-  <img src="/blog/pier.png" alt="Alexandria Waterfront" style="max-width: 100%; width: 500px; border-radius: 8px;">
-  <figcaption style="margin-top: 0.5rem; font-size: 0.9rem; color: #666;">WFP (Work from pier)</figcaption>
-</figure>
+![Alexandria Waterfront](/blog/pier.png)
+
+WFP (Work from pier)
 
 As for reading, I have been working through *[Volga Blues](https://www.goodreads.com/en/book/show/233411711-volga-blues)*, an account of a journey through parts of Russia we rarely hear about. It has been giving me a lot of inspiration about our own country. Different regions have very different priorities, and the way you make the case for something in one place may not land at all a few hundred miles away. I also read the classic *[Tuesdays with Morrie](https://www.goodreads.com/book/show/6900.Tuesdays_with_Morrie?ref=nav_sb_ss_1_9)*, which has been on my list for quite some time. It is always good to get a reminder of the importance of living with purpose and intentionality, which I am trying to do every day!
 
