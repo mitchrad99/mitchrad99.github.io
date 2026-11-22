@@ -14,9 +14,11 @@ I had just finished a coffee with my friend Matt Weiss after the [High Speed Rai
 
 Not ideal… The plan was to fly back to DC that night and meet one of my best friends, Scott, to kick off an adventure up the East Coast. We had already heard that Scott’s flight was delayed five hours, so something was clearly up. I hopped the L to O’Hare anyway (optimism!), and by the time I arrived it was official. A nationwide ground stop. This was obviously frustrating, but I chose not to let it get me tooo down. So I made some content for All Aboard Ohio (of course!). Nothing screams “please fund trains” quite like the collapse of our brittle transportation system. When life gives you lemons, am I right??
 
-![Departure board with all delays](/blog/airport.png)
-
-Amtrak would never
+<figure style="text-align: center; margin: 2rem auto;">
+  <img src="/blog/airport.png" alt="Departure board with all delays" style="max-width: 100%; width: 500px; border-radius: 8px;">
+  <figcaption style="margin-top: 0.5rem; font-size: 0.9rem; color: #666;">Amtrak would never
+</figcaption>
+</figure>
 
 I’ll come back to how that night went. First, let me back up, because there was a whole week before the airports shut down.
 
